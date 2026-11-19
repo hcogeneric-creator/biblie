@@ -22,6 +22,16 @@
       <p>Explore as relações de família, encontre conexões nas narrativas e copie prompts para criar avatares.</p>
     </header>
     <noscript>Ative o JavaScript para abrir o catálogo e as árvores genealógicas.</noscript>
+    <section id="galeria-personagens" class="galeria-personagens" aria-labelledby="titulo-galeria" hidden>
+      <div class="galeria-personagens-cabecalho">
+        <h2 id="titulo-galeria">Personagens ilustrados</h2>
+        <div class="galeria-personagens-controles">
+          <button type="button" id="cards-anterior" aria-label="Cards anteriores" aria-controls="cards-personagens">‹</button>
+          <button type="button" id="cards-proximo" aria-label="Próximos cards" aria-controls="cards-personagens">›</button>
+        </div>
+      </div>
+      <ul id="cards-personagens"></ul>
+    </section>
     <div class="layout">
       <aside aria-label="Catálogo de personagens">
         <label for="busca">Buscar personagem</label>
@@ -57,10 +67,11 @@
         </header>
         <section id="arvore">
           <h3>Árvore genealógica</h3>
-          <p class="nota">Abra os ramos para ver até três gerações. Selecione um nome para abrir sua ficha.</p>
+          <p class="nota">Clique em Ascendência ou Descendência para abrir os primeiros ramos. Cada nome leva à ficha da pessoa.</p>
+          <div id="raiz-arvore" class="raiz-arvore"></div>
           <div class="arvore">
-            <div><h4>Ascendência</h4><div id="ascendentes"></div></div>
-            <div><h4>Descendência</h4><div id="descendentes"></div></div>
+            <div id="ascendentes"></div>
+            <div id="descendentes"></div>
           </div>
           <div id="familia"></div>
           <p class="nota">Os vínculos importados podem representar linhagens com lacunas. Confira as passagens, especialmente as genealogias de Jesus em Mateus 1 e Lucas 3.</p>

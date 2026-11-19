@@ -34,7 +34,7 @@
   font: .94rem/1.45 var(--biblie-ui, sans-serif);
 }
 .biblie-visor::backdrop { background: #0a0c0ada; backdrop-filter: blur(6px); }
-.biblie-visor header, .biblie-visor-base, .biblie-visor nav {
+.biblie-visor header, .biblie-visor-base, .biblie-visor nav, .biblie-visor-acoes {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -53,22 +53,48 @@
 }
 .biblie-visor button:hover { background: #ffffff16; }
 .biblie-visor button:disabled { opacity: .45; cursor: default; }
-.biblie-visor-palco { margin-block: .9rem; background: #111612; border-radius: .5rem; }
+.biblie-visor-palco { display: grid; margin-block: .9rem; background: #111612; border-radius: .5rem; }
 .biblie-visor-palco img {
+  grid-area: 1 / 1;
   display: block;
   width: 100%;
   max-height: 64vh;
   height: auto;
   aspect-ratio: 3 / 2;
   object-fit: contain;
-  animation: aparecer-quadro .32s ease both;
 }
+.biblie-visor-palco .quadro-entrando { animation: aparecer-quadro .46s ease both; }
 .biblie-visor-base p { margin: 0; }
-@keyframes aparecer-quadro { from { opacity: .52; transform: translateY(3px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes aparecer-quadro { from { opacity: 0; } to { opacity: 1; } }
+.biblie-apresentar {
+  border-color: #344b3a;
+  background: #344b3a;
+  color: #fffaf0;
+}
+.biblie-visor.biblie-apresentacao {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  max-width: none;
+  height: 100%;
+  max-height: none;
+  margin: 0;
+  border: 0;
+  border-radius: 0;
+  background: #111612;
+}
+.biblie-apresentacao[open] { display: grid; grid-template-rows: auto minmax(0, 1fr) auto; }
+.biblie-apresentacao .biblie-visor-palco { min-height: 0; overflow: hidden; }
+.biblie-apresentacao .biblie-visor-palco img { height: 100%; max-height: none; min-height: 0; }
+.biblie-visor [data-play] { background: #c7ce94; color: #141915; min-width: 5rem; }
+.biblie-visor [data-play]:hover { background: #dbe2ab; }
+body:has(.biblie-apresentacao[open]) { overflow: hidden; }
 @media (max-width: 580px) {
   .biblie-quadros ol { grid-template-columns: 1fr; }
   .biblie-visor-base { flex-wrap: wrap; }
+  .biblie-apresentacao header { align-items: flex-start; }
+  .biblie-apresentacao .biblie-visor-acoes { flex-wrap: wrap; justify-content: flex-end; gap: .4rem; }
 }
 @media (prefers-reduced-motion: reduce) {
-  .biblie-visor-palco img { animation: none; }
+  .biblie-visor-palco .quadro-entrando { animation: none; }
 }

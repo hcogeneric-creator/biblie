@@ -16,8 +16,13 @@
   const search = new Map();
   const labels = new Map();
   const reverseLabels = new Map();
+  const trilho = byId("cards-personagens");
+  const cardsAnterior = byId("cards-anterior");
+  const cardsProximo = byId("cards-proximo");
+  const destaques = ["jesus_905", "david_994", "mary_1938", "moses_2108", "esther_1343", "ruth_2450", "samson_2468", "paul_2479"];
   let current = initial;
   let limit = pageSize;
+  let galeriaAtual = "";
 
   for (const id of ids) {
     const person = people[id];
@@ -48,6 +53,49 @@
 
   function personLink(id) {
     return el("a", people[id].name, {href: profileUrl(id), class: "pessoa"});
+  }
+
+  function avatar(id) {
+    return el("img", "", {src: `avatares/${id}.webp`, alt: "", width: 1024, height: 1024, loading: "lazy", decoding: "async"});
+  }
+
+  function atualizarControlesCards() {
+    cardsAnterior.disabled = trilho.scrollLeft <= 1;
+    cardsProximo.disabled = trilho.scrollLeft + trilho.clientWidth >= trilho.scrollWidth - 1;
+  }
+
+  function renderizarCards(matches) {
+    const ilustrados = matches.filter((id) => avatares.has(id));
+    const ordem = [...destaques.filter((id) => ilustrados.includes(id)), ...ilustrados.filter((id) => !destaques.includes(id))];
+    const chave = ordem.join("|");
+    if (galeriaAtual !== chave) {
+      galeriaAtual = chave;
+      trilho.replaceChildren(...ordem.map((id, index) => {
+        const item = el("li");
+        const link = el("a", "", {href: profileUrl(id), class: "pessoa"});
+        const imagem = avatar(id);
+        if (index < 8) imagem.loading = "eager";
+        link.append(imagem, el("span", people[id].name));
+        item.append(link);
+        return item;
+      }));
+      trilho.scrollLeft = 0;
+    }
+    byId("galeria-personagens").hidden = ilustrados.length === 0;
+    for (const link of trilho.querySelectorAll("a")) {
+      if (link.hash === profileUrl(current)) link.setAttribute("aria-current", "true");
+      else link.removeAttribute("aria-current");
+    }
+    atualizarControlesCards();
+  }
+
+  trilho.addEventListener("scroll", atualizarControlesCards, {passive: true});
+  window.addEventListener("resize", atualizarControlesCards);
+  for (const [botao, sentido] of [[cardsAnterior, -1], [cardsProximo, 1]]) {
+    botao.addEventListener("click", () => {
+      const suave = !matchMedia("(prefers-reduced-motion: reduce)").matches;
+      trilho.scrollBy({left: sentido * trilho.clientWidth * .82, behavior: suave ? "smooth" : "auto"});
+    });
   }
 
   function description(person) {
@@ -108,6 +156,7 @@
       return item;
     }));
     byId("mais").hidden = shown.length === matches.length;
+    renderizarCards(matches);
   }
 
   function familyList(id, direction) {
@@ -115,19 +164,39 @@
     return groups.flatMap((role) => (people[id].family[role] || []).map((relative) => ({id: relative, role})));
   }
 
+  function noGenealogico(id, rotulo, raiz = false) {
+    const node = raiz ? el("div", "", {class: "no-genealogico"}) : el("a", "", {href: profileUrl(id), class: "pessoa no-genealogico"});
+    const nome = people[id].name;
+    if (avatares.has(id)) node.append(avatar(id));
+    else {
+      const iniciais = nome.split(/[\s,]+/).slice(0, 2).map((parte) => parte[0]).join("");
+      node.append(el("span", iniciais, {class: "no-iniciais", "aria-hidden": "true"}));
+    }
+    node.append(el("span", nome, {class: "no-nome"}), el("small", rotulo, {class: "rotulo"}));
+    return node;
+  }
+
+  function abrirRamo(titulo, criar) {
+    const details = el("details", "", {class: "ramo"});
+    details.append(el("summary", titulo));
+    details.addEventListener("toggle", () => {
+      if (details.open && details.childElementCount === 1) details.append(criar());
+    });
+    return details;
+  }
+
   function branches(id, direction, depth, seen = new Set([id])) {
     const relatives = familyList(id, direction).filter((relative) => !seen.has(relative.id));
-    const list = el("ul");
-    for (const relative of relatives) {
-      const item = el("li");
-      const label = relative.role === "filhos" ? "Filiação / descendência" : relative.role;
-      item.append(el("small", label, {class: "rotulo"}), personLink(relative.id));
+    const list = el("ul", "", {class: "ramo-lista"});
+    for (const [index, relative] of relatives.entries()) {
+      const item = el("li", "", {class: "ramo-item"});
+      item.style.setProperty("--atraso-ramo", `${index * Math.min(135, 3800 / relatives.length)}ms`);
+      const label = relative.role === "filhos" ? "Descendência" : relative.role;
+      item.append(noGenealogico(relative.id, label));
       const nextSeen = new Set([...seen, relative.id]);
       const canExpand = depth > 1 && familyList(relative.id, direction).some((entry) => !nextSeen.has(entry.id));
       if (canExpand) {
-        const details = el("details");
-        details.append(el("summary", "Abrir ramo"), branches(relative.id, direction, depth - 1, nextSeen));
-        item.append(details);
+        item.append(abrirRamo("Abrir ramo", () => branches(relative.id, direction, depth - 1, nextSeen)));
       }
       list.append(item);
     }
@@ -137,11 +206,11 @@
   function familyGroups(id) {
     const family = people[id].family;
     const labels = ["cônjuge", "irmãos", "meio-irmãos pelo pai", "meio-irmãos pela mãe"];
-    const list = el("ul");
+    const list = el("ul", "", {class: "familia-nos"});
     for (const label of labels) {
       for (const relative of family[label] || []) {
         const item = el("li");
-        item.append(personLink(relative), document.createTextNode(` · ${label}`));
+        item.append(noGenealogico(relative, label));
         list.append(item);
       }
     }
@@ -210,8 +279,9 @@
     byId("outros").textContent = person.aliases.length ? `Variantes e títulos de origem: ${person.aliases.slice(0, 12).join(", ")}` : "";
     byId("descricao").textContent = description(person);
     byId("citacao").textContent = person.citation || refText(person.refs[0]);
-    byId("ascendentes").replaceChildren(branches(id, "up", 3));
-    byId("descendentes").replaceChildren(branches(id, "down", 3));
+    byId("raiz-arvore").replaceChildren(noGenealogico(id, "Pessoa da ficha", true));
+    byId("ascendentes").replaceChildren(abrirRamo("Ascendência", () => branches(id, "up", 3)));
+    byId("descendentes").replaceChildren(abrirRamo("Descendência", () => branches(id, "down", 3)));
     byId("familia").replaceChildren(familyGroups(id));
     byId("relacoes").replaceChildren(presentConnections(id));
     byId("prompt").value = makePrompt(person);

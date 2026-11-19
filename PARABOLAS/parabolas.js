@@ -79,7 +79,10 @@
 
   for (const ficha of document.querySelectorAll('.ficha')) {
     const galeria = window.BiblieIlustracoes.galeria('parabolas', ficha.id, 'História ilustrada');
-    if (galeria) ficha.querySelector('.historia').after(galeria);
+    if (!galeria) continue;
+    ficha.querySelector('.historia').after(galeria);
+    const apresentar = window.BiblieIlustracoes.apresentarParabola(ficha.id, ficha.querySelector('h3').textContent);
+    if (apresentar) ficha.querySelector('.acoes').prepend(apresentar);
   }
 
   busca.addEventListener('input', filtrar);

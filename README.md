@@ -2,7 +2,9 @@
 
 Abra o [portal Biblie](index.html) no navegador para acessar a biblioteca local. Os livros, as parábolas e o catálogo de personagens podem ser consultados sem instalar um servidor.
 
-Nas galerias ilustradas, selecione um quadro para ampliá-lo. As setas do teclado percorrem a sequência e Esc fecha o visor.
+Nas parábolas, use **Apresentar em tela cheia** para passar pelos três quadros em ordem. **Play** e **Pause** controlam a reprodução. As setas do teclado mudam de quadro e **Fechar** volta à ficha.
+
+Em **Personagens ilustrados**, selecione um card para abrir a ficha. Na genealogia, abra **Ascendência** ou **Descendência** e expanda os ramos disponíveis para explorar até três gerações por ficha.
 
 | Área | Conteúdo |
 | --- | --- |
