@@ -12,7 +12,7 @@ Abra o [catálogo em HTML](index.html) para pesquisar as **3.079 fichas**, naveg
 
 ## Pesquisa visual dos avatares
 
-O filtro **Com avatar** reúne 25 personagens centrais do Antigo e do Novo Testamento. O retrato aparece no cabeçalho da ficha e abre offline junto com o catálogo. A coleção foi gerada com GPT Image 2 a partir dos prompts das fichas. [Prompts usados e lista de personagens](avatares/PROMPTS.md).
+O filtro **Com avatar** reúne 50 personagens centrais do Antigo e do Novo Testamento. O retrato aparece no cabeçalho da ficha e abre offline junto com o catálogo. A coleção foi gerada com GPT Image 2 a partir dos prompts das fichas. [Prompts usados e lista de personagens](avatares/PROMPTS.md).
 
 O prompt de cada ficha usa o nome, uma referência bíblica e uma orientação de época ou lugar. Os 230 perfis editoriais têm uma orientação específica de cena, atividade, roupa ou tratamento artístico. Quando faltam evidências individuais, o prompt fala em recriação e indica que feições, idade e penteado são escolhas artísticas. Nos ramos de contexto aproximado, confira as passagens antes de escolher adereços.
 
