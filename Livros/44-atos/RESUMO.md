@@ -1,11 +1,15 @@
 # Atos — resumo
 
-O Espírito Santo vem no Pentecostes, e os seguidores de Jesus formam uma comunidade em Jerusalém. Perseguição e viagens levam a mensagem à Samaria e a outros territórios. Saulo muda de rumo, Pedro encontra Cornélio, e a assembleia de Jerusalém delibera sobre a acolhida dos gentios. As viagens de Paulo formam comunidades, provocam conflitos e o levam preso a Roma, onde continua a pregar.
+Atos continua o relato de Lucas. Depois da ascensão de Jesus, os discípulos recebem o Espírito no Pentecostes. Pedro anuncia a ressurreição. A comunidade em Jerusalém se reúne para ensinar, orar, partir o pão e socorrer quem precisa. Tensões na distribuição diária levam à escolha de novos responsáveis. Estêvão é morto, e a dispersão leva a mensagem a outros lugares.
+
+Filipe anuncia a fé na Samaria e conversa com um viajante etíope. Saulo, que antes perseguia os discípulos, encontra Jesus a caminho de Damasco e passa a anunciar o evangelho. Pedro visita Cornélio, um gentio, e vê o Espírito descer sobre sua casa. Em Jerusalém, apóstolos e líderes examinam se os gentios devem assumir a circuncisão e toda a Lei de Moisés para integrar a comunidade.
+
+Enviados de Antioquia, Paulo, Barnabé e colaboradores atravessam regiões do Mediterrâneo. Em Filipos, Lídia acolhe o grupo. Em Atenas, Paulo fala a ouvintes de outra tradição. Prisões e audiências o conduzem a apelar para César. Após um naufrágio, chega a Roma, onde o livro termina com Paulo ensinando apesar de estar sob custódia.
 
 ## Principais ensinamentos
 
-O testemunho se expande pelo poder do Espírito e pela participação de pessoas diversas. O diálogo ajuda a rever barreiras e resolver conflitos comunitários.
+A expansão da igreja exige atravessar fronteiras e decidir como acolher pessoas de outras origens. A partilha de recursos e a distribuição de responsabilidades acompanham a pregação. A narrativa apresenta decisões comunitárias em resposta a problemas concretos.
 
-**Passagens de referência.** 1–2, 6–10, 13–15, 16–21, 27–28.
+**Passagens de referência.** 1–8, 9–11, 13–17 e 21–28.
 
 [Ler o livro completo](TEXTO.md)

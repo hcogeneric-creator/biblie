@@ -1,10 +1,10 @@
 # Judas — resumo
 
-Judas denuncia pessoas que distorcem a graça e apela a exemplos antigos de juízo.
+Judas pede aos destinatários que preservem a fé recebida diante de pessoas que usam a graça para justificar abusos. Recorda relatos de juízo e figuras como Caim, Balaão e Corá. As imagens de nuvens sem água e árvores sem fruto denunciam promessas vazias. Ao final, encoraja a oração, a perseverança e a misericórdia com quem está em dúvida.
 
 ## Principais ensinamentos
 
-A comunidade deve defender a fé, perseverar em oração e agir com misericórdia e discernimento.
+A firmeza na fé inclui discernir comportamentos que ferem a comunidade. A carta pede cuidado com as pessoas em risco e termina celebrando a capacidade de Deus de sustentá-las.
 
 **Passagens de referência.** 1.
 

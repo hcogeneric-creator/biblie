@@ -1,10 +1,12 @@
 # Ageu — resumo
 
-Após o retorno da Babilônia, Ageu convoca Zorobabel, Josué e o povo a retomarem o templo. A comunidade reage e inicia a obra. O profeta encoraja quem se lembra do templo anterior, trata da pureza das ofertas e transmite uma promessa a Zorobabel.
+Nos dias de Dario, Ageu chama a comunidade que retornou do exílio a reconstruir o templo de Jerusalém. Os moradores haviam se ocupado das próprias casas. O profeta os convida a examinar suas prioridades em meio a colheitas insuficientes e chama pelo nome o governador Zorobabel e o sacerdote Josué.
+
+O povo retoma o trabalho. Diante de quem compara a obra com o antigo templo e desanima, Ageu anuncia que Deus está presente e promete glória futura para o lugar. Uma consulta aos sacerdotes sobre pureza precede a promessa de bênção. A última palavra dirigida a Zorobabel associa sua missão à imagem do anel de selar.
 
 ## Principais ensinamentos
 
-Responsabilidades comuns exigem tempo e recursos. A promessa da presença divina sustenta uma comunidade que reconstruía com meios modestos.
+O interesse pelo bem comum exige recursos, liderança e constância. A lembrança do passado pode pesar sobre uma geração reconstruindo com pouco. O encorajamento do profeta ajuda a comunidade a voltar a trabalhar em conjunto.
 
 **Passagens de referência.** 1–2.
 

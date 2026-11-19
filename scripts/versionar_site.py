@@ -33,7 +33,7 @@ def versionar(verificar):
             if not caminho.is_relative_to(RAIZ):
                 raise ValueError(f"Arquivo fora da raiz: {match[2]}")
             if caminho not in ativos:
-                ativos[caminho] = versao(caminho.read_bytes())
+                ativos[caminho] = versao(caminho.read_text(encoding="utf-8").encode("utf-8"))
             return f"{match[1]}{match[2]}?v={ativos[caminho]}{match[3]}"
 
         html = ATIVOS.sub(incluir_hash, html)

@@ -1,10 +1,10 @@
 # Filemom — resumo
 
-Paulo intercede por Onésimo, escravizado, e pede a Filemom que o receba como irmão amado. Oferece-se para assumir eventual dívida.
+Preso, Paulo escreve a Filemom em favor de Onésimo. Pede que o receba como irmão amado e se oferece para assumir eventual dívida. Paulo apela à decisão voluntária de Filemom e espera visitá-lo. O texto se dirige também à igreja reunida em sua casa.
 
 ## Principais ensinamentos
 
-O vínculo em Cristo exige rever relações de poder.
+A relação entre senhor e escravo é confrontada pelo pedido de acolher Onésimo como se acolheria Paulo. A carta deixa a resposta de Filemom em aberto.
 
 **Passagens de referência.** 1.
 

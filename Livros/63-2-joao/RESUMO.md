@@ -1,10 +1,10 @@
 # 2 João — resumo
 
-O ancião exorta a comunidade a caminhar em amor e permanecer no ensino de Cristo encarnado.
+O ancião escreve à senhora eleita e a seus filhos. Pede que caminhem em amor e recusem apoio aos mestres que negam a vinda de Jesus Cristo em carne.
 
 ## Principais ensinamentos
 
-A hospitalidade pede discernimento diante de mestres enganadores.
+A hospitalidade envolve discernimento sobre o ensino que se ajuda a difundir.
 
 **Passagens de referência.** 1.
 

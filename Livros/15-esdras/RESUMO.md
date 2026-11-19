@@ -1,11 +1,13 @@
 # Esdras — resumo
 
-Ciro autoriza o retorno e a reconstrução do templo em Jerusalém. O altar é restaurado; a obra enfrenta oposição, recebe incentivo profético e termina sob Dario. Mais tarde, Esdras chega para estudar e ensinar a Lei. Ele ora em resposta aos casamentos que o grupo considera contrários à aliança, e a comunidade toma medidas que afetam famílias inteiras.
+Ciro, rei da Pérsia, permite que exilados voltem a Jerusalém e reconstruam o templo. O primeiro grupo retorna sob a liderança de Zorobabel e Jesua. Reergue o altar e lança os alicerces do templo. A celebração mistura alegria e choro entre pessoas que lembravam do edifício anterior. A oposição interrompe a obra, retomada mais tarde com o incentivo de Ageu e Zacarias e a confirmação de Dario. A comunidade dedica o templo e celebra a Páscoa.
+
+Em um momento posterior, o escriba Esdras retorna com outro grupo e recebe autorização para ensinar e aplicar a Lei. Ao saber de casamentos com pessoas dos povos vizinhos, Esdras faz uma confissão pública. A comunidade delibera sobre o caso e adota separações. O final registra famílias atingidas pela decisão.
 
 ## Principais ensinamentos
 
-Reconstruir envolve recuperar práticas, memória e instrução. O episódio final permite examinar a tensão entre identidade comunitária e o impacto das decisões coletivas sobre as famílias.
+O retorno envolve reconstrução física, práticas de culto e ensino. A obra avança entre obstáculos políticos e contribuições comunitárias. As medidas finais mostram como a defesa da identidade pós-exílica tem consequências familiares que merecem atenção ao ler o texto.
 
-**Passagens de referência.** 1–6, 7–8, 9–10.
+**Passagens de referência.** 1–6 e 7–10.
 
 [Ler o livro completo](TEXTO.md)

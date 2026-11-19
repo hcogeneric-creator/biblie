@@ -1,10 +1,10 @@
 # 3 João — resumo
 
-O ancião elogia a hospitalidade de Gaio, critica o domínio de Diótrefes e recomenda Demétrio.
+O ancião elogia Gaio por acolher irmãos viajantes. Diótrefes recusa os visitantes e expulsa quem deseja recebê-los. Demétrio é recomendado por seu bom testemunho.
 
 ## Principais ensinamentos
 
-Cooperar com quem serve à verdade inclui acolhimento concreto.
+A hospitalidade sustenta a missão. O desejo de primazia pode fechar a comunidade.
 
 **Passagens de referência.** 1.
 

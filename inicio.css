@@ -115,7 +115,7 @@
 .secao-cabecalho { display: flex; align-items: end; justify-content: space-between; gap: 1.25rem; margin-bottom: 1.7rem; }
 .secao-cabecalho h2 { margin: 0; line-height: .97; font-size: clamp(2.55rem, 5.3vw, 5.2rem); font-weight: 465; letter-spacing: -.057em; }
 .secao-cabecalho p { color: var(--suave); max-width: 23rem; margin: .7rem 0 0; }
-.destaques { display: grid; grid-template-columns: 1.25fr .75fr; grid-template-rows: repeat(2, minmax(13rem, 1fr)); gap: .8rem; }
+.destaques { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); grid-auto-rows: minmax(15rem, 1fr); gap: .8rem; }
 .destaque {
   display: flex;
   position: relative;
@@ -128,10 +128,10 @@
   text-decoration: none;
   color: #fffaf0;
 }
-.destaque-atlas { grid-row: span 2; min-height: 26rem; }
 .destaque img { width: 100%; height: 100%; position: absolute; inset: 0; z-index: -2; object-fit: cover; transition: transform .55s ease; }
 .destaque-personagens img { object-position: center 41%; }
 .destaque-parabolas img { object-position: center 45%; }
+.destaque-mulheres img { object-position: center 37%; }
 .destaque::after { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(0deg,#0f1713ec, #0d151260 51%, transparent 81%); }
 .destaque:hover img, .destaque:focus-visible img { transform: scale(1.055); }
 .destaque h3 { margin: 0 0 .23rem; font-size: clamp(1.52rem, 3.1vw, 2.7rem); font-weight: 480; line-height: 1.06; letter-spacing: -.034em; }
@@ -153,9 +153,8 @@
   .vitrine { min-height: min(42rem, 84svh); padding-bottom: 7.1rem; }
   .vitrine::after { background: linear-gradient(90deg,#0f1714e6,#141d18ad 59%,#141d182e),linear-gradient(0deg,#0c130fd9,transparent 50%); }
   .vitrine h1 { font-size: clamp(3.4rem, 11vw, 5.7rem); }
-  .destaques { grid-template-columns: 1fr; grid-template-rows: auto; }
+  .destaques { grid-template-columns: 1fr; grid-auto-rows: auto; }
   .destaque { min-height: 15rem; }
-  .destaque-atlas { grid-row: auto; min-height: 19rem; }
   .secao-cabecalho { flex-direction: column; align-items: flex-start; }
 }
 @media (max-width: 390px) {

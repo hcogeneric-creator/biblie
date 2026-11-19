@@ -1,11 +1,15 @@
 # Cantares — resumo
 
-Vozes de amantes e de pessoas ao redor compõem poemas de desejo, beleza, busca e reencontro. Os amantes se procuram, elogiam o corpo um do outro e recorrem a imagens de jardins, aromas e paisagens. O poema termina afirmando a força do amor e seu valor diante da riqueza.
+Cantares é uma sequência de poemas em que amantes se procuram, se elogiam e expressam saudade. A voz feminina ocupa lugar de destaque e fala em primeira pessoa sobre seu desejo. As filhas de Jerusalém são chamadas a ouvir e aparecem em momentos de busca e celebração.
+
+Os poemas passam por vinhas, jardins, casas e ruas da cidade. A natureza oferece imagens para a beleza e a aproximação. Há momentos de encontro, demora e ausência. Em uma busca noturna, a mulher sofre violência dos guardas da cidade. No encerramento, o amor é comparado à força da morte e à chama que muitas águas não apagam.
+
+A associação do título com Salomão faz parte da apresentação do livro. A alternância entre vozes e cenas permite acompanhar o conjunto como poesia amorosa. Leituras judaicas e cristãs também fizeram dos amantes imagens da relação do povo com Deus.
 
 ## Principais ensinamentos
 
-A poesia celebra desejo, alegria e reciprocidade. A repetição do pedido para respeitar o tempo do amor convida a considerar a liberdade dos amantes.
+Os poemas dão linguagem à alegria, ao desejo e à saudade. Os amantes se chamam e respondem um ao outro. O refrão sobre esperar o tempo do amor acompanha cenas em que aproximação e liberdade têm lugar.
 
-**Passagens de referência.** 1–3, 4–5, 7–8.
+**Passagens de referência.** 1–2, 3–5, 6–7 e 8.
 
 [Ler o livro completo](TEXTO.md)

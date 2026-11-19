@@ -1,11 +1,15 @@
 # Ester — resumo
 
-Na corte persa, Ester torna-se rainha. Hamã planeja exterminar os judeus após entrar em conflito com Mardoqueu. Ester arrisca a vida para interceder e, durante banquetes, revela sua origem e denuncia o plano. Hamã cai, um novo decreto permite a defesa dos judeus, e a festa de Purim preserva a memória da reviravolta.
+Na corte persa, o rei Assuero depõe Vasti e escolhe Ester como rainha. Ela mantém em segredo sua origem judaica a conselho de Mardoqueu, seu parente e tutor. Mardoqueu descobre uma conspiração contra o rei. Mais tarde, recusa se curvar diante de Hamã, um oficial que responde buscando a destruição de todos os judeus do império.
+
+Mardoqueu pede que Ester interceda. Ela reúne os judeus para um jejum e vai ao rei sem ser convocada, correndo risco de vida. Em dois banquetes, prepara e revela seu pedido. Antes disso, uma leitura dos registros da corte lembra ao rei o serviço feito por Mardoqueu. Hamã acaba morto na estrutura que havia preparado para o adversário.
+
+Como o primeiro decreto permanece válido, Ester e Mardoqueu obtêm outro que autoriza os judeus a se defenderem. A vitória é celebrada com o Purim, festa de memória, partilha de alimentos e doações aos pobres.
 
 ## Principais ensinamentos
 
-Coragem, solidariedade e prudência ajudam a enfrentar a perseguição. A festa transmite às gerações seguintes a memória de uma sobrevivência coletiva.
+Ester usa de prudência, coragem e apoio coletivo para intervir numa decisão de Estado. O livro acompanha o alcance de uma perseguição fundada em identidade e faz da memória do livramento uma obrigação partilhada.
 
-**Passagens de referência.** 2–5, 6–9.
+**Passagens de referência.** 1–4, 5–7 e 8–10.
 
 [Ler o livro completo](TEXTO.md)

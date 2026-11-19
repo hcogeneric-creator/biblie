@@ -14,6 +14,7 @@ Antes de publicar no GitHub Pages, execute `python scripts/versionar_site.py` e 
 | [Roteiro cronológico](B%C3%ADblia%20Cronol%C3%B3gica/ROTEIRO.md) | 58 blocos de leitura, com épocas, temas e referências. |
 | [Livros e resumos](index.html#livros) | Índice por livro. As pastas em `Livros/` contêm `TEXTO.md` e `RESUMO.md`. |
 | [Personagens Bíblicos](Personagens%20B%C3%ADblicos/index.html) | Perfis, genealogias, relações documentadas e prompts de avatar para o ChatGPT. |
+| [Mulheres da Bíblia](Mulheres%20da%20B%C3%ADblia/index.html) | Passagens da Bíblia Livre e contexto das mulheres do Antigo e do Novo Testamento. |
 | [Parábolas](PARABOLAS/index.html) | Histórias em linguagem própria, ensinamentos e referências ao texto bíblico. |
 | [Mapa](Mapa/index.html) | Cidades e povos citados na Bíblia, com filtros por episódio, livro e capítulo e uma camada de geografia atual. |
 | [Ilustrações](Ilustra%C3%A7%C3%B5es/README.md) | Quadros das parábolas, dos resumos e do atlas, com os prompts de geração e o plano de produção. |

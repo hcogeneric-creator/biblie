@@ -1,10 +1,12 @@
 # Tito — resumo
 
-Tito deve organizar lideranças nas comunidades de Creta, responder a ensinos prejudiciais e orientar pessoas de diferentes idades e posições. A carta liga a graça e a renovação do Espírito a uma vida sóbria, pacífica e dedicada a boas obras.
+Tito foi deixado em Creta para organizar as comunidades e estabelecer presbíteros. A carta apresenta qualidades esperadas dos líderes e pede firmeza diante de ensinos que desorientam famílias. Oferece orientações a homens e mulheres de idades diferentes e a pessoas escravizadas dentro da sociedade da época.
+
+A graça de Deus é descrita como força que ensina a viver com sobriedade e justiça. A carta atribui a salvação à misericórdia divina e chama a comunidade a se dedicar às boas obras. Recomenda mansidão na convivência pública e cuidado para evitar disputas improdutivas. Termina com instruções de viagem e hospitalidade.
 
 ## Principais ensinamentos
 
-Doutrina e conduta caminham juntas. A misericórdia recebida de Deus inspira gentileza e ações que beneficiam outras pessoas.
+Coerência entre ensino e conduta é um critério de liderança. A graça recebida se expressa em responsabilidade pública e prontidão para atender necessidades concretas.
 
 **Passagens de referência.** 1–3.
 

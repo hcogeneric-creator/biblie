@@ -1,11 +1,15 @@
 # Números — resumo
 
-Dois censos enquadram a jornada entre o Sinai e as planícies de Moabe. Israel marcha, reclama e recua diante do relato dos espias. A geração do êxodo permanece anos no deserto, enquanto uma nova geração se prepara para entrar na terra. Rebeliões atingem a liderança, e Moisés e Arão também recebem juízo. Balaão acaba abençoando Israel, e as filhas de Zelofeade conseguem que sua reivindicação de herança seja ouvida.
+Israel é recenseado no Sinai e organiza seu acampamento em torno do tabernáculo. Ao partir, o povo enfrenta escassez e conflitos de liderança. Espiões enviados a Canaã confirmam a fertilidade da terra, mas a maioria teme seus habitantes. Contra a confiança de Josué e Calebe, a comunidade se recusa a entrar. Aquela geração é condenada a peregrinar no deserto durante quarenta anos.
+
+As rebeliões continuam. Corá contesta a autoridade sacerdotal, e em Meribá Moisés e Arão desobedecem diante da comunidade. Ambos ficam impedidos de entrar na terra. Mais tarde, quando serpentes ferem o povo, os atingidos encontram cura ao olhar para a serpente de bronze levantada por Moisés. Nas fronteiras de Moabe, Balaão é contratado para amaldiçoar Israel e acaba pronunciando bênçãos.
+
+Um segundo recenseamento registra a nova geração. As filhas de Zelofeade pedem o direito de receber a herança do pai e sua causa estabelece uma regra de sucessão. Josué é designado para assumir a liderança. O povo chega às planícies diante do Jordão, onde se definem limites e regras para a futura distribuição da terra.
 
 ## Principais ensinamentos
 
-Medo, murmuração e abuso de autoridade têm consequências coletivas. A fidelidade de Deus sustenta o povo em meio ao juízo e à mudança de geração.
+O medo contagia a comunidade e pode paralisar decisões. Líderes também respondem por seus atos. A mudança de geração preserva a promessa e abre espaço para corrigir uma injustiça concreta, como mostra a reivindicação das filhas de Zelofeade.
 
-**Passagens de referência.** 1, 13–14, 16–17, 20–24, 26–27, 36.
+**Passagens de referência.** 1–4, 11–14, 16, 20–24, 26–27 e 33–36.
 
 [Ler o livro completo](TEXTO.md)

@@ -1,11 +1,13 @@
 # Efésios — resumo
 
-A carta celebra a obra de Deus em Cristo, a salvação pela graça e a formação de um povo em que judeus e gentios são reconciliados. Os dons ajudam esse corpo a amadurecer. A segunda parte trata da fala, do trabalho, do perdão, das relações domésticas e da resistência ao mal por meio das imagens da armadura.
+Efésios começa com bênção e oração. A carta apresenta a ação de Deus em Cristo e descreve a salvação como dom da graça que abre uma vida de boas obras. Gentios antes vistos como estrangeiros são incorporados à mesma casa. Pela cruz, a hostilidade é desfeita, e judeus e gentios aparecem como integrantes de um só corpo.
+
+A segunda metade aplica essa unidade à vida diária. Dons e serviços diferentes colaboram para a maturidade da igreja. Mentira, roubo e fala destrutiva dão lugar à verdade, ao trabalho que permite repartir e às palavras que edificam. A carta fala de casamento, filhos e relações de trabalho dentro da casa antiga, inclusive entre senhores e pessoas escravizadas. A imagem final da armadura associa resistência espiritual a verdade, justiça, paz, fé e oração.
 
 ## Principais ensinamentos
 
-A unidade exige humildade, paciência e verdade dita com amor. A nova vida se manifesta em cuidado mútuo e integridade cotidiana.
+A unidade requer humildade, paciência e cuidado com a palavra. A reconciliação precisa alcançar relações marcadas por hostilidade. As orientações domésticas pertencem à organização da casa no mundo antigo e expõem as relações de poder que o texto aborda.
 
-**Passagens de referência.** 1–3, 4–5, 6.
+**Passagens de referência.** 1–3 e 4–6.
 
 [Ler o livro completo](TEXTO.md)
