@@ -91,6 +91,11 @@
         }
         fragmento.append(parte);
       }
+      const galeria = window.BiblieIlustracoes.galeria("livros", pasta, "Cenas do livro");
+      if (galeria) {
+        galeria.open = true;
+        fragmento.append(galeria);
+      }
       ui.conteudoResumo.replaceChildren(fragmento);
     } else {
       for (const [numero, versiculo] of capitulos[capitulo]) {

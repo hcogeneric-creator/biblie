@@ -333,6 +333,8 @@ function renderDetails() {
   evidence.append(element('i', `dot ${place.status}`), document.createTextNode(`${statuses[place.status]} · ${place.type}`));
   target.replaceChildren(title, evidence);
   if (place.note) target.append(element('p', '', place.note));
+  const galeria = window.BiblieIlustracoes.galeria('atlas', place.slug, 'Região e vida na época');
+  if (galeria) target.append(galeria);
   if (place.options.length) {
     const options = element('ul');
     place.options.forEach((point, index) => {

@@ -10,6 +10,7 @@ Abra o [portal Biblie](index.html) no navegador para acessar a biblioteca local.
 | [Personagens Bíblicos](Personagens%20B%C3%ADblicos/index.html) | Perfis, genealogias, relações documentadas e prompts de avatar para o ChatGPT. |
 | [Parábolas](PARABOLAS/index.html) | Histórias em linguagem própria, ensinamentos e referências ao texto bíblico. |
 | [Mapa](Mapa/index.html) | Cidades e povos citados na Bíblia, com filtros por episódio, livro e capítulo e uma camada de geografia atual. |
+| [Ilustrações](Ilustra%C3%A7%C3%B5es/README.md) | Quadros das parábolas, dos resumos e do atlas, com os prompts de geração e o plano de produção. |
 | [Fonte bíblica e licença](Fonte/README.md) | Arquivo baixado, proveniência, licença e verificação de integridade. |
 
 O projeto usa os **66 livros do cânon protestante**, conforme a edição escolhida da Bíblia Livre (BLIVRE), em português do Brasil. A cronologia é uma organização editorial aproximada. Os critérios explicam as associações temáticas e as datas debatidas. [Critérios e fontes](B%C3%ADblia%20Cronol%C3%B3gica/README.md).

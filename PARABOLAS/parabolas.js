@@ -77,6 +77,11 @@
     ficha.scrollIntoView();
   }
 
+  for (const ficha of document.querySelectorAll('.ficha')) {
+    const galeria = window.BiblieIlustracoes.galeria('parabolas', ficha.id, 'História ilustrada');
+    if (galeria) ficha.querySelector('.historia').after(galeria);
+  }
+
   busca.addEventListener('input', filtrar);
   tema.addEventListener('change', filtrar);
   window.addEventListener('hashchange', mostrarFichaDoLink);

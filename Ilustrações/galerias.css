@@ -1,0 +1,28 @@
+.biblie-quadros {
+  margin-top: 1rem;
+  font: .9rem/1.5 system-ui, sans-serif;
+}
+.biblie-quadros summary { cursor: pointer; font-weight: 650; }
+.biblie-quadros ol {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 8rem), 1fr));
+  gap: .7rem;
+  margin: .75rem 0 .4rem;
+  padding: 0;
+  list-style: none;
+}
+.biblie-quadros figure { margin: 0; }
+.biblie-quadros img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  border-radius: .3rem;
+  background: #f1ebdf;
+}
+.biblie-quadros figcaption, .biblie-quadros small { font-size: .8rem; }
+.biblie-quadros figcaption { line-height: 1.4; margin-top: .35rem; overflow-wrap: anywhere; }
+@media (max-width: 580px) {
+  .biblie-quadros ol { grid-template-columns: 1fr; }
+}
