@@ -2,6 +2,8 @@
 
 Abra o [portal Biblie](index.html) no navegador para acessar a biblioteca local. Os livros, as parábolas e o catálogo de personagens podem ser consultados sem instalar um servidor.
 
+Nas galerias ilustradas, selecione um quadro para ampliá-lo. As setas do teclado percorrem a sequência e Esc fecha o visor.
+
 | Área | Conteúdo |
 | --- | --- |
 | [Bíblia Cronológica](B%C3%ADblia%20Cronol%C3%B3gica/index.html) | Leitor em sequência cronológica ou canônica, com o texto dos 66 livros. |

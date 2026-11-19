@@ -1,42 +1,105 @@
 <!doctype html>
 <html lang="pt-BR">
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Biblie · Biblioteca bíblica</title>
-<link rel="stylesheet" href="estilo.css">
-<body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Leia a Bíblia em ordem cronológica e explore mapas, personagens, genealogias e histórias ilustradas em português.">
+  <meta name="theme-color" content="#151b18">
+  <title>Biblie · Biblioteca bíblica ilustrada</title>
+  <link rel="stylesheet" href="estilo.css">
+  <link rel="stylesheet" href="tema.css">
+  <link rel="stylesheet" href="inicio.css">
+</head>
+<body class="portal">
+<a class="saltar" href="#principal">Pular para o conteúdo</a>
 <header class="barra">
-  <a class="marca" href="index.html">Biblie</a>
-  <nav aria-label="Áreas de estudo">
+  <a class="marca" href="index.html">Biblie<span aria-hidden="true">.</span></a>
+  <nav aria-label="Navegação principal">
     <a href="#livros">Livros</a>
-    <a href="Fonte/README.md">Fonte</a>
+    <a href="Personagens%20B%C3%ADblicos/index.html">Personagens</a>
+    <a href="PARABOLAS/index.html">Parábolas</a>
+    <a href="Mapa/index.html">Atlas</a>
   </nav>
+  <a class="barra-leitura" href="B%C3%ADblia%20Cronol%C3%B3gica/index.html">Ler a Bíblia</a>
 </header>
-<main class="biblioteca">
-  <section class="abertura">
-    <p class="epoca">Biblioteca bíblica</p>
-    <h1>Da criação à<br>nova criação</h1>
-    <p>Leia a Bíblia em ordem cronológica e explore os personagens, as parábolas e os lugares dos relatos.</p>
-    <a class="botao" href="B%C3%ADblia%20Cronol%C3%B3gica/index.html">Abrir Bíblia Cronológica <span aria-hidden="true">→</span></a>
-  </section>
-  <nav class="colecoes" aria-label="Coleções">
-    <a href="Personagens%20B%C3%ADblicos/index.html"><strong>Personagens bíblicos</strong><span>Perfis, árvores genealógicas e prompts para avatares.</span></a>
-    <a href="PARABOLAS/index.html"><strong>Parábolas</strong><span>Histórias, referências e ensinamentos.</span></a>
-    <a href="Mapa/index.html"><strong>Mapa bíblico</strong><span>Cidades, povos e episódios sobre o mapa atual.</span></a>
-  </nav>
-  <section id="livros" class="estante">
-    <h2>Livros da Bíblia</h2>
-    <label for="buscaLivros">Buscar por nome</label>
-    <input type="search" id="buscaLivros" placeholder="Ex. Lucas">
-    <p id="semLivros" hidden aria-live="polite">Nenhum livro corresponde à busca.</p>
-    <div class="testamentos">
-      <section><h3>Antigo Testamento</h3><ul id="antigo"></ul></section>
-      <section><h3>Novo Testamento</h3><ul id="novo"></ul></section>
+<main id="principal">
+  <section class="vitrine" aria-labelledby="titulo-inicio">
+    <div class="vitrine-palco" aria-hidden="true">
+      <img class="quadro-inicio ativo" src="Ilustrações/imagens/livro-02-exodo-01.webp" alt="" fetchpriority="high" width="1536" height="1024">
+      <img class="quadro-inicio" data-fonte="Ilustrações/imagens/parabola-o-bom-samaritano-02.webp" alt="" width="1536" height="1024">
+      <img class="quadro-inicio" data-fonte="Ilustrações/imagens/atlas-phoenicia-01.webp" alt="" width="1536" height="1024">
+    </div>
+    <div class="vitrine-conteudo">
+      <p class="vitrine-legenda">Biblioteca bíblica ilustrada</p>
+      <h1 id="titulo-inicio">Da criação à<br>nova criação.</h1>
+      <p class="vitrine-texto">Leia a Bíblia em ordem cronológica e acompanhe os personagens, os lugares e as histórias de cada época.</p>
+      <div class="vitrine-acoes">
+        <a class="botao" href="B%C3%ADblia%20Cronol%C3%B3gica/index.html">Abrir Bíblia Cronológica</a>
+        <a class="vitrine-secundario" href="#explorar">Explorar coleções</a>
+      </div>
+    </div>
+    <div class="vitrine-base">
+      <div class="vitrine-cena" aria-live="polite">
+        <span>Em destaque</span>
+        <a id="cena-link" href="B%C3%ADblia%20Cronol%C3%B3gica/index.html#EXO.14">A travessia do mar · Êxodo 14</a>
+      </div>
+      <div class="vitrine-controles" aria-label="Cenas em destaque" hidden>
+        <button type="button" data-cena="0" aria-label="Exibir A travessia do mar" aria-pressed="true"></button>
+        <button type="button" data-cena="1" aria-label="Exibir O bom samaritano" aria-pressed="false"></button>
+        <button type="button" data-cena="2" aria-label="Exibir Um porto fenício" aria-pressed="false"></button>
+      </div>
     </div>
   </section>
-  <footer>Texto bíblico da <a href="Fonte/README.md">Bíblia Livre</a>. Edição com 66 livros.</footer>
+
+  <div class="portal-conteudo">
+    <section id="explorar" class="portal-secao" aria-labelledby="titulo-explorar">
+      <div class="secao-cabecalho">
+        <h2 id="titulo-explorar">Explore o Biblie</h2>
+        <p>Encontre as passagens no leitor e siga os vínculos entre histórias, pessoas e lugares.</p>
+      </div>
+      <div class="destaques">
+        <a class="destaque destaque-atlas" href="Mapa/index.html">
+          <img src="Ilustrações/imagens/atlas-phoenicia-01.webp" alt="" loading="lazy" width="1536" height="1024">
+          <div><h3>Atlas bíblico</h3><p>1.342 lugares e 44 episódios. Compare as regiões antigas com o mapa atual.</p></div>
+        </a>
+        <a class="destaque destaque-personagens" href="Personagens%20B%C3%ADblicos/index.html">
+          <img src="Personagens Bíblicos/avatares/mary_1943.webp" alt="" loading="lazy" width="1024" height="1024">
+          <div><h3>Personagens</h3><p>Genealogias, conexões e 75 retratos.</p></div>
+        </a>
+        <a class="destaque destaque-parabolas" href="PARABOLAS/index.html">
+          <img src="Ilustrações/imagens/parabola-o-semeador-03.webp" alt="" loading="lazy" width="1536" height="1024">
+          <div><h3>Parábolas</h3><p>48 histórias em três quadros cada.</p></div>
+        </a>
+      </div>
+    </section>
+
+    <section id="livros" class="portal-secao estante" aria-labelledby="titulo-livros">
+      <div class="secao-cabecalho">
+        <div>
+          <h2 id="titulo-livros">Livros da Bíblia</h2>
+          <p>Texto integral e resumos ilustrados dos 66 livros.</p>
+        </div>
+        <div class="busca-catalogo">
+          <label for="buscaLivros">Buscar livro</label>
+          <input type="search" id="buscaLivros" placeholder="Ex. Lucas">
+        </div>
+      </div>
+      <p id="semLivros" hidden aria-live="polite">Nenhum livro corresponde à busca.</p>
+      <div class="testamentos">
+        <section><h3>Antigo Testamento</h3><ul id="antigo"></ul></section>
+        <section><h3>Novo Testamento</h3><ul id="novo"></ul></section>
+      </div>
+    </section>
+
+    <footer class="portal-rodape">
+      <a class="marca" href="index.html">Biblie<span aria-hidden="true">.</span></a>
+      <p>Texto bíblico da <a href="Fonte/README.md">Bíblia Livre</a>. Cânon protestante, com 66 livros.</p>
+      <a href="Ilustrações/README.md">Ilustrações e fontes</a>
+    </footer>
+  </div>
 </main>
-<script src="B%C3%ADblia%20Cronol%C3%B3gica/dados.js"></script>
-<script src="catalogo.js"></script>
+<script src="B%C3%ADblia%20Cronol%C3%B3gica/dados.js" defer></script>
+<script src="catalogo.js" defer></script>
+<script src="inicio.js" defer></script>
 </body>
 </html>

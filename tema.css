@@ -1,0 +1,119 @@
+@font-face {
+  font-family: "DM Sans";
+  src: url("assets/fontes/dm-sans.woff2") format("woff2");
+  font-weight: 400 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: Fraunces;
+  src: url("assets/fontes/fraunces.woff2") format("woff2");
+  font-weight: 400 650;
+  font-display: swap;
+}
+
+:root {
+  --biblie-tinta: #20241e;
+  --biblie-noite: #151b18;
+  --biblie-musgo: #344b3a;
+  --biblie-oliva: #c7ce94;
+  --biblie-papel: #f3f0e7;
+  --biblie-folha: #fffdf7;
+  --biblie-borda: #ded8c9;
+  --biblie-foco: #837147;
+  --biblie-ui: "DM Sans", sans-serif;
+  --biblie-display: Fraunces, Georgia, serif;
+  --fundo: var(--biblie-papel);
+  --superficie: var(--biblie-folha);
+  --tinta: var(--biblie-tinta);
+  --linha: var(--biblie-borda);
+  --verde: var(--biblie-musgo);
+  --verde-escuro: #253a2c;
+  --papel: var(--biblie-folha);
+  --texto: var(--biblie-tinta);
+  --ink: var(--biblie-tinta);
+  --line: var(--biblie-borda);
+  --accent: var(--biblie-musgo);
+  --titulo: var(--biblie-display);
+  --serif: var(--biblie-display);
+  --sans: var(--biblie-ui);
+  font-family: var(--biblie-ui);
+}
+body { font-family: var(--biblie-ui); }
+h1, h2, h3, h4, .overview dd { font-family: var(--biblie-display); }
+h1, h2 { letter-spacing: -.042em; }
+a { text-underline-offset: .22em; }
+:focus-visible { outline: 2px solid var(--biblie-foco); outline-offset: 4px; }
+.barra, .masthead {
+  background: var(--biblie-noite);
+  color: var(--biblie-papel);
+  min-height: 4rem;
+}
+.barra {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+.barra a, .masthead a { color: inherit; }
+.barra nav a {
+  text-decoration: none;
+  color: #e7e2d3;
+}
+.barra nav a:hover { color: #fff; text-decoration: underline; }
+.barra .marca {
+  font-family: var(--biblie-display);
+  font-size: 1.65rem;
+  font-weight: 600;
+  letter-spacing: -.06em;
+  white-space: nowrap;
+}
+.marca span { color: var(--biblie-oliva); }
+.controles, .ficha, .atlas, body.personagens aside, body.personagens article {
+  border-color: var(--biblie-borda);
+  border-radius: .8rem;
+  box-shadow: 0 11px 32px #25241b0a;
+}
+.leitor .versiculos { font-family: Georgia, serif; }
+.leitor .pagina h1 { font-size: clamp(2.7rem, 6vw, 5.4rem); }
+.leitor .controles {
+  border-top: 3px solid var(--biblie-musgo);
+}
+body.parabolas-biblie .abertura, body.personagens .abertura {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  color: #fffaf0;
+  background: #242c21;
+  border-radius: .85rem;
+  padding: clamp(2.2rem, 7vw, 5.2rem) clamp(1.35rem, 5vw, 4.4rem);
+  margin: clamp(1.4rem, 4vw, 3rem) 0 2rem;
+}
+body.parabolas-biblie .abertura {
+  background: linear-gradient(90deg,#161d15ed,#161d1594 61%,#161d1540),
+    url("Ilustrações/imagens/parabola-o-semeador-03.webp") center 54% / cover;
+}
+body.personagens .abertura {
+  background: linear-gradient(90deg,#161d15ed,#161d1575 71%,#161d152b),
+    url("Ilustrações/imagens/livro-10-2-samuel-01.webp") center 43% / cover;
+}
+body.parabolas-biblie .abertura h1, body.personagens .abertura h1 { color: inherit; }
+body.parabolas-biblie .abertura a, body.parabolas-biblie .abertura p:not(.epoca) { color: #f6f0df; }
+body.personagens .abertura p { max-width: 36rem; margin-bottom: 0; }
+body.personagens .abertura h1 { font-weight: 460; }
+body.personagens .retrato img { border-radius: .65rem; }
+body.personagens aside { border-top: 3px solid var(--biblie-musgo); }
+body.atlas-biblico .masthead {
+  width: 100%;
+  max-width: none;
+  align-items: center;
+  padding: .65rem max(4vw, calc((100% - 88rem) / 2));
+}
+body.atlas-biblico .masthead .home {
+  font: 600 1.45rem var(--biblie-display);
+  letter-spacing: -.055em;
+}
+body.atlas-biblico .intro { border-top: 0; }
+body.atlas-biblico {
+  background: linear-gradient(135deg, #f6f2e8, #eaeadd);
+}
+body.atlas-biblico .controls { background: var(--biblie-folha); }

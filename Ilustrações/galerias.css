@@ -23,6 +23,52 @@
 }
 .biblie-quadros figcaption, .biblie-quadros small { font-size: .8rem; }
 .biblie-quadros figcaption { line-height: 1.4; margin-top: .35rem; overflow-wrap: anywhere; }
+.biblie-visor {
+  width: min(66rem, calc(100% - 1.5rem));
+  max-height: calc(100% - 1.5rem);
+  padding: clamp(.7rem, 2.5vw, 1.4rem);
+  background: #171d19;
+  color: #fbf5e7;
+  border: 1px solid #ffffff30;
+  border-radius: .9rem;
+  font: .94rem/1.45 var(--biblie-ui, sans-serif);
+}
+.biblie-visor::backdrop { background: #0a0c0ada; backdrop-filter: blur(6px); }
+.biblie-visor header, .biblie-visor-base, .biblie-visor nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .75rem;
+}
+.biblie-visor h2 { font-size: clamp(1.1rem, 3vw, 1.65rem); margin: 0; color: inherit; }
+.biblie-visor button {
+  flex-shrink: 0;
+  border: 1px solid #ffffff45;
+  border-radius: 99px;
+  padding: .45rem .75rem;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+.biblie-visor button:hover { background: #ffffff16; }
+.biblie-visor button:disabled { opacity: .45; cursor: default; }
+.biblie-visor-palco { margin-block: .9rem; background: #111612; border-radius: .5rem; }
+.biblie-visor-palco img {
+  display: block;
+  width: 100%;
+  max-height: 64vh;
+  height: auto;
+  aspect-ratio: 3 / 2;
+  object-fit: contain;
+  animation: aparecer-quadro .32s ease both;
+}
+.biblie-visor-base p { margin: 0; }
+@keyframes aparecer-quadro { from { opacity: .52; transform: translateY(3px); } to { opacity: 1; transform: translateY(0); } }
 @media (max-width: 580px) {
   .biblie-quadros ol { grid-template-columns: 1fr; }
+  .biblie-visor-base { flex-wrap: wrap; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .biblie-visor-palco img { animation: none; }
 }
