@@ -1003,3 +1003,505 @@ Faça um retrato editorial do busto em três quartos, com luz natural difusa e f
 
 Entregue um único retrato quadrado, de uma só pessoa adulta, com roupa discreta. Estilo de retrato histórico editorial realista, de busto, centralizado, com margem acima da cabeça, luz natural difusa, cores terrosas e fundo desfocado. Escolha feições individualizadas, naturais e coerentes com o contexto, sem estereótipos. Mostre a pessoa em repouso, sem cena de confronto. Sem inscrições, marcas, molduras, halos ou elementos gráficos.
 ```
+
+## Ismael
+
+[Ficha do personagem](../index.html#p/ishmael_630) · [Avatar](./ishmael_630.webp)
+
+```text
+ChatGPT, gere um avatar quadrado (1:1) de Ismael para um catálogo brasileiro de personagens bíblicos.
+
+Use como referência textual Gn 16:15–16; 21:8–21; 25:12–18. Filho de Abraão e Agar. Sobrevive no deserto e se torna pai de doze chefes segundo Gênesis.
+
+O cenário literário passa pelo Levante, pelo norte da Mesopotâmia ou pelo Egito, conforme a passagem. Beni Hasan é uma analogia para corte, trama e padrões de tecidos de viajantes e mercadores de origem levantina, com a época da personagem em aberto.
+
+Mostre um jovem adulto em ambiente árido. O arco pode aparecer como motivo discreto, conforme Gn 21:20.
+
+Referência visual de contexto: Viajantes do sudoeste asiático em Beni Hasan, inv. 33.8.17 — The Met. https://www.metmuseum.org/es/-/media/files/about-the-met/curatorial-departments/egyptian/facsimiles/2016-19_walklikeanegyptian_web.pdf?sc_lang=en
+
+Faça um retrato editorial do busto em três quartos, com luz natural difusa e fundo discreto. Priorize materiais compatíveis com a cena. Trate feições, tom de pele, idade e penteado sem atestação individual como escolhas artísticas. Evite estereótipos modernos, texto sobre a imagem e objetos anacrônicos.
+
+Entregue um único retrato quadrado, de uma só pessoa adulta, com roupa discreta. Estilo de retrato histórico editorial realista, de busto, centralizado, com margem acima da cabeça, luz natural difusa, cores terrosas e fundo desfocado. Escolha feições individualizadas, naturais e coerentes com o contexto, sem estereótipos. Mostre a pessoa em repouso, sem cena de confronto. Sem inscrições, marcas, molduras, halos ou elementos gráficos.
+```
+
+## Esaú
+
+[Ficha do personagem](../index.html#p/esau_1216) · [Avatar](./esau_1216.webp)
+
+```text
+ChatGPT, gere um avatar quadrado (1:1) de Esaú para um catálogo brasileiro de personagens bíblicos.
+
+Use como referência textual Gn 25:19–34; 27; 33. Filho de Isaque e Rebeca, descrito como caçador. Vende a primogenitura a Jacó e depois se reconcilia com ele.
+
+O cenário literário passa pelo Levante, pelo norte da Mesopotâmia ou pelo Egito, conforme a passagem. Beni Hasan é uma analogia para corte, trama e padrões de tecidos de viajantes e mercadores de origem levantina, com a época da personagem em aberto.
+
+Se retratar o nascimento narrado como avermelhado e peludo, evite extrapolar para ancestralidade moderna. Para o avatar adulto use roupa de caça simples.
+
+Referência visual de contexto: Viajantes do sudoeste asiático em Beni Hasan, inv. 33.8.17 — The Met. https://www.metmuseum.org/es/-/media/files/about-the-met/curatorial-departments/egyptian/facsimiles/2016-19_walklikeanegyptian_web.pdf?sc_lang=en
+
+Faça um retrato editorial do busto em três quartos, com luz natural difusa e fundo discreto. Priorize materiais compatíveis com a cena. Trate feições, tom de pele, idade e penteado sem atestação individual como escolhas artísticas. Evite estereótipos modernos, texto sobre a imagem e objetos anacrônicos.
+
+Entregue um único retrato quadrado, de uma só pessoa adulta, com roupa discreta. Estilo de retrato histórico editorial realista, de busto, centralizado, com margem acima da cabeça, luz natural difusa, cores terrosas e fundo desfocado. Escolha feições individualizadas, naturais e coerentes com o contexto, sem estereótipos. Mostre a pessoa em repouso, sem cena de confronto. Sem inscrições, marcas, molduras, halos ou elementos gráficos.
+```
+
+## Lia
+
+[Ficha do personagem](../index.html#p/leah_1813) · [Avatar](./leah_1813.webp)
+
+```text
+ChatGPT, gere um avatar quadrado (1:1) de Lia para um catálogo brasileiro de personagens bíblicos.
+
+Use como referência textual Gn 29:16–35; 30:17–21. Filha de Labão e irmã de Raquel. Casada com Jacó, é mãe de seis filhos e de Diná.
+
+O cenário literário passa pelo Levante, pelo norte da Mesopotâmia ou pelo Egito, conforme a passagem. Beni Hasan é uma analogia para corte, trama e padrões de tecidos de viajantes e mercadores de origem levantina, com a época da personagem em aberto.
+
+Use cenário doméstico de uma comunidade pastoril. Deixe a expressão e os olhos sem interpretação física rígida.
+
+Referência visual de contexto: Viajantes do sudoeste asiático em Beni Hasan, inv. 33.8.17 — The Met. https://www.metmuseum.org/es/-/media/files/about-the-met/curatorial-departments/egyptian/facsimiles/2016-19_walklikeanegyptian_web.pdf?sc_lang=en
+
+Faça um retrato editorial do busto em três quartos, com luz natural difusa e fundo discreto. Priorize materiais compatíveis com a cena. Trate feições, tom de pele, idade e penteado sem atestação individual como escolhas artísticas. Evite estereótipos modernos, texto sobre a imagem e objetos anacrônicos.
+
+Entregue um único retrato quadrado, de uma só pessoa adulta, com roupa discreta. Estilo de retrato histórico editorial realista, de busto, centralizado, com margem acima da cabeça, luz natural difusa, cores terrosas e fundo desfocado. Escolha feições individualizadas, naturais e coerentes com o contexto, sem estereótipos. Mostre a pessoa em repouso, sem cena de confronto. Sem inscrições, marcas, molduras, halos ou elementos gráficos.
+```
+
+## Calebe, filho de Jefoné
+
+[Ficha do personagem](../index.html#p/caleb_537) · [Avatar](./caleb_537.webp)
+
+```text
+ChatGPT, gere um avatar quadrado (1:1) de Calebe, filho de Jefoné para um catálogo brasileiro de personagens bíblicos.
+
+Use como referência textual Nm 13–14; Js 14:6–15. Um dos espias enviados a Canaã. Com Josué, encoraja o povo a prosseguir e depois recebe Hebrom.
+
+O horizonte visual é o Levante entre a Idade do Bronze tardia e o início da Idade do Ferro. Use túnica simples, manto de trama visível e pedra ou adobe conforme a cena. A periodização é uma analogia de cultura material.
+
+Retrate um adulto mais velho nas colinas de Hebrom, em manto para viagem.
+
+Referência visual de contexto: Arqueologia e cultura material do antigo Oriente Próximo — The Met. https://resources.metmuseum.org/resources/metpublications/pdf/Art_of_the_Ancient_Near_East_A_Resource_for_Educators.pdf
+
+Faça um retrato editorial do busto em três quartos, com luz natural difusa e fundo discreto. Priorize materiais compatíveis com a cena. Trate feições, tom de pele, idade e penteado sem atestação individual como escolhas artísticas. Evite estereótipos modernos, texto sobre a imagem e objetos anacrônicos.
+
+Entregue um único retrato quadrado, de uma só pessoa adulta, com roupa discreta. Estilo de retrato histórico editorial realista, de busto, centralizado, com margem acima da cabeça, luz natural difusa, cores terrosas e fundo desfocado. Escolha feições individualizadas, naturais e coerentes com o contexto, sem estereótipos. Mostre a pessoa em repouso, sem cena de confronto. Sem inscrições, marcas, molduras, halos ou elementos gráficos.
+```
+
+## Raabe, de Jericó
+
+[Ficha do personagem](../index.html#p/rahab_2388) · [Avatar](./rahab_2388.webp)
+
+```text
+ChatGPT, gere um avatar quadrado (1:1) de Raabe, de Jericó para um catálogo brasileiro de personagens bíblicos.
+
+Use como referência textual Js 2; 6:22–25. Protege os espias israelitas e consegue preservar sua casa na tomada de Jericó.
+
+O horizonte visual é o Levante entre a Idade do Bronze tardia e o início da Idade do Ferro. Use túnica simples, manto de trama visível e pedra ou adobe conforme a cena. A periodização é uma analogia de cultura material.
+
+Inclua um cordão escarlate em uma janela simples, como em Josué 2, sem sexualizar a personagem.
+
+Referência visual de contexto: Arqueologia e cultura material do antigo Oriente Próximo — The Met. https://resources.metmuseum.org/resources/metpublications/pdf/Art_of_the_Ancient_Near_East_A_Resource_for_Educators.pdf
+
+Faça um retrato editorial do busto em três quartos, com luz natural difusa e fundo discreto. Priorize materiais compatíveis com a cena. Trate feições, tom de pele, idade e penteado sem atestação individual como escolhas artísticas. Evite estereótipos modernos, texto sobre a imagem e objetos anacrônicos.
+
+Entregue um único retrato quadrado, de uma só pessoa adulta, com roupa discreta. Estilo de retrato histórico editorial realista, de busto, centralizado, com margem acima da cabeça, luz natural difusa, cores terrosas e fundo desfocado. Escolha feições individualizadas, naturais e coerentes com o contexto, sem estereótipos. Mostre a pessoa em repouso, sem cena de confronto. Sem inscrições, marcas, molduras, halos ou elementos gráficos.
+```
+
+## Noemi
+
+[Ficha do personagem](../index.html#p/naomi_2147) · [Avatar](./naomi_2147.webp)
+
+```text
+ChatGPT, gere um avatar quadrado (1:1) de Noemi para um catálogo brasileiro de personagens bíblicos.
+
+Use como referência textual Rt 1–4. Sogra de Rute. Depois de perder marido e filhos em Moabe, retorna a Belém e orienta Rute.
+
+O horizonte visual é o Levante entre a Idade do Bronze tardia e o início da Idade do Ferro. Use túnica simples, manto de trama visível e pedra ou adobe conforme a cena. A periodização é uma analogia de cultura material.
+
+Retrato de mulher mais velha junto ao caminho de Belém, com manto de viagem.
+
+Referência visual de contexto: Arqueologia e cultura material do antigo Oriente Próximo — The Met. https://resources.metmuseum.org/resources/metpublications/pdf/Art_of_the_Ancient_Near_East_A_Resource_for_Educators.pdf
+
+Faça um retrato editorial do busto em três quartos, com luz natural difusa e fundo discreto. Priorize materiais compatíveis com a cena. Trate feições, tom de pele, idade e penteado sem atestação individual como escolhas artísticas. Evite estereótipos modernos, texto sobre a imagem e objetos anacrônicos.
+
+Entregue um único retrato quadrado, de uma só pessoa adulta, com roupa discreta. Estilo de retrato histórico editorial realista, de busto, centralizado, com margem acima da cabeça, luz natural difusa, cores terrosas e fundo desfocado. Escolha feições individualizadas, naturais e coerentes com o contexto, sem estereótipos. Mostre a pessoa em repouso, sem cena de confronto. Sem inscrições, marcas, molduras, halos ou elementos gráficos.
+```
+
+## Boaz
+
+[Ficha do personagem](../index.html#p/boaz_519) · [Avatar](./boaz_519.webp)
+
+```text
+ChatGPT, gere um avatar quadrado (1:1) de Boaz para um catálogo brasileiro de personagens bíblicos.
+
+Use como referência textual Rt 2–4. Proprietário de terras de Belém que protege Rute e atua publicamente como resgatador.
+
+O horizonte visual é o Levante entre a Idade do Bronze tardia e o início da Idade do Ferro. Use túnica simples, manto de trama visível e pedra ou adobe conforme a cena. A periodização é uma analogia de cultura material.
+
+Escolha um proprietário rural em uma eira de cevada, usando tecido de boa qualidade compatível com o campo.
+
+Referência visual de contexto: Arqueologia e cultura material do antigo Oriente Próximo — The Met. https://resources.metmuseum.org/resources/metpublications/pdf/Art_of_the_Ancient_Near_East_A_Resource_for_Educators.pdf
+
+Faça um retrato editorial do busto em três quartos, com luz natural difusa e fundo discreto. Priorize materiais compatíveis com a cena. Trate feições, tom de pele, idade e penteado sem atestação individual como escolhas artísticas. Evite estereótipos modernos, texto sobre a imagem e objetos anacrônicos.
+
+Entregue um único retrato quadrado, de uma só pessoa adulta, com roupa discreta. Estilo de retrato histórico editorial realista, de busto, centralizado, com margem acima da cabeça, luz natural difusa, cores terrosas e fundo desfocado. Escolha feições individualizadas, naturais e coerentes com o contexto, sem estereótipos. Mostre a pessoa em repouso, sem cena de confronto. Sem inscrições, marcas, molduras, halos ou elementos gráficos.
+```
+
+## Ana, mãe de Samuel
+
+[Ficha do personagem](../index.html#p/hannah_1400) · [Avatar](./hannah_1400.webp)
+
+```text
+ChatGPT, gere um avatar quadrado (1:1) de Ana, mãe de Samuel para um catálogo brasileiro de personagens bíblicos.
+
+Use como referência textual 1Sm 1–2. Mulher de Elcana e mãe de Samuel. Faz um voto em Siló e dedica o filho ao serviço religioso.
+
+O horizonte visual é o Levante entre a Idade do Bronze tardia e o início da Idade do Ferro. Use túnica simples, manto de trama visível e pedra ou adobe conforme a cena. A periodização é uma analogia de cultura material.
+
+Use um ambiente de santuário simples em Siló e postura serena de oração.
+
+Referência visual de contexto: Arqueologia e cultura material do antigo Oriente Próximo — The Met. https://resources.metmuseum.org/resources/metpublications/pdf/Art_of_the_Ancient_Near_East_A_Resource_for_Educators.pdf
+
+Faça um retrato editorial do busto em três quartos, com luz natural difusa e fundo discreto. Priorize materiais compatíveis com a cena. Trate feições, tom de pele, idade e penteado sem atestação individual como escolhas artísticas. Evite estereótipos modernos, texto sobre a imagem e objetos anacrônicos.
+
+Entregue um único retrato quadrado, de uma só pessoa adulta, com roupa discreta. Estilo de retrato histórico editorial realista, de busto, centralizado, com margem acima da cabeça, luz natural difusa, cores terrosas e fundo desfocado. Escolha feições individualizadas, naturais e coerentes com o contexto, sem estereótipos. Mostre a pessoa em repouso, sem cena de confronto. Sem inscrições, marcas, molduras, halos ou elementos gráficos.
+```
+
+## Abigail, esposa de Davi
+
+[Ficha do personagem](../index.html#p/abigail_26) · [Avatar](./abigail_26.webp)
+
+```text
+ChatGPT, gere um avatar quadrado (1:1) de Abigail, esposa de Davi para um catálogo brasileiro de personagens bíblicos.
+
+Use como referência textual 1Sm 25. Intervém para evitar que Davi vingue a ofensa de Nabal. Depois da morte de Nabal, casa-se com Davi.
+
+Baseie tecidos e camadas no Levante da Idade do Ferro, com adornos compatíveis com eventual papel de corte. Os relevos assírios de Laquis mostram habitantes de Judá pela perspectiva da propaganda imperial e servem de paralelo, inclusive para personagens de gerações anteriores.
+
+Use provisões de viagem em segundo plano e cenário das colinas próximas de Carmel de Judá.
+
+Referência visual de contexto: Relevos da campanha assíria contra Laquis — British Museum. https://www.britishmuseum.org/sites/default/files/2019-09/Arab_World_Resource_Web.pdf
+
+Faça um retrato editorial do busto em três quartos, com luz natural difusa e fundo discreto. Priorize materiais compatíveis com a cena. Trate feições, tom de pele, idade e penteado sem atestação individual como escolhas artísticas. Evite estereótipos modernos, texto sobre a imagem e objetos anacrônicos.
+
+Entregue um único retrato quadrado, de uma só pessoa adulta, com roupa discreta. Estilo de retrato histórico editorial realista, de busto, centralizado, com margem acima da cabeça, luz natural difusa, cores terrosas e fundo desfocado. Escolha feições individualizadas, naturais e coerentes com o contexto, sem estereótipos. Mostre a pessoa em repouso, sem cena de confronto. Sem inscrições, marcas, molduras, halos ou elementos gráficos.
+```
+
+## Natã, profeta
+
+[Ficha do personagem](../index.html#p/nathan_2153) · [Avatar](./nathan_2153.webp)
+
+```text
+ChatGPT, gere um avatar quadrado (1:1) de Natã, profeta para um catálogo brasileiro de personagens bíblicos.
+
+Use como referência textual 2Sm 7; 12:1–15; 1Rs 1. Profeta que comunica a promessa dinástica a Davi, confronta o rei sobre Urias e apoia a sucessão de Salomão.
+
+Baseie tecidos e camadas no Levante da Idade do Ferro, com adornos compatíveis com eventual papel de corte. Os relevos assírios de Laquis mostram habitantes de Judá pela perspectiva da propaganda imperial e servem de paralelo, inclusive para personagens de gerações anteriores.
+
+Mostre um conselheiro em sala de pedra e madeira, com vestimenta austera.
+
+Referência visual de contexto: Relevos da campanha assíria contra Laquis — British Museum. https://www.britishmuseum.org/sites/default/files/2019-09/Arab_World_Resource_Web.pdf
+
+Faça um retrato editorial do busto em três quartos, com luz natural difusa e fundo discreto. Priorize materiais compatíveis com a cena. Trate feições, tom de pele, idade e penteado sem atestação individual como escolhas artísticas. Evite estereótipos modernos, texto sobre a imagem e objetos anacrônicos.
+
+Entregue um único retrato quadrado, de uma só pessoa adulta, com roupa discreta. Estilo de retrato histórico editorial realista, de busto, centralizado, com margem acima da cabeça, luz natural difusa, cores terrosas e fundo desfocado. Escolha feições individualizadas, naturais e coerentes com o contexto, sem estereótipos. Mostre a pessoa em repouso, sem cena de confronto. Sem inscrições, marcas, molduras, halos ou elementos gráficos.
+```
+
+## Esdras, escriba
+
+[Ficha do personagem](../index.html#p/ezra_1245) · [Avatar](./ezra_1245.webp)
+
+```text
+ChatGPT, gere um avatar quadrado (1:1) de Esdras, escriba para um catálogo brasileiro de personagens bíblicos.
+
+Use como referência textual Ed 7–10; Ne 8. Sacerdote e escriba que vai de Babilônia a Jerusalém e se dedica ao ensino da Lei.
+
+Situe o ambiente em Judá sob domínio persa ou na corte aquemênida conforme a passagem. Use lãs simples no meio doméstico e observe túnicas, cintos, caimento e motivos geométricos dos relevos para trajes de corte.
+
+Retrate-o lendo um rolo em assembleia, com vestes sóbrias de um escriba judeu do período persa.
+
+Referência visual de contexto: Figura aquemênida em procissão, inv. 39.133 — The Met. https://www.metmuseum.org/art/collection/search/323723
+
+Faça um retrato editorial do busto em três quartos, com luz natural difusa e fundo discreto. Priorize materiais compatíveis com a cena. Trate feições, tom de pele, idade e penteado sem atestação individual como escolhas artísticas. Evite estereótipos modernos, texto sobre a imagem e objetos anacrônicos.
+
+Entregue um único retrato quadrado, de uma só pessoa adulta, com roupa discreta. Estilo de retrato histórico editorial realista, de busto, centralizado, com margem acima da cabeça, luz natural difusa, cores terrosas e fundo desfocado. Escolha feições individualizadas, naturais e coerentes com o contexto, sem estereótipos. Mostre a pessoa em repouso, sem cena de confronto. Sem inscrições, marcas, molduras, halos ou elementos gráficos.
+```
+
+## Mardoqueu
+
+[Ficha do personagem](../index.html#p/mordecai_2107) · [Avatar](./mordecai_2107.webp)
+
+```text
+ChatGPT, gere um avatar quadrado (1:1) de Mardoqueu para um catálogo brasileiro de personagens bíblicos.
+
+Use como referência textual Et 2:5–23; 3–10. Primo e tutor de Ester. Denuncia uma conspiração e resiste à pressão de Hamã.
+
+Situe o ambiente em Judá sob domínio persa ou na corte aquemênida conforme a passagem. Use lãs simples no meio doméstico e observe túnicas, cintos, caimento e motivos geométricos dos relevos para trajes de corte.
+
+Escolha a fase de membro da comunidade judaica em Susã. Use camadas têxteis sóbrias e o portão da corte ao fundo.
+
+Referência visual de contexto: Figura aquemênida em procissão, inv. 39.133 — The Met. https://www.metmuseum.org/art/collection/search/323723
+
+Faça um retrato editorial do busto em três quartos, com luz natural difusa e fundo discreto. Priorize materiais compatíveis com a cena. Trate feições, tom de pele, idade e penteado sem atestação individual como escolhas artísticas. Evite estereótipos modernos, texto sobre a imagem e objetos anacrônicos.
+
+Entregue um único retrato quadrado, de uma só pessoa adulta, com roupa discreta. Estilo de retrato histórico editorial realista, de busto, centralizado, com margem acima da cabeça, luz natural difusa, cores terrosas e fundo desfocado. Escolha feições individualizadas, naturais e coerentes com o contexto, sem estereótipos. Mostre a pessoa em repouso, sem cena de confronto. Sem inscrições, marcas, molduras, halos ou elementos gráficos.
+```
+
+## André
+
+[Ficha do personagem](../index.html#p/andrew_264) · [Avatar](./andrew_264.webp)
+
+```text
+ChatGPT, gere um avatar quadrado (1:1) de André para um catálogo brasileiro de personagens bíblicos.
+
+Use como referência textual Mt 4:18–20; Jo 1:35–42; 6:8–9. Irmão de Pedro e um dos primeiros discípulos. Em João, apresenta Simão a Jesus.
+
+Use cultura material do Levante meridional sob domínio romano. Considere túnica e manto de lã ou linho, com acessórios compatíveis com o papel textual. Use retratos do Egito romano apenas como paralelo mediterrâneo de técnicas e tecidos.
+
+Mostre um pescador da Galileia em túnica de trabalho junto à margem do lago.
+
+Referência visual de contexto: Contexto material da Judeia do século I — Museu de Israel. https://www.imj.org.il/en/exhibitions/cradle-christianity
+
+Faça um retrato editorial do busto em três quartos, com luz natural difusa e fundo discreto. Priorize materiais compatíveis com a cena. Trate feições, tom de pele, idade e penteado sem atestação individual como escolhas artísticas. Evite estereótipos modernos, texto sobre a imagem e objetos anacrônicos.
+
+Entregue um único retrato quadrado, de uma só pessoa adulta, com roupa discreta. Estilo de retrato histórico editorial realista, de busto, centralizado, com margem acima da cabeça, luz natural difusa, cores terrosas e fundo desfocado. Escolha feições individualizadas, naturais e coerentes com o contexto, sem estereótipos. Mostre a pessoa em repouso, sem cena de confronto. Sem inscrições, marcas, molduras, halos ou elementos gráficos.
+```
+
+## Tiago, filho de Zebedeu
+
+[Ficha do personagem](../index.html#p/james_717) · [Avatar](./james_717.webp)
+
+```text
+ChatGPT, gere um avatar quadrado (1:1) de Tiago, filho de Zebedeu para um catálogo brasileiro de personagens bíblicos.
+
+Use como referência textual Mt 4:21–22; 17:1–9; At 12:1–2. Irmão de João e um dos Doze. Presencia a transfiguração e é executado por ordem de Herodes Agripa I.
+
+Use cultura material do Levante meridional sob domínio romano. Considere túnica e manto de lã ou linho, com acessórios compatíveis com o papel textual. Use retratos do Egito romano apenas como paralelo mediterrâneo de técnicas e tecidos.
+
+Mostre um pescador adulto galileu nas margens do lago, com roupa de trabalho.
+
+Referência visual de contexto: Contexto material da Judeia do século I — Museu de Israel. https://www.imj.org.il/en/exhibitions/cradle-christianity
+
+Faça um retrato editorial do busto em três quartos, com luz natural difusa e fundo discreto. Priorize materiais compatíveis com a cena. Trate feições, tom de pele, idade e penteado sem atestação individual como escolhas artísticas. Evite estereótipos modernos, texto sobre a imagem e objetos anacrônicos.
+
+Entregue um único retrato quadrado, de uma só pessoa adulta, com roupa discreta. Estilo de retrato histórico editorial realista, de busto, centralizado, com margem acima da cabeça, luz natural difusa, cores terrosas e fundo desfocado. Escolha feições individualizadas, naturais e coerentes com o contexto, sem estereótipos. Mostre a pessoa em repouso, sem cena de confronto. Sem inscrições, marcas, molduras, halos ou elementos gráficos.
+```
+
+## Mateus
+
+[Ficha do personagem](../index.html#p/matthew_1971) · [Avatar](./matthew_1971.webp)
+
+```text
+ChatGPT, gere um avatar quadrado (1:1) de Mateus para um catálogo brasileiro de personagens bíblicos.
+
+Use como referência textual Mt 9:9; 10:3; Mc 2:14; Lc 5:27. Cobrador de impostos chamado por Jesus, depois incluído nos Doze. Os paralelos de Marcos e Lucas usam o nome Levi para o cobrador.
+
+Use cultura material do Levante meridional sob domínio romano. Considere túnica e manto de lã ou linho, com acessórios compatíveis com o papel textual. Use retratos do Egito romano apenas como paralelo mediterrâneo de técnicas e tecidos.
+
+Mostre um adulto judeu em posto de cobrança, com tabuinhas e balança discreta como hipótese de ambientação.
+
+Referência visual de contexto: Contexto material da Judeia do século I — Museu de Israel. https://www.imj.org.il/en/exhibitions/cradle-christianity
+
+Faça um retrato editorial do busto em três quartos, com luz natural difusa e fundo discreto. Priorize materiais compatíveis com a cena. Trate feições, tom de pele, idade e penteado sem atestação individual como escolhas artísticas. Evite estereótipos modernos, texto sobre a imagem e objetos anacrônicos.
+
+Entregue um único retrato quadrado, de uma só pessoa adulta, com roupa discreta. Estilo de retrato histórico editorial realista, de busto, centralizado, com margem acima da cabeça, luz natural difusa, cores terrosas e fundo desfocado. Escolha feições individualizadas, naturais e coerentes com o contexto, sem estereótipos. Mostre a pessoa em repouso, sem cena de confronto. Sem inscrições, marcas, molduras, halos ou elementos gráficos.
+```
+
+## Tomé
+
+[Ficha do personagem](../index.html#p/thomas_2851) · [Avatar](./thomas_2851.webp)
+
+```text
+ChatGPT, gere um avatar quadrado (1:1) de Tomé para um catálogo brasileiro de personagens bíblicos.
+
+Use como referência textual Jo 11:16; 14:5; 20:24–29. Um dos Doze. A narrativa de João registra sua reação às primeiras notícias de que Jesus havia ressuscitado.
+
+Use cultura material do Levante meridional sob domínio romano. Considere túnica e manto de lã ou linho, com acessórios compatíveis com o papel textual. Use retratos do Egito romano apenas como paralelo mediterrâneo de técnicas e tecidos.
+
+Use roupa de discípulo itinerante e expressão atenta. A alcunha Dídimo significa gêmeo e o texto deixa o outro gêmeo em aberto.
+
+Referência visual de contexto: Contexto material da Judeia do século I — Museu de Israel. https://www.imj.org.il/en/exhibitions/cradle-christianity
+
+Faça um retrato editorial do busto em três quartos, com luz natural difusa e fundo discreto. Priorize materiais compatíveis com a cena. Trate feições, tom de pele, idade e penteado sem atestação individual como escolhas artísticas. Evite estereótipos modernos, texto sobre a imagem e objetos anacrônicos.
+
+Entregue um único retrato quadrado, de uma só pessoa adulta, com roupa discreta. Estilo de retrato histórico editorial realista, de busto, centralizado, com margem acima da cabeça, luz natural difusa, cores terrosas e fundo desfocado. Escolha feições individualizadas, naturais e coerentes com o contexto, sem estereótipos. Mostre a pessoa em repouso, sem cena de confronto. Sem inscrições, marcas, molduras, halos ou elementos gráficos.
+```
+
+## Nicodemos
+
+[Ficha do personagem](../index.html#p/nicodemus_2204) · [Avatar](./nicodemus_2204.webp)
+
+```text
+ChatGPT, gere um avatar quadrado (1:1) de Nicodemos para um catálogo brasileiro de personagens bíblicos.
+
+Use como referência textual Jo 3:1–21; 7:50–52; 19:38–42. Fariseu que conversa com Jesus à noite e, mais tarde, ajuda José de Arimateia no sepultamento.
+
+Use cultura material do Levante meridional sob domínio romano. Considere túnica e manto de lã ou linho, com acessórios compatíveis com o papel textual. Use retratos do Egito romano apenas como paralelo mediterrâneo de técnicas e tecidos.
+
+Mostre um adulto instruído de Jerusalém, com manto de boa qualidade e luz noturna.
+
+Referência visual de contexto: Contexto material da Judeia do século I — Museu de Israel. https://www.imj.org.il/en/exhibitions/cradle-christianity
+
+Faça um retrato editorial do busto em três quartos, com luz natural difusa e fundo discreto. Priorize materiais compatíveis com a cena. Trate feições, tom de pele, idade e penteado sem atestação individual como escolhas artísticas. Evite estereótipos modernos, texto sobre a imagem e objetos anacrônicos.
+
+Entregue um único retrato quadrado, de uma só pessoa adulta, com roupa discreta. Estilo de retrato histórico editorial realista, de busto, centralizado, com margem acima da cabeça, luz natural difusa, cores terrosas e fundo desfocado. Escolha feições individualizadas, naturais e coerentes com o contexto, sem estereótipos. Mostre a pessoa em repouso, sem cena de confronto. Sem inscrições, marcas, molduras, halos ou elementos gráficos.
+```
+
+## Pôncio Pilatos
+
+[Ficha do personagem](../index.html#p/pilate_2365) · [Avatar](./pilate_2365.webp)
+
+```text
+ChatGPT, gere um avatar quadrado (1:1) de Pôncio Pilatos para um catálogo brasileiro de personagens bíblicos.
+
+Use como referência textual Mt 27:1–26; Lc 23; Jo 18:28–19:16. Prefeito romano da Judeia associado ao julgamento de Jesus nos quatro Evangelhos.
+
+Use vestuário greco-romano compatível com a função e o espaço da personagem. Se houver moeda ou busto contemporâneo identificado, use-o como retrato oficial idealizado. Para governantes locais, considere o contexto herodiano quando aplicável.
+
+Retrato de administrador equestre romano, em túnica e manto adequados ao cargo. A inscrição de Cesareia identifica o nome e cargo, sem retrato.
+
+Referência visual de contexto: Bustos e moedas da tradição de retratos romanos — The Met. https://www.metmuseum.org/pt/essays/roman-portrait-sculpture-republican-through-constantinian
+
+Fonte complementar: Inscrição com o nome de Pôncio Pilatos — Museu de Israel. https://www.imj.org.il/en/exhibitions/cradle-christianity
+
+Faça um retrato editorial do busto em três quartos, com luz natural difusa e fundo discreto. Priorize materiais compatíveis com a cena. Trate feições, tom de pele, idade e penteado sem atestação individual como escolhas artísticas. Evite estereótipos modernos, texto sobre a imagem e objetos anacrônicos.
+
+Entregue um único retrato quadrado, de uma só pessoa adulta, com roupa discreta. Estilo de retrato histórico editorial realista, de busto, centralizado, com margem acima da cabeça, luz natural difusa, cores terrosas e fundo desfocado. Escolha feições individualizadas, naturais e coerentes com o contexto, sem estereótipos. Mostre a pessoa em repouso, sem cena de confronto. Sem inscrições, marcas, molduras, halos ou elementos gráficos.
+```
+
+## Maria de Betânia
+
+[Ficha do personagem](../index.html#p/mary_1939) · [Avatar](./mary_1939.webp)
+
+```text
+ChatGPT, gere um avatar quadrado (1:1) de Maria de Betânia para um catálogo brasileiro de personagens bíblicos.
+
+Use como referência textual Lc 10:38–42; Jo 11:1–5; 12:1–8. Irmã de Marta e Lázaro. Escuta Jesus sentada aos seus pés em Lucas e o unge em João.
+
+Use cultura material do Levante meridional sob domínio romano. Considere túnica e manto de lã ou linho, com acessórios compatíveis com o papel textual. Use retratos do Egito romano apenas como paralelo mediterrâneo de técnicas e tecidos.
+
+Em Betânia, use roupa cotidiana e um pequeno vaso de perfume como referência a João 12.
+
+Referência visual de contexto: Contexto material da Judeia do século I — Museu de Israel. https://www.imj.org.il/en/exhibitions/cradle-christianity
+
+Faça um retrato editorial do busto em três quartos, com luz natural difusa e fundo discreto. Priorize materiais compatíveis com a cena. Trate feições, tom de pele, idade e penteado sem atestação individual como escolhas artísticas. Evite estereótipos modernos, texto sobre a imagem e objetos anacrônicos.
+
+Entregue um único retrato quadrado, de uma só pessoa adulta, com roupa discreta. Estilo de retrato histórico editorial realista, de busto, centralizado, com margem acima da cabeça, luz natural difusa, cores terrosas e fundo desfocado. Escolha feições individualizadas, naturais e coerentes com o contexto, sem estereótipos. Mostre a pessoa em repouso, sem cena de confronto. Sem inscrições, marcas, molduras, halos ou elementos gráficos.
+```
+
+## Barnabé
+
+[Ficha do personagem](../index.html#p/barnabas_1722) · [Avatar](./barnabas_1722.webp)
+
+```text
+ChatGPT, gere um avatar quadrado (1:1) de Barnabé para um catálogo brasileiro de personagens bíblicos.
+
+Use como referência textual At 4:36–37; 9:26–27; 11; 13–15. Levita de Chipre que apoia Paulo e participa da missão a Antioquia e outras cidades.
+
+Use o Mediterrâneo oriental do século I e ajuste a cidade conforme a passagem. Considere túnica, manto ou acessórios de viagem conforme a atividade. Os retratos funerários do Egito romano oferecem paralelos regionais para roupa e técnica pictórica.
+
+Use cenário da diáspora oriental romana e roupa prática de viagem.
+
+Referência visual de contexto: Retratos funerários do Egito romano — The Met. https://www.metmuseum.org/exhibitions/listings/2000/mummy-portraits/photo-gallery
+
+Faça um retrato editorial do busto em três quartos, com luz natural difusa e fundo discreto. Priorize materiais compatíveis com a cena. Trate feições, tom de pele, idade e penteado sem atestação individual como escolhas artísticas. Evite estereótipos modernos, texto sobre a imagem e objetos anacrônicos.
+
+Entregue um único retrato quadrado, de uma só pessoa adulta, com roupa discreta. Estilo de retrato histórico editorial realista, de busto, centralizado, com margem acima da cabeça, luz natural difusa, cores terrosas e fundo desfocado. Escolha feições individualizadas, naturais e coerentes com o contexto, sem estereótipos. Mostre a pessoa em repouso, sem cena de confronto. Sem inscrições, marcas, molduras, halos ou elementos gráficos.
+```
+
+## João Marcos
+
+[Ficha do personagem](../index.html#p/mark_1679) · [Avatar](./mark_1679.webp)
+
+```text
+ChatGPT, gere um avatar quadrado (1:1) de João Marcos para um catálogo brasileiro de personagens bíblicos.
+
+Use como referência textual At 12:12,25; 13:5,13; 15:36–39; Cl 4:10. Filho de Maria de Jerusalém e colaborador de Barnabé e Paulo. Atos narra a divergência sobre sua participação numa viagem.
+
+Use o Mediterrâneo oriental do século I e ajuste a cidade conforme a passagem. Considere túnica, manto ou acessórios de viagem conforme a atividade. Os retratos funerários do Egito romano oferecem paralelos regionais para roupa e técnica pictórica.
+
+Mostre um jovem adulto viajando entre cidades do Mediterrâneo oriental, com túnica e manto discretos.
+
+Referência visual de contexto: Retratos funerários do Egito romano — The Met. https://www.metmuseum.org/exhibitions/listings/2000/mummy-portraits/photo-gallery
+
+Faça um retrato editorial do busto em três quartos, com luz natural difusa e fundo discreto. Priorize materiais compatíveis com a cena. Trate feições, tom de pele, idade e penteado sem atestação individual como escolhas artísticas. Evite estereótipos modernos, texto sobre a imagem e objetos anacrônicos.
+
+Entregue um único retrato quadrado, de uma só pessoa adulta, com roupa discreta. Estilo de retrato histórico editorial realista, de busto, centralizado, com margem acima da cabeça, luz natural difusa, cores terrosas e fundo desfocado. Escolha feições individualizadas, naturais e coerentes com o contexto, sem estereótipos. Mostre a pessoa em repouso, sem cena de confronto. Sem inscrições, marcas, molduras, halos ou elementos gráficos.
+```
+
+## Priscila, também chamada Prisca
+
+[Ficha do personagem](../index.html#p/priscilla_2370) · [Avatar](./priscilla_2370.webp)
+
+```text
+ChatGPT, gere um avatar quadrado (1:1) de Priscila, também chamada Prisca para um catálogo brasileiro de personagens bíblicos.
+
+Use como referência textual At 18:1–3,18–26; Rm 16:3–5. Com Áquila, acolhe Paulo e explica mais precisamente o caminho cristão a Apolo.
+
+Use o Mediterrâneo oriental do século I e ajuste a cidade conforme a passagem. Considere túnica, manto ou acessórios de viagem conforme a atividade. Os retratos funerários do Egito romano oferecem paralelos regionais para roupa e técnica pictórica.
+
+Mostre artesã em espaço doméstico urbano de Corinto ou Éfeso, com tecido funcional e utensílios discretos.
+
+Referência visual de contexto: Retratos funerários do Egito romano — The Met. https://www.metmuseum.org/exhibitions/listings/2000/mummy-portraits/photo-gallery
+
+Faça um retrato editorial do busto em três quartos, com luz natural difusa e fundo discreto. Priorize materiais compatíveis com a cena. Trate feições, tom de pele, idade e penteado sem atestação individual como escolhas artísticas. Evite estereótipos modernos, texto sobre a imagem e objetos anacrônicos.
+
+Entregue um único retrato quadrado, de uma só pessoa adulta, com roupa discreta. Estilo de retrato histórico editorial realista, de busto, centralizado, com margem acima da cabeça, luz natural difusa, cores terrosas e fundo desfocado. Escolha feições individualizadas, naturais e coerentes com o contexto, sem estereótipos. Mostre a pessoa em repouso, sem cena de confronto. Sem inscrições, marcas, molduras, halos ou elementos gráficos.
+```
+
+## Áquila
+
+[Ficha do personagem](../index.html#p/aquila_279) · [Avatar](./aquila_279.webp)
+
+```text
+ChatGPT, gere um avatar quadrado (1:1) de Áquila para um catálogo brasileiro de personagens bíblicos.
+
+Use como referência textual At 18:1–3,18–26; Rm 16:3–5. Judeu do Ponto e marido de Priscila. Trabalha com Paulo e participa do ensino a Apolo.
+
+Use o Mediterrâneo oriental do século I e ajuste a cidade conforme a passagem. Considere túnica, manto ou acessórios de viagem conforme a atividade. Os retratos funerários do Egito romano oferecem paralelos regionais para roupa e técnica pictórica.
+
+Mostre um artesão adulto em oficina de Corinto, com lona ou couro como hipótese material de trabalho.
+
+Referência visual de contexto: Retratos funerários do Egito romano — The Met. https://www.metmuseum.org/exhibitions/listings/2000/mummy-portraits/photo-gallery
+
+Faça um retrato editorial do busto em três quartos, com luz natural difusa e fundo discreto. Priorize materiais compatíveis com a cena. Trate feições, tom de pele, idade e penteado sem atestação individual como escolhas artísticas. Evite estereótipos modernos, texto sobre a imagem e objetos anacrônicos.
+
+Entregue um único retrato quadrado, de uma só pessoa adulta, com roupa discreta. Estilo de retrato histórico editorial realista, de busto, centralizado, com margem acima da cabeça, luz natural difusa, cores terrosas e fundo desfocado. Escolha feições individualizadas, naturais e coerentes com o contexto, sem estereótipos. Mostre a pessoa em repouso, sem cena de confronto. Sem inscrições, marcas, molduras, halos ou elementos gráficos.
+```
+
+## Lídia
+
+[Ficha do personagem](../index.html#p/lydia_1837) · [Avatar](./lydia_1837.webp)
+
+```text
+ChatGPT, gere um avatar quadrado (1:1) de Lídia para um catálogo brasileiro de personagens bíblicos.
+
+Use como referência textual At 16:11–15,40. Mercadora de púrpura de Tiatira, acolhe Paulo e seus companheiros em Filipos após ser batizada.
+
+Use o Mediterrâneo oriental do século I e ajuste a cidade conforme a passagem. Considere túnica, manto ou acessórios de viagem conforme a atividade. Os retratos funerários do Egito romano oferecem paralelos regionais para roupa e técnica pictórica.
+
+Mostre comerciante em ambiente de Filipos, com uma pequena amostra de tecido tingido como referência ao ofício.
+
+Referência visual de contexto: Retratos funerários do Egito romano — The Met. https://www.metmuseum.org/exhibitions/listings/2000/mummy-portraits/photo-gallery
+
+Faça um retrato editorial do busto em três quartos, com luz natural difusa e fundo discreto. Priorize materiais compatíveis com a cena. Trate feições, tom de pele, idade e penteado sem atestação individual como escolhas artísticas. Evite estereótipos modernos, texto sobre a imagem e objetos anacrônicos.
+
+Entregue um único retrato quadrado, de uma só pessoa adulta, com roupa discreta. Estilo de retrato histórico editorial realista, de busto, centralizado, com margem acima da cabeça, luz natural difusa, cores terrosas e fundo desfocado. Escolha feições individualizadas, naturais e coerentes com o contexto, sem estereótipos. Mostre a pessoa em repouso, sem cena de confronto. Sem inscrições, marcas, molduras, halos ou elementos gráficos.
+```
+
+## Timóteo
+
+[Ficha do personagem](../index.html#p/timotheus_2863) · [Avatar](./timotheus_2863.webp)
+
+```text
+ChatGPT, gere um avatar quadrado (1:1) de Timóteo para um catálogo brasileiro de personagens bíblicos.
+
+Use como referência textual At 16:1–5; 1Co 4:17; 2Tm 1:5. Filho de Eunice, neto de Lóide e companheiro de viagem e trabalho de Paulo. Paulo escreve sobre tê-lo enviado a comunidades.
+
+Use o Mediterrâneo oriental do século I e ajuste a cidade conforme a passagem. Considere túnica, manto ou acessórios de viagem conforme a atividade. Os retratos funerários do Egito romano oferecem paralelos regionais para roupa e técnica pictórica.
+
+Retrate um jovem adulto de Listra com manto de viagem apropriado à Ásia Menor romana.
+
+Referência visual de contexto: Retratos funerários do Egito romano — The Met. https://www.metmuseum.org/exhibitions/listings/2000/mummy-portraits/photo-gallery
+
+Faça um retrato editorial do busto em três quartos, com luz natural difusa e fundo discreto. Priorize materiais compatíveis com a cena. Trate feições, tom de pele, idade e penteado sem atestação individual como escolhas artísticas. Evite estereótipos modernos, texto sobre a imagem e objetos anacrônicos.
+
+Entregue um único retrato quadrado, de uma só pessoa adulta, com roupa discreta. Estilo de retrato histórico editorial realista, de busto, centralizado, com margem acima da cabeça, luz natural difusa, cores terrosas e fundo desfocado. Escolha feições individualizadas, naturais e coerentes com o contexto, sem estereótipos. Mostre a pessoa em repouso, sem cena de confronto. Sem inscrições, marcas, molduras, halos ou elementos gráficos.
+```
