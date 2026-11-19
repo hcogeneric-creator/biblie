@@ -2,6 +2,7 @@
 
 (() => {
   const {people, contexts, books, links} = window.BIBLIE_PERSONAGENS;
+  const avatares = window.BIBLIE_AVATARES;
   const byId = (id) => document.getElementById(id);
   const normalize = (value) => value.normalize("NFD").replace(/\p{Diacritic}/gu, "").toLowerCase().trim();
   const fmt = new Intl.NumberFormat("pt-BR");
@@ -75,8 +76,10 @@
     const query = normalize(byId("busca").value);
     const tokens = query.split(/\s+/).filter(Boolean);
     const period = byId("epoca").value;
+    const comRetrato = byId("com-retrato").checked;
     const matches = ids.filter((id) => {
       if (period && people[id].context !== period) return false;
+      if (comRetrato && !avatares.has(id)) return false;
       return tokens.every((token) => search.get(id).some((name) => name.includes(token)));
     });
     if (query) {
@@ -193,6 +196,17 @@
     const [period, , sourceTitle, source] = contexts[person.context];
     byId("contexto").textContent = period + (person.profile ? "" : " · contexto aproximado");
     byId("nome").textContent = person.name;
+    const retrato = byId("retrato");
+    const imagem = byId("imagem-retrato");
+    const disponivel = avatares.has(id);
+    retrato.hidden = !disponivel;
+    if (disponivel) {
+      imagem.alt = `Retrato artístico de ${person.name}`;
+      imagem.src = `avatares/${id}.webp`;
+    } else {
+      imagem.removeAttribute("src");
+      imagem.alt = "";
+    }
     byId("outros").textContent = person.aliases.length ? `Variantes e títulos de origem: ${person.aliases.slice(0, 12).join(", ")}` : "";
     byId("descricao").textContent = description(person);
     byId("citacao").textContent = person.citation || refText(person.refs[0]);
@@ -257,6 +271,11 @@
       syncSearch();
     });
   }
+  byId("filtro-retratos").hidden = avatares.size === 0;
+  byId("com-retrato").addEventListener("change", () => {
+    limit = pageSize;
+    syncSearch();
+  });
   byId("mais").addEventListener("click", () => {
     limit += pageSize;
     syncSearch();

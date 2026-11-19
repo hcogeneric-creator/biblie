@@ -23,23 +23,32 @@
         <input id="busca" type="search" placeholder="Ex. Débora ou João" autocomplete="off">
         <label for="epoca">Contexto</label>
         <select id="epoca"><option value="">Todos os contextos</option></select>
+        <label id="filtro-retratos" class="filtro-retratos" hidden>
+          <input id="com-retrato" type="checkbox"> Com avatar
+        </label>
         <p id="quantidade" class="nota" aria-live="polite"></p>
         <ul id="resultados" aria-label="Resultados"></ul>
         <button id="mais" type="button" hidden>Mostrar mais</button>
       </aside>
       <article id="ficha" aria-labelledby="nome">
-        <header>
-          <p id="contexto" class="contexto"></p>
-          <h2 id="nome" tabindex="-1"></h2>
-          <p id="outros" class="nota"></p>
-          <p id="descricao"></p>
-          <p id="citacao" class="nota"></p>
-          <nav id="atalhos" class="atalhos" aria-label="Seções da ficha">
-            <a href="#arvore">Genealogia</a>
-            <a href="#rede">Conexões</a>
-            <a href="#avatar">Avatar</a>
-            <a href="#passagens">Passagens</a>
-          </nav>
+        <header class="cabecalho-ficha">
+          <div>
+            <p id="contexto" class="contexto"></p>
+            <h2 id="nome" tabindex="-1"></h2>
+            <p id="outros" class="nota"></p>
+            <p id="descricao"></p>
+            <p id="citacao" class="nota"></p>
+            <nav id="atalhos" class="atalhos" aria-label="Seções da ficha">
+              <a href="#arvore">Genealogia</a>
+              <a href="#rede">Conexões</a>
+              <a href="#avatar">Avatar</a>
+              <a href="#passagens">Passagens</a>
+            </nav>
+          </div>
+          <figure id="retrato" class="retrato" hidden>
+            <img id="imagem-retrato" width="1024" height="1024" decoding="async" alt="">
+            <figcaption class="nota">Recriação artística gerada por IA</figcaption>
+          </figure>
         </header>
         <section id="arvore">
           <h3>Árvore genealógica</h3>
@@ -88,6 +97,7 @@
     <a href="LICENCA-CC-BY-SA.txt">Licença do catálogo adaptado</a>
   </footer>
   <script src="dados.js"></script>
+  <script src="avatares.js"></script>
   <script src="personagens.js"></script>
 </body>
 </html>

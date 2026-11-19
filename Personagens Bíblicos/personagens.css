@@ -49,8 +49,27 @@ h4 { font-size: 1.1rem; margin: 0 0 .7rem; }
 aside, article { border: 1px solid var(--linha); border-radius: .65rem; background: var(--papel); }
 aside { align-self: start; padding: 1rem; position: sticky; top: .5rem; }
 article { padding: clamp(1rem, 3vw, 2.4rem); }
+.cabecalho-ficha:has(.retrato:not([hidden])) {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) clamp(8rem, 23%, 13rem);
+  align-items: start;
+  gap: 1.25rem;
+}
+.retrato { margin: 0; }
+.retrato img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border: 1px solid var(--linha);
+  border-radius: .45rem;
+}
+.retrato figcaption { margin-top: .45rem; font-size: .75rem; }
 label { display: block; margin: .2rem 0 .28rem; font-weight: 650; }
 aside label:not(:first-child) { margin-top: .75rem; }
+.filtro-retratos { display: flex; align-items: center; gap: .45rem; }
+.filtro-retratos input { width: auto; accent-color: var(--verde); }
 .nota, .contexto { color: var(--suave); font-size: .9rem; }
 .contexto { margin: 0; font-weight: 650; }
 #resultados { list-style: none; margin: 0 0 .65rem; padding: 0; max-height: 54vh; overflow: auto; }
@@ -81,6 +100,8 @@ footer { margin: 1.6rem auto 3rem; color: var(--suave); font-size: .9rem; }
   aside { position: static; }
   #resultados { max-height: 14rem; }
   .abertura { margin-top: 1.8rem; }
+  .cabecalho-ficha:has(.retrato:not([hidden])) { grid-template-columns: 1fr; }
+  .retrato { max-width: 12rem; }
 }
 @media (max-width: 410px) {
   .arvore { grid-template-columns: 1fr; }
