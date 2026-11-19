@@ -34,6 +34,7 @@
   font: .94rem/1.45 var(--biblie-ui, sans-serif);
 }
 .biblie-visor::backdrop { background: #0a0c0ada; backdrop-filter: blur(6px); }
+.biblie-visor:not([open]) { display: none; }
 .biblie-visor header, .biblie-visor-base, .biblie-visor nav, .biblie-visor-acoes {
   display: flex;
   align-items: center;
@@ -73,6 +74,7 @@
 }
 .biblie-visor.biblie-apresentacao {
   position: fixed;
+  z-index: 1000;
   inset: 0;
   width: 100%;
   max-width: none;
@@ -88,7 +90,7 @@
 .biblie-apresentacao .biblie-visor-palco img { height: 100%; max-height: none; min-height: 0; }
 .biblie-visor [data-play] { background: #c7ce94; color: #141915; min-width: 5rem; }
 .biblie-visor [data-play]:hover { background: #dbe2ab; }
-body:has(.biblie-apresentacao[open]) { overflow: hidden; }
+body.biblie-apresentacao-aberta { overflow: hidden; }
 @media (max-width: 580px) {
   .biblie-quadros ol { grid-template-columns: 1fr; }
   .biblie-visor-base { flex-wrap: wrap; }

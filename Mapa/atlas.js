@@ -165,7 +165,7 @@ function getResults() {
   const matched = sortedPlaces.filter(place =>
     (full || featured.has(place)) &&
     (!story || story.places.includes(place.slug)) &&
-    (!book || Object.hasOwn(place.refs, book)) &&
+    (!book || Object.prototype.hasOwnProperty.call(place.refs, book)) &&
     (!chapter || place.refs[book]?.some(ref => chapterOf(ref) === chapter)) &&
     (!kind || place.kind === kind) &&
     (!query || searchIndex.get(place).includes(query))
@@ -297,7 +297,7 @@ function detailsReferences(place) {
   const selected = filters.book.value;
   const selectedChapter = filters.chapter.value;
   const entries = Object.keys(BOOKS)
-    .filter(code => (!selected || code === selected) && Object.hasOwn(place.refs, code))
+    .filter(code => (!selected || code === selected) && Object.prototype.hasOwnProperty.call(place.refs, code))
     .map(code => [code, place.refs[code].filter(position => !selectedChapter || chapterOf(position) === selectedChapter)]);
   const total = entries.reduce((sum, entry) => sum + entry[1].length, 0);
   refs.append(element('summary', '', `Referências bíblicas (${number.format(total)})`));

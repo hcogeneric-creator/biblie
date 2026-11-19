@@ -1,11 +1,15 @@
 (() => {
   const base = new URL('./imagens/', document.currentScript.src);
   const dados = window.BIBLIE_CENAS;
+  const visorNativo = typeof HTMLDialogElement !== 'undefined' &&
+    typeof HTMLDialogElement.prototype.showModal === 'function';
   let visor;
 
   function criarVisor() {
     const dialogo = document.createElement('dialog');
     dialogo.className = 'biblie-visor';
+    dialogo.setAttribute('role', 'dialog');
+    dialogo.setAttribute('aria-modal', 'true');
     dialogo.setAttribute('aria-labelledby', 'visor-titulo');
     dialogo.innerHTML = `
       <header>
@@ -42,6 +46,7 @@
     let relogio;
     let retorno;
     let telaAtivada = false;
+    const aberto = () => dialogo.hasAttribute('open');
 
     function agendar() {
       clearTimeout(relogio);
@@ -72,7 +77,7 @@
       if (foco === anterior && anterior.disabled) (proximo.disabled ? fechar : proximo).focus();
       if (foco === proximo && proximo.disabled) (anterior.disabled ? fechar : anterior).focus();
       try { await imagem.decode(); } catch { /* O texto alternativo continua disponível. */ }
-      if (pedido !== versao || !dialogo.open) return;
+      if (pedido !== versao || !aberto()) return;
       const anteriorImagem = palco.lastElementChild;
       anteriorImagem?.classList.remove('quadro-entrando');
       imagem.className = 'quadro-entrando';
@@ -112,7 +117,7 @@
         } else {
           await document.documentElement.requestFullscreen();
           telaAtivada = true;
-          if (!dialogo.open) await document.exitFullscreen();
+          if (!aberto()) await document.exitFullscreen();
         }
       } catch { /* O modo de apresentação já ocupa a janela. */ }
     }
@@ -121,16 +126,35 @@
       if (!document.fullscreenElement) telaAtivada = false;
       telaCheia.textContent = document.fullscreenElement ? 'Sair da tela cheia' : 'Tela cheia';
     });
-    fechar.addEventListener('click', () => dialogo.close());
-    dialogo.addEventListener('close', () => {
-      if (dialogo.open) return;
+    function aoFechar() {
+      if (aberto()) return;
       ++versao;
       controlar(false);
       if (telaAtivada && document.fullscreenElement) document.exitFullscreen().catch(() => {});
       palco.replaceChildren();
+      document.body.classList.remove('biblie-apresentacao-aberta');
       retorno?.focus({preventScroll: true});
-    });
+    }
+    function fecharVisor() {
+      if (visorNativo) dialogo.close();
+      else {
+        dialogo.removeAttribute('open');
+        aoFechar();
+      }
+    }
+    fechar.addEventListener('click', fecharVisor);
+    dialogo.addEventListener('close', aoFechar);
     dialogo.addEventListener('keydown', (evento) => {
+      if (!visorNativo && evento.key === 'Escape') fecharVisor();
+      if (!visorNativo && evento.key === 'Tab') {
+        const botoes = dialogo.querySelectorAll('button:not([hidden]):not(:disabled)');
+        const primeiro = botoes[0];
+        const ultimo = botoes[botoes.length - 1];
+        if (document.activeElement === (evento.shiftKey ? primeiro : ultimo)) {
+          evento.preventDefault();
+          (evento.shiftKey ? ultimo : primeiro).focus();
+        }
+      }
       if (evento.key !== 'ArrowLeft' && evento.key !== 'ArrowRight') return;
       evento.preventDefault();
       percorrer(evento.key === 'ArrowLeft' ? -1 : 1);
@@ -146,7 +170,9 @@
       play.hidden = !apresentacao;
       telaCheia.hidden = !apresentacao || !document.fullscreenEnabled;
       telaCheia.textContent = document.fullscreenElement ? 'Sair da tela cheia' : 'Tela cheia';
-      dialogo.showModal();
+      if (visorNativo) dialogo.showModal();
+      else dialogo.setAttribute('open', '');
+      if (apresentacao) document.body.classList.add('biblie-apresentacao-aberta');
       fechar.focus();
       atualizar();
       controlar(apresentacao);
@@ -171,8 +197,7 @@
       link.href = new URL(arquivo, base);
       link.setAttribute('aria-label', `Ampliar: ${legenda}`);
       link.addEventListener('click', (evento) => {
-        if (evento.ctrlKey || evento.metaKey || evento.altKey || evento.shiftKey ||
-            typeof HTMLDialogElement === 'undefined' || !HTMLDialogElement.prototype.showModal) return;
+        if (evento.ctrlKey || evento.metaKey || evento.altKey || evento.shiftKey || !visorNativo) return;
         evento.preventDefault();
         visor ??= criarVisor();
         visor(titulo, cenas, indice);
@@ -197,8 +222,7 @@
 
   function apresentarParabola(id, titulo) {
     const cenas = dados.parabolas?.[id];
-    if (!cenas?.length || typeof HTMLDialogElement === 'undefined' ||
-        !HTMLDialogElement.prototype.showModal) return null;
+    if (!cenas?.length) return null;
     const botao = document.createElement('button');
     botao.type = 'button';
     botao.className = 'biblie-apresentar';

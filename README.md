@@ -6,6 +6,8 @@ Nas parábolas, use **Apresentar em tela cheia** para passar pelos três quadros
 
 Em **Personagens ilustrados**, selecione um card para abrir a ficha. Na genealogia, abra **Ascendência** ou **Descendência** e expanda os ramos disponíveis para explorar até três gerações por ficha.
 
+Antes de publicar no GitHub Pages, execute `python scripts/versionar_site.py` e inclua as páginas e `versao.json` no commit. O navegador consulta a versão publicada ao abrir a página ou voltar para a aba e carrega os scripts e estilos pelo hash do conteúdo.
+
 | Área | Conteúdo |
 | --- | --- |
 | [Bíblia Cronológica](B%C3%ADblia%20Cronol%C3%B3gica/index.html) | Leitor em sequência cronológica ou canônica, com o texto dos 66 livros. |

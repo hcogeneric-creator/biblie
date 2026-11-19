@@ -329,7 +329,7 @@
       } catch {
         slug = initial;
       }
-      showProfile(Object.hasOwn(people, slug) ? slug : initial, focus);
+      showProfile(Object.prototype.hasOwnProperty.call(people, slug) ? slug : initial, focus);
     } else if (!location.hash) {
       showProfile(initial, focus);
     }
