@@ -16,7 +16,7 @@
   let modo = "cronologico";
   let posicao = 0;
   let mostrandoResumo = false;
-  let versoSelecionado = 0;
+  let selecaoVersiculos = null;
 
   function opcoes(select, items, selecionado) {
     select.replaceChildren(...items.map(([value, label]) => new Option(label, value)));
@@ -104,14 +104,17 @@
         const marca = document.createElement("sup");
         marca.textContent = numero;
         p.append(marca, versiculo);
-        if (numero === versoSelecionado) p.className = "versiculo-destacado";
+        if (selecaoVersiculos && numero >= selecaoVersiculos[0] && numero <= selecaoVersiculos[1]) {
+          p.className = "versiculo-destacado";
+          if (numero === selecaoVersiculos[0]) p.tabIndex = -1;
+        }
         fragmento.append(p);
       }
       ui.versiculos.replaceChildren(fragmento);
     }
     ui.anterior.disabled = posicao === 0;
     ui.seguinte.disabled = posicao === (cronologica ? cronologia : canonica).length - 1;
-    if (versoSelecionado) {
+    if (selecaoVersiculos) {
       ui.versiculos.querySelector(".versiculo-destacado")?.scrollIntoView({ block: "center" });
     } else if (focar) {
       ui.titulo.scrollIntoView({ block: "start" });
@@ -122,18 +125,22 @@
   function abrir() {
     const hash = location.hash.slice(1);
     const trecho = /^bloco-(\d+)(?:\.(\d+))?(\.resumo)?$/.exec(hash);
-    const capitulo = /^([A-Z0-9]{3})\.(\d+)(?:\.(resumo|\d+))?$/.exec(hash);
+    const capitulo = /^([A-Z0-9]{3})\.(\d+)(?:\.(resumo|\d+)(?:-(\d+))?)?$/.exec(hash);
     mostrandoResumo = false;
-    versoSelecionado = 0;
+    selecaoVersiculos = null;
     if (capitulo) {
-      const [, livro, n, tipo] = capitulo;
+      const [, livro, n, tipo, ultimo] = capitulo;
       const codigo = aliasesUsfm[livro] || livro;
       const indice = canonica.findIndex(([c, numero]) => c === codigo && numero === Number(n));
       if (indice !== -1) {
         modo = "canonico";
         posicao = indice;
         mostrandoResumo = Boolean(tipo === "resumo" && resumos[codigo]);
-        versoSelecionado = mostrandoResumo ? 0 : Number(tipo) || 0;
+        const primeiroVersiculo = Number(tipo);
+        const ultimoVersiculo = Number(ultimo ?? tipo);
+        if (primeiroVersiculo > 0 && ultimoVersiculo >= primeiroVersiculo) {
+          selecaoVersiculos = [primeiroVersiculo, ultimoVersiculo];
+        }
         exibir();
         return;
       }
@@ -150,7 +157,7 @@
     modo = novoModo;
     posicao = indice;
     mostrandoResumo = false;
-    versoSelecionado = 0;
+    selecaoVersiculos = null;
     let hash;
     if (modo === "cronologico") {
       const { i, j } = cronologia[indice];

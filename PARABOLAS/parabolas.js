@@ -3,12 +3,16 @@
   const tema = document.querySelector('#tema');
   const total = document.querySelector('#total');
   const aviso = document.querySelector('#aviso-copia');
+  const narracoes = window.BIBLIE_NARRACOES;
   const normalizar = texto => texto.normalize('NFD').replace(/\p{M}/gu, '').toLowerCase().trim();
   const grupos = Array.from(document.querySelectorAll('.grupo'), secao => ({
     secao,
     fichas: Array.from(secao.querySelectorAll('.ficha'), ficha => ({
       ficha,
-      texto: normalizar(Array.from(ficha.querySelectorAll('h3, .referencias, .historia, .ensinamento'), item => item.textContent).join(' ')),
+      texto: normalizar([
+        ...Array.from(ficha.querySelectorAll('h3, .referencias, .historia, .ensinamento'), item => item.textContent),
+        ...(narracoes?.[ficha.id]?.quadros.map(quadro => quadro[1]) ?? []),
+      ].join(' ')),
     })),
   }));
 
@@ -81,6 +85,20 @@
     const galeria = window.BiblieIlustracoes.galeria('parabolas', ficha.id, 'História ilustrada');
     if (!galeria) continue;
     ficha.querySelector('.historia').after(galeria);
+    const roteiro = narracoes?.[ficha.id];
+    if (roteiro) {
+      const transcricao = document.createElement('details');
+      transcricao.className = 'biblie-quadros narracao-transcricao';
+      const titulo = document.createElement('summary');
+      titulo.textContent = 'Ler a transcrição da narração';
+      transcricao.append(titulo);
+      for (const [, texto] of roteiro.quadros) {
+        const paragrafo = document.createElement('p');
+        paragrafo.textContent = texto;
+        transcricao.append(paragrafo);
+      }
+      galeria.after(transcricao);
+    }
     const apresentar = window.BiblieIlustracoes.apresentarParabola(ficha.id, ficha.querySelector('h3').textContent);
     if (apresentar) ficha.querySelector('.acoes').prepend(apresentar);
   }

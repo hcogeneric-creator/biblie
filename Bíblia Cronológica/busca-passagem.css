@@ -1,0 +1,101 @@
+.busca-passagem {
+  grid-column: 1 / -1;
+  padding: clamp(.85rem, 3vw, 1.25rem);
+  border: 1px solid var(--linha);
+  border-radius: .4rem;
+  background: var(--superficie);
+}
+
+.busca-passagem label {
+  display: block;
+  font-size: .9rem;
+  font-weight: 650;
+}
+
+.busca-passagem-campo {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: .5rem;
+  margin-top: .3rem;
+}
+
+.busca-passagem input,
+.busca-passagem select,
+.busca-passagem button {
+  min-height: 44px;
+  font-size: 1rem;
+}
+
+.busca-passagem input {
+  width: 100%;
+  min-width: 0;
+  padding: .5rem .65rem;
+  border: 1px solid var(--linha);
+  border-radius: .35rem;
+  background: var(--superficie);
+  color: inherit;
+}
+
+.busca-passagem [role="listbox"] {
+  position: absolute;
+  z-index: 5;
+  inset: 100% 0 auto;
+  max-height: min(19rem, 45vh);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  margin: .2rem 0 0;
+  padding: .25rem;
+  border: 1px solid var(--linha);
+  border-radius: .35rem;
+  background: var(--superficie);
+  box-shadow: 0 .45rem 1.2rem #29251921;
+  list-style: none;
+}
+
+.busca-passagem [role="option"] {
+  display: flex;
+  align-items: center;
+  min-height: 44px;
+  padding: .4rem .65rem;
+  border-radius: .25rem;
+  cursor: pointer;
+}
+
+.busca-passagem [aria-selected="true"],
+.busca-passagem [role="option"]:hover {
+  background: #e9dfba;
+  color: #302719;
+}
+
+.busca-passagem [role="status"] {
+  margin: .55rem 0 0;
+}
+
+.busca-passagem details {
+  margin-top: .65rem;
+}
+
+.busca-passagem summary {
+  align-content: center;
+  min-height: 44px;
+  width: fit-content;
+  cursor: pointer;
+}
+
+.busca-passagem-selecao {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr)) auto;
+  gap: .6rem;
+  align-items: end;
+}
+
+.busca-passagem-selecao select {
+  margin-top: .25rem;
+}
+
+@media (max-width: 620px) {
+  .busca-passagem-selecao { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .busca-passagem-selecao label:first-child,
+  .busca-passagem-selecao button { grid-column: 1 / -1; }
+}

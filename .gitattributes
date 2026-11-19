@@ -8,5 +8,6 @@
 *.tsv text eol=lf
 *.zip binary
 *.png binary
+*.mp3 binary
 *.webp binary
 *.woff2 binary

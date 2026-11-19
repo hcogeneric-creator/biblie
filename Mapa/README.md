@@ -3,9 +3,10 @@
 Abra [index.html](index.html) em um navegador. O atlas e a base cartográfica funcionam localmente, sem instalar bibliotecas ou acessar a internet. Os links para fontes e para o OpenStreetMap abrem sites externos.
 
 1. Escolha um **episódio bíblico** para ver os lugares relacionados, o contexto e os links para a Bíblia do repositório. Os 44 episódios são uma seleção que vai de Gênesis a Apocalipse.
-2. Use **Livro** e **Capítulo do livro** para encontrar as referências geográficas de uma passagem. Busque também por nome antigo, grafia equivalente em inglês ou nome de uma identificação moderna. A busca consulta todo o índice.
+2. Busque pelo nome antigo, pela grafia em inglês ou pelo nome de uma identificação moderna. **Buscar** abre a ficha quando encontra um único lugar ou uma correspondência exata. Abra **Filtros** para combinar livro, capítulo, tipo de lugar e identificação geográfica.
 3. Ligue ou desligue **Mapa atual** e ajuste a opacidade para comparar os pontos bíblicos com as fronteiras e cidades modernas da base regional. A geografia física de fundo usa costa, lagos e rios modernos.
-4. Clique em um lugar para ler os capítulos correspondentes, examinar as hipóteses e abrir uma posição no **Mapa atual detalhado**. Um marcador tracejado representa uma região ou povo.
+4. Selecione um ponto ou toque em **Ver lista de lugares** no celular. A ficha reúne as referências, as hipóteses e o link para o **Mapa atual detalhado**. Um marcador tracejado representa uma região ou povo.
+5. Na versão web, **Copiar link** compartilha o lugar, a hipótese, os filtros e a intensidade da camada atual.
 
 ## Cobertura e interpretação
 

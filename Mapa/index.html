@@ -6,68 +6,100 @@
   <meta name="color-scheme" content="light">
   <meta name="description" content="Atlas bíblico interativo com episódios, referências e comparação com o mapa atual.">
   <title>Atlas bíblico · Biblie</title>
-  <meta name="biblie-versao" content="0337c498c20d">
+  <meta name="biblie-versao" content="83b05b805ac2">
   <script src="../assets/atualizar.js?v=b09e21be9422" defer></script>
   <link rel="stylesheet" href="leaflet/leaflet.css?v=337bfca5cabd">
-  <link rel="stylesheet" href="atlas.css?v=31f50371cf97">
-  <link rel="stylesheet" href="../Ilustra%C3%A7%C3%B5es/galerias.css?v=1f3211c81c01">
-  <link rel="stylesheet" href="../tema.css?v=9d475837cf38">
+  <link rel="stylesheet" href="atlas.css?v=05abb5e52188">
+  <link rel="stylesheet" href="../Ilustra%C3%A7%C3%B5es/galerias.css?v=d99c29b0f623">
+  <link rel="stylesheet" href="../tema.css?v=0585d07a62c6">
   <script defer src="leaflet/leaflet.js?v=db49d009c841"></script>
   <script defer src="base-moderna.js?v=9e27c278d21c"></script>
   <script defer src="dados-biblicos.js?v=65e0beaaafaf"></script>
   <script defer src="../Ilustra%C3%A7%C3%B5es/dados-galerias.js?v=d31aa25fa45e"></script>
-  <script defer src="../Ilustra%C3%A7%C3%B5es/galerias.js?v=a8899a14575c"></script>
-  <script defer src="atlas.js?v=fca2dfe11373"></script>
+  <script defer src="../Ilustra%C3%A7%C3%B5es/galerias.js?v=c7a7e1e88466"></script>
+  <script defer src="atlas.js?v=2fd1ad0965c0"></script>
 </head>
 <body class="atlas-biblico">
-  <header class="shell masthead">
-    <a class="home" href="../index.html">Biblie</a>
-    <a class="guide" href="#fontes">Dados e fontes</a>
+  <header class="masthead">
+    <div class="shell masthead-inner">
+      <a class="home" href="../index.html">Biblie</a>
+      <nav aria-label="Biblioteca">
+        <a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html">Leitor</a>
+        <a class="guide" href="#fontes">Dados e fontes</a>
+      </nav>
+    </div>
   </header>
   <main class="shell">
     <header class="intro">
-      <div>
+      <div class="intro-copy">
         <h1>Atlas bíblico</h1>
-        <p>Explore os lugares da Bíblia e compare os nomes antigos com o mapa atual.</p>
+        <p>Localize cidades e povos da Bíblia no mapa e veja onde aparecem no texto.</p>
+        <dl class="overview">
+          <div><dt>Lugares no índice</dt><dd id="place-total">—</dd></div>
+          <div><dt>Episódios bíblicos</dt><dd id="story-total">—</dd></div>
+        </dl>
       </div>
-      <dl class="overview">
-        <div><dt>Lugares indexados</dt><dd id="place-total">—</dd></div>
-        <div><dt>Episódios</dt><dd id="story-total">—</dd></div>
-      </dl>
+      <figure class="intro-figure">
+        <img src="../Ilustra%C3%A7%C3%B5es/imagens/atlas-galilee-1-01.webp" alt="" width="1536" height="1024" fetchpriority="high">
+        <figcaption>Mar da Galileia · reconstituição ilustrada</figcaption>
+      </figure>
     </header>
     <section class="atlas" aria-label="Consulta geográfica">
       <aside class="controls" aria-label="Filtros do atlas">
-        <fieldset>
-          <legend>Explorar</legend>
-          <div class="field">
-            <label for="episode">Episódio bíblico</label>
-            <select id="episode"><option value="">Todos os episódios</option></select>
-          </div>
-          <div class="parallel">
+        <div class="lookup">
+          <form id="search-form" role="search" aria-label="Buscar lugares no Atlas">
             <div class="field">
-              <label for="book">Livro</label>
-              <select id="book"><option value="">Todos os livros</option></select>
+              <label for="search">Buscar lugar</label>
+              <div class="search-row">
+                <input id="search" type="search" placeholder="Ex. Cafarnaum, Ur, Filístia" autocomplete="off" enterkeyhint="search">
+                <button type="submit" aria-label="Buscar lugar">Buscar</button>
+              </div>
             </div>
-            <div class="field">
-              <label for="kind">Tipo de lugar</label>
-              <select id="kind">
-                <option value="">Todos os tipos</option>
-                <option value="city">Cidades e povoados</option>
-                <option value="region">Regiões e povos</option>
-                <option value="other">Relevo, águas e outros</option>
-              </select>
-            </div>
+          </form>
+          <details id="filter-panel" class="filters">
+            <summary>Filtros<span id="filter-count" hidden></span></summary>
+            <fieldset aria-label="Filtros de lugares">
+              <div class="field">
+                <label for="episode">Episódio bíblico</label>
+                <select id="episode"><option value="">Todos os episódios</option></select>
+              </div>
+              <div class="parallel">
+                <div class="field">
+                  <label for="book">Livro</label>
+                  <select id="book"><option value="">Todos os livros</option></select>
+                </div>
+                <div class="field">
+                  <label for="kind">Tipo de lugar</label>
+                  <select id="kind">
+                    <option value="">Todos os tipos</option>
+                    <option value="city">Cidades e povoados</option>
+                    <option value="region">Regiões e povos</option>
+                    <option value="other">Relevo, águas e outros</option>
+                  </select>
+                </div>
+              </div>
+              <div class="field" id="chapter-field" hidden>
+                <label for="chapter">Capítulo do livro</label>
+                <select id="chapter"><option value="">Todos os capítulos</option></select>
+              </div>
+              <div class="field">
+                <label for="confidence">Identificação geográfica</label>
+                <select id="confidence">
+                  <option value="">Todas as identificações</option>
+                  <option value="strong">Bem identificada</option>
+                  <option value="approximate">Aproximada</option>
+                  <option value="disputed">Disputada</option>
+                  <option value="unknown">Sem posição mapeada</option>
+                </select>
+              </div>
+              <label class="check"><input type="checkbox" id="all-places"> Mostrar todo o índice geográfico</label>
+            </fieldset>
+          </details>
+          <div class="lookup-actions">
+            <a class="jump-list" href="#results-heading">Ver lista de lugares</a>
+            <button class="quiet-button" id="clear-filters" type="button" hidden>Limpar filtros</button>
           </div>
-          <div class="field" id="chapter-field" hidden>
-            <label for="chapter">Capítulo do livro</label>
-            <select id="chapter"><option value="">Todos os capítulos</option></select>
-          </div>
-          <div class="field">
-            <label for="search">Buscar por nome antigo ou atual</label>
-            <input id="search" type="search" placeholder="Ex.: Cafarnaum, Ur, Filístia" autocomplete="off">
-          </div>
-          <label class="check"><input type="checkbox" id="all-places"> Mostrar todo o índice geográfico</label>
-        </fieldset>
+        </div>
         <section class="story" id="story" aria-labelledby="story-title" hidden>
           <h2 id="story-title"></h2>
           <p id="story-note"></p>
@@ -75,7 +107,7 @@
         </section>
         <section class="results" aria-labelledby="results-heading">
           <div class="results-bar">
-            <h2 id="results-heading">Lugares</h2>
+            <h2 id="results-heading" tabindex="-1">Lugares</h2>
             <span id="result-count" role="status" aria-live="polite"></span>
           </div>
           <ul id="result-list"></ul>
@@ -85,17 +117,29 @@
       <section class="map-panel" aria-label="Mapa e informações do local">
         <div class="map-toolbar">
           <div class="layer">
-            <label class="check"><input type="checkbox" id="modern" checked> Mapa atual</label>
+            <label class="check comparison"><input type="checkbox" id="modern" checked> Mapa atual</label>
             <label for="opacity" class="visually-hidden">Opacidade do mapa atual</label>
             <input type="range" id="opacity" min="0" max="100" value="72">
             <output id="opacity-value" for="opacity">72%</output>
           </div>
-          <button id="reframe" type="button">Enquadrar lugares</button>
+          <div class="map-actions">
+            <button id="reframe" type="button">Enquadrar</button>
+            <button id="share-map" type="button" hidden>Copiar link</button>
+          </div>
         </div>
         <div id="map" aria-label="Mapa navegável. Use as teclas de seta para mover e mais ou menos para alterar o zoom."></div>
+        <div class="map-state">
+          <span id="mapped-count"></span>
+          <button id="view-place" type="button" class="quiet-button" hidden>Ver ficha</button>
+          <span id="share-status" role="status"></span>
+        </div>
+        <div class="share-fallback" id="share-fallback" hidden>
+          <label for="share-link">Link desta vista</label>
+          <input id="share-link" type="url" readonly>
+        </div>
         <div class="map-legend" aria-label="Legenda">
-          <span><i class="dot strong"></i> Localização bem identificada</span>
-          <span><i class="dot approximate"></i> Aproximada ou regional</span>
+          <span><i class="dot strong"></i> Bem identificada</span>
+          <span><i class="dot approximate"></i> Aproximada</span>
           <span><i class="dot disputed"></i> Disputada</span>
           <span><i class="dot region"></i> Região ou povo</span>
         </div>

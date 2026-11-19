@@ -20,6 +20,8 @@
         </div>
       </header>
       <div class="biblie-visor-palco"></div>
+      <div class="biblie-karaoke" data-karaoke hidden aria-hidden="true"></div>
+      <p class="biblie-status-audio" data-status-audio role="status" hidden></p>
       <div class="biblie-visor-base">
         <p data-legenda aria-live="polite"></p>
         <nav aria-label="Navegar pelos quadros">
@@ -41,16 +43,28 @@
     let posicao;
     let tocando = false;
     let apresentacao = false;
+    let narrada = false;
     let carregando = false;
     let versao = 0;
     let relogio;
     let retorno;
     let telaAtivada = false;
     const aberto = () => dialogo.hasAttribute('open');
+    const narracao = window.BiblieNarracao?.criar(dialogo, {
+      quadro(indice) {
+        posicao = indice;
+        atualizar();
+      },
+      terminou: () => controlar(false),
+      indisponivel() {
+        narrada = false;
+        controlar(false);
+      },
+    });
 
     function agendar() {
       clearTimeout(relogio);
-      if (!tocando || carregando) return;
+      if (!tocando || carregando || narrada) return;
       relogio = setTimeout(() => {
         if (posicao === cenas.length - 1) controlar(false);
         else percorrer(1);
@@ -60,6 +74,7 @@
     function controlar(valor) {
       tocando = valor;
       play.textContent = tocando ? 'Pause' : 'Play';
+      if (narrada) narracao.tocar(tocando);
       agendar();
     }
 
@@ -93,8 +108,11 @@
     function percorrer(passo) {
       const destino = posicao + passo;
       if (destino < 0 || destino >= cenas.length) return;
-      posicao = destino;
-      atualizar();
+      if (narrada) narracao.ir(destino);
+      else {
+        posicao = destino;
+        atualizar();
+      }
     }
 
     anterior.addEventListener('click', () => percorrer(-1));
@@ -102,9 +120,8 @@
     play.addEventListener('click', () => {
       if (tocando) controlar(false);
       else {
-        if (posicao === cenas.length - 1) {
-          posicao = 0;
-          atualizar();
+        if (narrada ? narracao.terminou() : posicao === cenas.length - 1) {
+          percorrer(-posicao);
         }
         controlar(true);
       }
@@ -130,6 +147,8 @@
       if (aberto()) return;
       ++versao;
       controlar(false);
+      narracao?.desativar();
+      narrada = false;
       if (telaAtivada && document.fullscreenElement) document.exitFullscreen().catch(() => {});
       palco.replaceChildren();
       document.body.classList.remove('biblie-apresentacao-aberta');
@@ -160,7 +179,7 @@
       percorrer(evento.key === 'ArrowLeft' ? -1 : 1);
     });
 
-    return (titulo, sequencia, indice, exibirApresentacao = false) => {
+    return (titulo, sequencia, indice, exibirApresentacao = false, roteiro = null) => {
       dialogo.querySelector('h2').textContent = titulo;
       cenas = sequencia;
       posicao = indice;
@@ -174,6 +193,7 @@
       else dialogo.setAttribute('open', '');
       if (apresentacao) document.body.classList.add('biblie-apresentacao-aberta');
       fechar.focus();
+      narrada = Boolean(narracao?.abrir(roteiro));
       atualizar();
       controlar(apresentacao);
       if (apresentacao && document.fullscreenEnabled && !document.fullscreenElement) alternarTelaCheia();
@@ -229,7 +249,7 @@
     botao.textContent = 'Apresentar em tela cheia';
     botao.addEventListener('click', () => {
       visor ??= criarVisor();
-      visor(titulo, cenas, 0, true);
+      visor(titulo, cenas, 0, true, window.BIBLIE_NARRACOES?.[id]);
     });
     return botao;
   }
