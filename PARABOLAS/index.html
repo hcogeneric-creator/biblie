@@ -1,0 +1,561 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Parábolas da Bíblia · Biblie</title>
+  <link rel="stylesheet" href="../estilo.css">
+  <link rel="stylesheet" href="parabolas.css">
+  <script src="parabolas.js" defer></script>
+</head>
+<body>
+<header class="barra">
+  <a class="marca" href="../index.html">Biblie</a>
+  <nav aria-label="Áreas de estudo">
+    <a href="../index.html#livros">Livros</a>
+    <a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html">Bíblia Cronológica</a>
+  </nav>
+</header>
+<main class="biblioteca parabolas">
+  <section class="abertura">
+    <h1>Parábolas da Bíblia</h1>
+    <p>Encontre as histórias de Jesus por tema ou passagem. Cada ficha traz um reconto breve, o ensinamento e a referência bíblica.</p>
+    <a href="COLETANEA.md">Abrir coletânea em Markdown</a>
+  </section>
+  <div class="filtros" hidden>
+    <div>
+      <label for="busca">Buscar por história, palavra ou passagem</label>
+      <input type="search" id="busca" placeholder="Ex. Samaritano ou Lucas 10">
+    </div>
+    <div>
+      <label for="tema">Tema</label>
+      <select id="tema">
+        <option value="">Todos os temas</option>
+        <option value="reino">O Reino e seu crescimento</option>
+        <option value="misericordia">Misericórdia, perdão e oração</option>
+        <option value="resposta">Convite e resposta</option>
+        <option value="responsabilidade">Responsabilidade e vigilância</option>
+        <option value="joao">Imagens no Evangelho de João</option>
+        <option value="antigo">Narrativas figuradas do Antigo Testamento</option>
+      </select>
+    </div>
+  </div>
+  <p id="total" role="status" hidden></p>
+  <p id="aviso-copia" class="somente-leitor" role="status"></p>
+
+  <section class="grupo" data-tema="reino" aria-labelledby="titulo-reino">
+    <h2 id="titulo-reino">O Reino e seu crescimento</h2>
+    <div class="fichas">
+      <article class="ficha" id="o-semeador">
+        <h3>O semeador</h3>
+        <p class="referencias"><a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html#MAT.13.1">Mateus 13:1–23</a> · <a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html#MRK.4.1">Marcos 4:1–20</a> · <a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html#LUK.8.4">Lucas 8:4–15</a></p>
+        <p class="historia">Um semeador espalha sementes. Aves comem as que caem no caminho. Outras secam em solo pedregoso ou são sufocadas por espinhos. Em terra boa, as sementes crescem e produzem uma colheita abundante.</p>
+        <p class="ensinamento"><strong>Ensinamento.</strong> Jesus distingue maneiras de acolher a palavra. A perseverança permite que ela dê fruto apesar de dificuldades e distrações.</p>
+        <div class="acoes">
+          <button type="button" class="copiar" aria-label="Copiar ficha de O semeador" hidden>Copiar ficha</button>
+          <a href="#o-semeador" aria-label="Link para a ficha de O semeador">Link da ficha</a>
+        </div>
+      </article>
+      <article class="ficha" id="a-semente-que-cresce">
+        <h3>A semente que cresce</h3>
+        <p class="referencias"><a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html#MRK.4.26">Marcos 4:26–29</a></p>
+        <p class="historia">Um agricultor semeia. Enquanto ele segue sua rotina, a semente brota e cresce sem que saiba como. Quando o grão amadurece, chega a colheita.</p>
+        <p class="ensinamento"><strong>Ensinamento.</strong> O Reino de Deus tem um crescimento que escapa ao controle do semeador, embora ele possa reconhecer seus frutos.</p>
+        <div class="acoes">
+          <button type="button" class="copiar" aria-label="Copiar ficha de A semente que cresce" hidden>Copiar ficha</button>
+          <a href="#a-semente-que-cresce" aria-label="Link para a ficha de A semente que cresce">Link da ficha</a>
+        </div>
+      </article>
+      <article class="ficha" id="o-joio-e-o-trigo">
+        <h3>O joio e o trigo</h3>
+        <p class="referencias"><a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html#MAT.13.24">Mateus 13:24–30</a> · <a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html#MAT.13.36">Mateus 13:36–43</a></p>
+        <p class="historia">À noite, um inimigo semeia joio entre o trigo. O dono espera pela colheita para separar as plantas, pois arrancar o joio cedo poderia destruir o trigo.</p>
+        <p class="ensinamento"><strong>Ensinamento.</strong> A explicação associa a colheita ao juízo final. A espera protege o trigo e reserva a separação aos encarregados da colheita.</p>
+        <div class="acoes">
+          <button type="button" class="copiar" aria-label="Copiar ficha de O joio e o trigo" hidden>Copiar ficha</button>
+          <a href="#o-joio-e-o-trigo" aria-label="Link para a ficha de O joio e o trigo">Link da ficha</a>
+        </div>
+      </article>
+      <article class="ficha" id="o-grao-de-mostarda">
+        <h3>O grão de mostarda</h3>
+        <p class="referencias"><a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html#MAT.13.31">Mateus 13:31–32</a> · <a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html#MRK.4.30">Marcos 4:30–32</a> · <a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html#LUK.13.18">Lucas 13:18–19</a></p>
+        <p class="historia">Uma semente muito pequena cresce até que seus ramos abrigam aves.</p>
+        <p class="ensinamento"><strong>Ensinamento.</strong> A imagem do contraste entre a semente e os ramos ajuda a imaginar o alcance do Reino a partir de um começo discreto.</p>
+        <div class="acoes">
+          <button type="button" class="copiar" aria-label="Copiar ficha de O grão de mostarda" hidden>Copiar ficha</button>
+          <a href="#o-grao-de-mostarda" aria-label="Link para a ficha de O grão de mostarda">Link da ficha</a>
+        </div>
+      </article>
+      <article class="ficha" id="o-fermento">
+        <h3>O fermento</h3>
+        <p class="referencias"><a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html#MAT.13.33">Mateus 13:33</a> · <a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html#LUK.13.20">Lucas 13:20–21</a></p>
+        <p class="historia">Uma mulher mistura fermento em uma grande porção de farinha. Com o tempo, toda a massa fermenta.</p>
+        <p class="ensinamento"><strong>Ensinamento.</strong> O Reino age de maneira discreta e transforma o conjunto em que se encontra.</p>
+        <div class="acoes">
+          <button type="button" class="copiar" aria-label="Copiar ficha de O fermento" hidden>Copiar ficha</button>
+          <a href="#o-fermento" aria-label="Link para a ficha de O fermento">Link da ficha</a>
+        </div>
+      </article>
+      <article class="ficha" id="o-tesouro-escondido">
+        <h3>O tesouro escondido</h3>
+        <p class="referencias"><a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html#MAT.13.44">Mateus 13:44</a></p>
+        <p class="historia">Alguém encontra um tesouro escondido, cobre-o novamente e vende tudo com alegria para adquirir o campo.</p>
+        <p class="ensinamento"><strong>Ensinamento.</strong> Reconhecer o valor do Reino pode mudar todas as outras prioridades.</p>
+        <div class="acoes">
+          <button type="button" class="copiar" aria-label="Copiar ficha de O tesouro escondido" hidden>Copiar ficha</button>
+          <a href="#o-tesouro-escondido" aria-label="Link para a ficha de O tesouro escondido">Link da ficha</a>
+        </div>
+      </article>
+      <article class="ficha" id="a-perola-de-grande-valor">
+        <h3>A pérola de grande valor</h3>
+        <p class="referencias"><a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html#MAT.13.45">Mateus 13:45–46</a></p>
+        <p class="historia">Um comerciante procura pérolas finas. Ao encontrar uma de valor excepcional, vende seus bens e compra a pérola.</p>
+        <p class="ensinamento"><strong>Ensinamento.</strong> A descoberta do Reino mobiliza discernimento e decisão.</p>
+        <div class="acoes">
+          <button type="button" class="copiar" aria-label="Copiar ficha de A pérola de grande valor" hidden>Copiar ficha</button>
+          <a href="#a-perola-de-grande-valor" aria-label="Link para a ficha de A pérola de grande valor">Link da ficha</a>
+        </div>
+      </article>
+      <article class="ficha" id="a-rede-de-pesca">
+        <h3>A rede de pesca</h3>
+        <p class="referencias"><a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html#MAT.13.47">Mateus 13:47–50</a></p>
+        <p class="historia">Pescadores recolhem peixes de vários tipos em uma rede. Chegando à praia, guardam os bons e descartam os demais.</p>
+        <p class="ensinamento"><strong>Ensinamento.</strong> Jesus compara a triagem ao juízo no fim dos tempos.</p>
+        <div class="acoes">
+          <button type="button" class="copiar" aria-label="Copiar ficha de A rede de pesca" hidden>Copiar ficha</button>
+          <a href="#a-rede-de-pesca" aria-label="Link para a ficha de A rede de pesca">Link da ficha</a>
+        </div>
+      </article>
+      <article class="ficha" id="a-lampada-acesa">
+        <h3>A lâmpada acesa</h3>
+        <p class="referencias"><a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html#MAT.5.14">Mateus 5:14–16</a> · <a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html#MRK.4.21">Marcos 4:21–25</a> · <a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html#LUK.8.16">Lucas 8:16–18</a> · <a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html#LUK.11.33">Lucas 11:33–36</a></p>
+        <p class="historia">Quem acende uma lâmpada a coloca num suporte, onde pode iluminar quem está na casa.</p>
+        <p class="ensinamento"><strong>Ensinamento.</strong> Em Mateus, as boas obras iluminam outras pessoas. Em Marcos e Lucas, a imagem acompanha o que será revelado e a atenção com que se ouve.</p>
+        <div class="acoes">
+          <button type="button" class="copiar" aria-label="Copiar ficha de A lâmpada acesa" hidden>Copiar ficha</button>
+          <a href="#a-lampada-acesa" aria-label="Link para a ficha de A lâmpada acesa">Link da ficha</a>
+        </div>
+      </article>
+      <article class="ficha" id="a-roupa-remendada-e-o-vinho-novo">
+        <h3>A roupa remendada e o vinho novo</h3>
+        <p class="referencias"><a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html#MAT.9.14">Mateus 9:14–17</a> · <a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html#MRK.2.18">Marcos 2:18–22</a> · <a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html#LUK.5.33">Lucas 5:33–39</a></p>
+        <p class="historia">Um remendo novo pode rasgar a roupa velha. O vinho novo pode romper odres envelhecidos. Jesus usa as imagens ao responder a uma pergunta sobre o jejum de seus discípulos.</p>
+        <p class="ensinamento"><strong>Ensinamento.</strong> A presença de Jesus muda as circunstâncias e ajuda a discernir práticas adequadas a cada momento.</p>
+        <div class="acoes">
+          <button type="button" class="copiar" aria-label="Copiar ficha de A roupa remendada e o vinho novo" hidden>Copiar ficha</button>
+          <a href="#a-roupa-remendada-e-o-vinho-novo" aria-label="Link para a ficha de A roupa remendada e o vinho novo">Link da ficha</a>
+        </div>
+      </article>
+      <article class="ficha" id="o-dono-da-casa-e-seu-tesouro">
+        <h3>O dono da casa e seu tesouro</h3>
+        <p class="referencias"><a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html#MAT.13.51">Mateus 13:51–52</a></p>
+        <p class="historia">Um chefe de família tira do seu tesouro coisas novas e antigas. Jesus o compara ao escriba instruído no Reino.</p>
+        <p class="ensinamento"><strong>Ensinamento.</strong> Quem aprende sobre o Reino pode mobilizar o conhecimento recebido e o entendimento recém-adquirido.</p>
+        <div class="acoes">
+          <button type="button" class="copiar" aria-label="Copiar ficha de O dono da casa e seu tesouro" hidden>Copiar ficha</button>
+          <a href="#o-dono-da-casa-e-seu-tesouro" aria-label="Link para a ficha de O dono da casa e seu tesouro">Link da ficha</a>
+        </div>
+      </article>
+      <article class="ficha" id="a-figueira-que-anuncia-a-estacao">
+        <h3>A figueira que anuncia a estação</h3>
+        <p class="referencias"><a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html#MAT.24.32">Mateus 24:32–35</a> · <a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html#MRK.13.28">Marcos 13:28–31</a> · <a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html#LUK.21.29">Lucas 21:29–33</a></p>
+        <p class="historia">Quando a figueira brota, seus ramos anunciam a chegada do verão. Lucas menciona também as outras árvores.</p>
+        <p class="ensinamento"><strong>Ensinamento.</strong> A mudança visível das árvores ensina a reconhecer a proximidade do que Jesus anuncia no discurso.</p>
+        <div class="acoes">
+          <button type="button" class="copiar" aria-label="Copiar ficha de A figueira que anuncia a estação" hidden>Copiar ficha</button>
+          <a href="#a-figueira-que-anuncia-a-estacao" aria-label="Link para a ficha de A figueira que anuncia a estação">Link da ficha</a>
+        </div>
+      </article>
+    </div>
+  </section>
+  <section class="grupo" data-tema="misericordia" aria-labelledby="titulo-misericordia">
+    <h2 id="titulo-misericordia">Misericórdia, perdão e oração</h2>
+    <div class="fichas">
+      <article class="ficha" id="o-bom-samaritano">
+        <h3>O bom samaritano</h3>
+        <p class="referencias"><a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html#LUK.10.25">Lucas 10:25–37</a></p>
+        <p class="historia">Um homem ferido por assaltantes fica à beira do caminho entre Jerusalém e Jericó. Um sacerdote e um levita passam adiante. Um samaritano presta primeiros cuidados, leva o ferido a uma hospedaria e paga para que continuem a atendê-lo.</p>
+        <p class="ensinamento"><strong>Ensinamento.</strong> Jesus responde à pergunta sobre o próximo mostrando como uma pessoa se torna próxima de outra pela misericórdia concreta.</p>
+        <div class="acoes">
+          <button type="button" class="copiar" aria-label="Copiar ficha de O bom samaritano" hidden>Copiar ficha</button>
+          <a href="#o-bom-samaritano" aria-label="Link para a ficha de O bom samaritano">Link da ficha</a>
+        </div>
+      </article>
+      <article class="ficha" id="a-ovelha-perdida">
+        <h3>A ovelha perdida</h3>
+        <p class="referencias"><a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html#LUK.15.1">Lucas 15:1–7</a> · <a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html#MAT.18.10">Mateus 18:10–14</a></p>
+        <p class="historia">Uma ovelha se perde. O pastor deixa as demais e sai à procura dela. Em Lucas, convida os amigos a celebrar quando volta com a ovelha.</p>
+        <p class="ensinamento"><strong>Ensinamento.</strong> Lucas associa a alegria ao arrependimento. Mateus aplica a imagem ao cuidado com os pequeninos para que nenhum se perca.</p>
+        <div class="acoes">
+          <button type="button" class="copiar" aria-label="Copiar ficha de A ovelha perdida" hidden>Copiar ficha</button>
+          <a href="#a-ovelha-perdida" aria-label="Link para a ficha de A ovelha perdida">Link da ficha</a>
+        </div>
+      </article>
+      <article class="ficha" id="a-moeda-perdida">
+        <h3>A moeda perdida</h3>
+        <p class="referencias"><a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html#LUK.15.8">Lucas 15:8–10</a></p>
+        <p class="historia">Uma mulher perde uma de suas dez moedas. Acende a lâmpada, varre a casa e procura até encontrá-la. Depois chama amigas e vizinhas para comemorar.</p>
+        <p class="ensinamento"><strong>Ensinamento.</strong> A busca perseverante e a alegria da mulher ilustram a alegria divina por quem se arrepende.</p>
+        <div class="acoes">
+          <button type="button" class="copiar" aria-label="Copiar ficha de A moeda perdida" hidden>Copiar ficha</button>
+          <a href="#a-moeda-perdida" aria-label="Link para a ficha de A moeda perdida">Link da ficha</a>
+        </div>
+      </article>
+      <article class="ficha" id="o-filho-prodigo-e-o-irmao-mais-velho">
+        <h3>O filho pródigo e o irmão mais velho</h3>
+        <p class="referencias"><a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html#LUK.15.11">Lucas 15:11–32</a></p>
+        <p class="historia">O filho mais novo recebe sua parte dos bens e a gasta longe de casa. Passa fome, decide voltar e é recebido com festa. O irmão mais velho se ressente. O pai sai também ao encontro dele e explica a alegria pelo retorno.</p>
+        <p class="ensinamento"><strong>Ensinamento.</strong> A misericórdia acolhe quem retorna e convida quem permaneceu a participar da reconciliação.</p>
+        <div class="acoes">
+          <button type="button" class="copiar" aria-label="Copiar ficha de O filho pródigo e o irmão mais velho" hidden>Copiar ficha</button>
+          <a href="#o-filho-prodigo-e-o-irmao-mais-velho" aria-label="Link para a ficha de O filho pródigo e o irmão mais velho">Link da ficha</a>
+        </div>
+      </article>
+      <article class="ficha" id="o-servo-que-nao-perdoou">
+        <h3>O servo que não perdoou</h3>
+        <p class="referencias"><a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html#MAT.18.21">Mateus 18:21–35</a></p>
+        <p class="historia">Um rei perdoa a dívida enorme de um servo que suplica por prazo. O servo cobra com violência uma dívida muito menor e manda prender o devedor. O rei o chama de volta quando descobre o ocorrido.</p>
+        <p class="ensinamento"><strong>Ensinamento.</strong> O perdão recebido gera a responsabilidade de perdoar de coração.</p>
+        <div class="acoes">
+          <button type="button" class="copiar" aria-label="Copiar ficha de O servo que não perdoou" hidden>Copiar ficha</button>
+          <a href="#o-servo-que-nao-perdoou" aria-label="Link para a ficha de O servo que não perdoou">Link da ficha</a>
+        </div>
+      </article>
+      <article class="ficha" id="os-dois-devedores">
+        <h3>Os dois devedores</h3>
+        <p class="referencias"><a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html#LUK.7.36">Lucas 7:36–50</a></p>
+        <p class="historia">Um credor perdoa duas dívidas de tamanhos diferentes. Jesus pergunta qual devedor o amará mais. A história responde ao julgamento de Simão sobre a mulher que unge os pés de Jesus.</p>
+        <p class="ensinamento"><strong>Ensinamento.</strong> O reconhecimento do perdão recebido ajuda a compreender a gratidão e o amor demonstrados pela mulher.</p>
+        <div class="acoes">
+          <button type="button" class="copiar" aria-label="Copiar ficha de Os dois devedores" hidden>Copiar ficha</button>
+          <a href="#os-dois-devedores" aria-label="Link para a ficha de Os dois devedores">Link da ficha</a>
+        </div>
+      </article>
+      <article class="ficha" id="o-amigo-a-meia-noite">
+        <h3>O amigo à meia-noite</h3>
+        <p class="referencias"><a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html#LUK.11.5">Lucas 11:5–13</a></p>
+        <p class="historia">Um homem pede pão a um amigo à meia-noite para atender um hóspede inesperado. O amigo, já deitado com a família, acaba se levantando e atende ao pedido.</p>
+        <p class="ensinamento"><strong>Ensinamento.</strong> A história acompanha o convite de Jesus a pedir com confiança e a buscar o auxílio divino.</p>
+        <div class="acoes">
+          <button type="button" class="copiar" aria-label="Copiar ficha de O amigo à meia-noite" hidden>Copiar ficha</button>
+          <a href="#o-amigo-a-meia-noite" aria-label="Link para a ficha de O amigo à meia-noite">Link da ficha</a>
+        </div>
+      </article>
+      <article class="ficha" id="a-viuva-persistente-e-o-juiz">
+        <h3>A viúva persistente e o juiz</h3>
+        <p class="referencias"><a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html#LUK.18.1">Lucas 18:1–8</a></p>
+        <p class="historia">Uma viúva pede justiça repetidamente a um juiz indiferente. Cansado de ouvi-la, ele decide atender ao pedido.</p>
+        <p class="ensinamento"><strong>Ensinamento.</strong> O próprio evangelho introduz a história como incentivo à oração perseverante e à confiança na justiça de Deus.</p>
+        <div class="acoes">
+          <button type="button" class="copiar" aria-label="Copiar ficha de A viúva persistente e o juiz" hidden>Copiar ficha</button>
+          <a href="#a-viuva-persistente-e-o-juiz" aria-label="Link para a ficha de A viúva persistente e o juiz">Link da ficha</a>
+        </div>
+      </article>
+      <article class="ficha" id="o-fariseu-e-o-publicano">
+        <h3>O fariseu e o publicano</h3>
+        <p class="referencias"><a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html#LUK.18.9">Lucas 18:9–14</a></p>
+        <p class="historia">No templo, um fariseu enumera suas práticas religiosas e se compara a outros. Um cobrador de impostos reconhece sua culpa e pede misericórdia. Jesus afirma que este volta justificado.</p>
+        <p class="ensinamento"><strong>Ensinamento.</strong> A oração humilde reconhece a própria necessidade de misericórdia e evita o desprezo pelos outros.</p>
+        <div class="acoes">
+          <button type="button" class="copiar" aria-label="Copiar ficha de O fariseu e o publicano" hidden>Copiar ficha</button>
+          <a href="#o-fariseu-e-o-publicano" aria-label="Link para a ficha de O fariseu e o publicano">Link da ficha</a>
+        </div>
+      </article>
+      <article class="ficha" id="a-figueira-sem-frutos">
+        <h3>A figueira sem frutos</h3>
+        <p class="referencias"><a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html#LUK.13.1">Lucas 13:1–9</a></p>
+        <p class="historia">Um proprietário quer cortar uma figueira improdutiva. O trabalhador pede mais um ano para cuidar da terra e tentar que ela dê fruto.</p>
+        <p class="ensinamento"><strong>Ensinamento.</strong> A paciência oferece oportunidade de mudança. O contexto chama ao arrependimento enquanto há tempo.</p>
+        <div class="acoes">
+          <button type="button" class="copiar" aria-label="Copiar ficha de A figueira sem frutos" hidden>Copiar ficha</button>
+          <a href="#a-figueira-sem-frutos" aria-label="Link para a ficha de A figueira sem frutos">Link da ficha</a>
+        </div>
+      </article>
+    </div>
+  </section>
+  <section class="grupo" data-tema="resposta" aria-labelledby="titulo-resposta">
+    <h2 id="titulo-resposta">Convite e resposta</h2>
+    <div class="fichas">
+      <article class="ficha" id="os-dois-construtores">
+        <h3>Os dois construtores</h3>
+        <p class="referencias"><a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html#MAT.7.24">Mateus 7:24–27</a> · <a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html#LUK.6.46">Lucas 6:46–49</a></p>
+        <p class="historia">Duas casas enfrentam uma tempestade ou enchente. A casa com alicerce firme resiste. A outra desaba.</p>
+        <p class="ensinamento"><strong>Ensinamento.</strong> O alicerce representa ouvir e pôr em prática o ensino de Jesus.</p>
+        <div class="acoes">
+          <button type="button" class="copiar" aria-label="Copiar ficha de Os dois construtores" hidden>Copiar ficha</button>
+          <a href="#os-dois-construtores" aria-label="Link para a ficha de Os dois construtores">Link da ficha</a>
+        </div>
+      </article>
+      <article class="ficha" id="os-dois-filhos">
+        <h3>Os dois filhos</h3>
+        <p class="referencias"><a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html#MAT.21.28">Mateus 21:28–32</a></p>
+        <p class="historia">Um pai pede aos dois filhos que trabalhem na vinha. Um recusa e depois vai. O outro promete ir e fica ausente.</p>
+        <p class="ensinamento"><strong>Ensinamento.</strong> A ação revela a resposta ao chamado, e uma recusa inicial ainda pode dar lugar a uma mudança.</p>
+        <div class="acoes">
+          <button type="button" class="copiar" aria-label="Copiar ficha de Os dois filhos" hidden>Copiar ficha</button>
+          <a href="#os-dois-filhos" aria-label="Link para a ficha de Os dois filhos">Link da ficha</a>
+        </div>
+      </article>
+      <article class="ficha" id="os-trabalhadores-da-vinha">
+        <h3>Os trabalhadores da vinha</h3>
+        <p class="referencias"><a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html#MAT.20.1">Mateus 20:1–16</a></p>
+        <p class="historia">Um proprietário contrata trabalhadores em horas diferentes. Ao fim do dia, paga o mesmo valor a todos. Os primeiros reclamam, embora recebam o combinado.</p>
+        <p class="ensinamento"><strong>Ensinamento.</strong> A generosidade do dono expõe a rivalidade de quem mede seu lugar no Reino pela vantagem sobre os demais.</p>
+        <div class="acoes">
+          <button type="button" class="copiar" aria-label="Copiar ficha de Os trabalhadores da vinha" hidden>Copiar ficha</button>
+          <a href="#os-trabalhadores-da-vinha" aria-label="Link para a ficha de Os trabalhadores da vinha">Link da ficha</a>
+        </div>
+      </article>
+      <article class="ficha" id="os-lavradores-que-matam-o-herdeiro">
+        <h3>Os lavradores que matam o herdeiro</h3>
+        <p class="referencias"><a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html#MAT.21.33">Mateus 21:33–46</a> · <a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html#MRK.12.1">Marcos 12:1–12</a> · <a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html#LUK.20.9">Lucas 20:9–19</a></p>
+        <p class="historia">Um proprietário arrenda uma vinha. Seus mensageiros são espancados ou mortos. Os lavradores matam também o filho esperando apropriar-se da herança.</p>
+        <p class="ensinamento"><strong>Ensinamento.</strong> Jesus confronta lideranças que rejeitam os enviados e o Filho e descreve a perda da responsabilidade sobre a vinha.</p>
+        <div class="acoes">
+          <button type="button" class="copiar" aria-label="Copiar ficha de Os lavradores que matam o herdeiro" hidden>Copiar ficha</button>
+          <a href="#os-lavradores-que-matam-o-herdeiro" aria-label="Link para a ficha de Os lavradores que matam o herdeiro">Link da ficha</a>
+        </div>
+      </article>
+      <article class="ficha" id="o-grande-banquete">
+        <h3>O grande banquete</h3>
+        <p class="referencias"><a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html#LUK.14.15">Lucas 14:15–24</a></p>
+        <p class="historia">Os convidados apresentam desculpas e recusam uma ceia. O anfitrião envia o servo às ruas e aos caminhos para convidar quem estava à margem.</p>
+        <p class="ensinamento"><strong>Ensinamento.</strong> O convite alcança pessoas excluídas. Ocupações e prioridades também podem servir de pretexto para recusar o chamado.</p>
+        <div class="acoes">
+          <button type="button" class="copiar" aria-label="Copiar ficha de O grande banquete" hidden>Copiar ficha</button>
+          <a href="#o-grande-banquete" aria-label="Link para a ficha de O grande banquete">Link da ficha</a>
+        </div>
+      </article>
+      <article class="ficha" id="as-bodas-do-filho-do-rei">
+        <h3>As bodas do filho do rei</h3>
+        <p class="referencias"><a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html#MAT.22.1">Mateus 22:1–14</a></p>
+        <p class="historia">Um rei convida pessoas para o casamento do filho. Após recusas e violência, manda buscar convidados pelos caminhos. Na festa, questiona um homem sem traje adequado.</p>
+        <p class="ensinamento"><strong>Ensinamento.</strong> O convite se amplia e pede uma resposta coerente. O grande banquete de Lucas 14:15–24 tem motivos semelhantes e um desenvolvimento próprio.</p>
+        <div class="acoes">
+          <button type="button" class="copiar" aria-label="Copiar ficha de As bodas do filho do rei" hidden>Copiar ficha</button>
+          <a href="#as-bodas-do-filho-do-rei" aria-label="Link para a ficha de As bodas do filho do rei">Link da ficha</a>
+        </div>
+      </article>
+      <article class="ficha" id="os-lugares-a-mesa">
+        <h3>Os lugares à mesa</h3>
+        <p class="referencias"><a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html#LUK.14.7">Lucas 14:7–14</a></p>
+        <p class="historia">Jesus observa convidados escolhendo lugares de honra e propõe ocupar um lugar discreto. Ao anfitrião, sugere convidar pessoas sem meios de retribuir.</p>
+        <p class="ensinamento"><strong>Ensinamento.</strong> Humildade nas escolhas e hospitalidade aberta a quem vive à margem desafiam a busca de prestígio e reciprocidade.</p>
+        <div class="acoes">
+          <button type="button" class="copiar" aria-label="Copiar ficha de Os lugares à mesa" hidden>Copiar ficha</button>
+          <a href="#os-lugares-a-mesa" aria-label="Link para a ficha de Os lugares à mesa">Link da ficha</a>
+        </div>
+      </article>
+      <article class="ficha" id="a-torre-e-o-rei-que-vai-a-guerra">
+        <h3>A torre e o rei que vai à guerra</h3>
+        <p class="referencias"><a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html#LUK.14.25">Lucas 14:25–33</a></p>
+        <p class="historia">Um construtor calcula se pode terminar uma torre. Um rei avalia se pode enfrentar um exército maior e considera pedir a paz.</p>
+        <p class="ensinamento"><strong>Ensinamento.</strong> Jesus pede que seus ouvintes avaliem as exigências de segui-lo antes de assumir o compromisso.</p>
+        <div class="acoes">
+          <button type="button" class="copiar" aria-label="Copiar ficha de A torre e o rei que vai à guerra" hidden>Copiar ficha</button>
+          <a href="#a-torre-e-o-rei-que-vai-a-guerra" aria-label="Link para a ficha de A torre e o rei que vai à guerra">Link da ficha</a>
+        </div>
+      </article>
+      <article class="ficha" id="o-servo-que-volta-do-campo">
+        <h3>O servo que volta do campo</h3>
+        <p class="referencias"><a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html#LUK.17.7">Lucas 17:7–10</a></p>
+        <p class="historia">Um servo retorna do campo e ainda serve o jantar do senhor antes de comer. Jesus usa as expectativas de uma casa da época para falar do serviço.</p>
+        <p class="ensinamento"><strong>Ensinamento.</strong> Cumprir uma responsabilidade convida à humildade e à renúncia de cobrar reconhecimento adicional.</p>
+        <div class="acoes">
+          <button type="button" class="copiar" aria-label="Copiar ficha de O servo que volta do campo" hidden>Copiar ficha</button>
+          <a href="#o-servo-que-volta-do-campo" aria-label="Link para a ficha de O servo que volta do campo">Link da ficha</a>
+        </div>
+      </article>
+    </div>
+  </section>
+  <section class="grupo" data-tema="responsabilidade" aria-labelledby="titulo-responsabilidade">
+    <h2 id="titulo-responsabilidade">Responsabilidade e vigilância</h2>
+    <div class="fichas">
+      <article class="ficha" id="o-rico-insensato">
+        <h3>O rico insensato</h3>
+        <p class="referencias"><a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html#LUK.12.13">Lucas 12:13–21</a></p>
+        <p class="historia">Um homem com uma grande colheita planeja celeiros maiores e anos de descanso. Naquela noite, sua vida é requerida, e sobra a pergunta sobre quem ficará com seus bens.</p>
+        <p class="ensinamento"><strong>Ensinamento.</strong> A acumulação oferece segurança ilusória diante da morte. O episódio chama a ordenar a riqueza em relação a Deus.</p>
+        <div class="acoes">
+          <button type="button" class="copiar" aria-label="Copiar ficha de O rico insensato" hidden>Copiar ficha</button>
+          <a href="#o-rico-insensato" aria-label="Link para a ficha de O rico insensato">Link da ficha</a>
+        </div>
+      </article>
+      <article class="ficha" id="o-administrador-astuto">
+        <h3>O administrador astuto</h3>
+        <p class="referencias"><a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html#LUK.16.1">Lucas 16:1–13</a></p>
+        <p class="historia">Um administrador prestes a perder o cargo reduz dívidas do patrão para garantir acolhimento futuro. O patrão reconhece a astúcia com que ele agiu.</p>
+        <p class="ensinamento"><strong>Ensinamento.</strong> Jesus toma a capacidade de prever consequências como ponto de comparação e, no contexto, pede fidelidade no uso dos bens.</p>
+        <div class="acoes">
+          <button type="button" class="copiar" aria-label="Copiar ficha de O administrador astuto" hidden>Copiar ficha</button>
+          <a href="#o-administrador-astuto" aria-label="Link para a ficha de O administrador astuto">Link da ficha</a>
+        </div>
+      </article>
+      <article class="ficha" id="o-rico-e-lazaro">
+        <h3>O rico e Lázaro</h3>
+        <p class="referencias"><a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html#LUK.16.19">Lucas 16:19–31</a></p>
+        <p class="historia">Um rico festeja enquanto Lázaro, pobre e ferido, permanece junto a seu portão. Depois da morte, a situação se inverte. O rico pede um aviso aos irmãos, e Abraão remete seus irmãos a Moisés e aos profetas.</p>
+        <p class="ensinamento"><strong>Ensinamento.</strong> A história confronta a indiferença diante de quem sofre e ressalta que as Escrituras já oferecem advertência.</p>
+        <div class="acoes">
+          <button type="button" class="copiar" aria-label="Copiar ficha de O rico e Lázaro" hidden>Copiar ficha</button>
+          <a href="#o-rico-e-lazaro" aria-label="Link para a ficha de O rico e Lázaro">Link da ficha</a>
+        </div>
+      </article>
+      <article class="ficha" id="os-servos-vigilantes">
+        <h3>Os servos vigilantes</h3>
+        <p class="referencias"><a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html#LUK.12.35">Lucas 12:35–40</a> · <a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html#MRK.13.33">Marcos 13:33–37</a> · <a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html#MAT.24.42">Mateus 24:42–44</a></p>
+        <p class="historia">Servos aguardam um senhor que pode chegar tarde. Em Lucas, o senhor encontra os servos atentos e os serve. Outras imagens do discurso destacam a chegada inesperada.</p>
+        <p class="ensinamento"><strong>Ensinamento.</strong> A esperança da volta do Senhor se traduz em prontidão durante uma espera de duração desconhecida.</p>
+        <div class="acoes">
+          <button type="button" class="copiar" aria-label="Copiar ficha de Os servos vigilantes" hidden>Copiar ficha</button>
+          <a href="#os-servos-vigilantes" aria-label="Link para a ficha de Os servos vigilantes">Link da ficha</a>
+        </div>
+      </article>
+      <article class="ficha" id="o-administrador-fiel-e-o-abusivo">
+        <h3>O administrador fiel e o abusivo</h3>
+        <p class="referencias"><a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html#MAT.24.45">Mateus 24:45–51</a> · <a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html#LUK.12.41">Lucas 12:41–48</a></p>
+        <p class="historia">O senhor encarrega um servo de distribuir alimento. Um servo fiel cumpre a tarefa. O servo abusivo presume que o senhor demora, agride os demais e é surpreendido no retorno.</p>
+        <p class="ensinamento"><strong>Ensinamento.</strong> Mais responsabilidade implica maior prestação de contas. A demora revela como se usa a autoridade sobre outras pessoas.</p>
+        <div class="acoes">
+          <button type="button" class="copiar" aria-label="Copiar ficha de O administrador fiel e o abusivo" hidden>Copiar ficha</button>
+          <a href="#o-administrador-fiel-e-o-abusivo" aria-label="Link para a ficha de O administrador fiel e o abusivo">Link da ficha</a>
+        </div>
+      </article>
+      <article class="ficha" id="as-dez-virgens">
+        <h3>As dez virgens</h3>
+        <p class="referencias"><a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html#MAT.25.1">Mateus 25:1–13</a></p>
+        <p class="historia">Dez jovens aguardam o noivo com lâmpadas. Cinco levam óleo de reserva. Quando o noivo chega tarde, as que saíram para comprar óleo encontram a porta fechada.</p>
+        <p class="ensinamento"><strong>Ensinamento.</strong> O desfecho dá urgência ao chamado à vigilância e à preparação ao longo da espera.</p>
+        <div class="acoes">
+          <button type="button" class="copiar" aria-label="Copiar ficha de As dez virgens" hidden>Copiar ficha</button>
+          <a href="#as-dez-virgens" aria-label="Link para a ficha de As dez virgens">Link da ficha</a>
+        </div>
+      </article>
+      <article class="ficha" id="os-talentos">
+        <h3>Os talentos</h3>
+        <p class="referencias"><a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html#MAT.25.14">Mateus 25:14–30</a></p>
+        <p class="historia">Um senhor confia quantias diferentes a três servos antes de viajar. Dois negociam e duplicam o valor recebido. O terceiro esconde o dinheiro por medo e o devolve intacto.</p>
+        <p class="ensinamento"><strong>Ensinamento.</strong> A parábola associa confiança recebida a responsabilidade ativa. A mina de Lucas 19 é uma narrativa semelhante com outro cenário e outras quantias.</p>
+        <div class="acoes">
+          <button type="button" class="copiar" aria-label="Copiar ficha de Os talentos" hidden>Copiar ficha</button>
+          <a href="#os-talentos" aria-label="Link para a ficha de Os talentos">Link da ficha</a>
+        </div>
+      </article>
+      <article class="ficha" id="as-minas">
+        <h3>As minas</h3>
+        <p class="referencias"><a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html#LUK.19.11">Lucas 19:11–27</a></p>
+        <p class="historia">Um homem de origem nobre parte para receber autoridade de rei e confia dinheiro a servos. Na volta, avalia o que fizeram, recompensa os que produziram e confronta o servo que guardou a quantia.</p>
+        <p class="ensinamento"><strong>Ensinamento.</strong> Lucas introduz a história ao corrigir expectativas sobre a manifestação imediata do Reino. A espera envolve responsabilidade com o que foi confiado.</p>
+        <div class="acoes">
+          <button type="button" class="copiar" aria-label="Copiar ficha de As minas" hidden>Copiar ficha</button>
+          <a href="#as-minas" aria-label="Link para a ficha de As minas">Link da ficha</a>
+        </div>
+      </article>
+      <article class="ficha" id="as-ovelhas-e-os-bodes">
+        <h3>As ovelhas e os bodes</h3>
+        <p class="referencias"><a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html#MAT.25.31">Mateus 25:31–46</a></p>
+        <p class="historia">O Filho do Homem reúne as nações e as separa como um pastor separa ovelhas de bodes. O julgamento menciona alimento, acolhida, roupa, cuidado aos doentes e visita a presos.</p>
+        <p class="ensinamento"><strong>Ensinamento.</strong> A cena de juízo identifica o tratamento dado aos pequeninos com o tratamento dado ao próprio rei.</p>
+        <div class="acoes">
+          <button type="button" class="copiar" aria-label="Copiar ficha de As ovelhas e os bodes" hidden>Copiar ficha</button>
+          <a href="#as-ovelhas-e-os-bodes" aria-label="Link para a ficha de As ovelhas e os bodes">Link da ficha</a>
+        </div>
+      </article>
+    </div>
+  </section>
+  <section class="grupo" data-tema="joao" aria-labelledby="titulo-joao">
+    <h2 id="titulo-joao">Imagens no Evangelho de João</h2>
+    <div class="fichas">
+      <article class="ficha" id="o-bom-pastor">
+        <h3>O bom pastor</h3>
+        <p class="referencias"><a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html#JHN.10.1">João 10:1–18</a></p>
+        <p class="historia">O pastor chama as ovelhas, que reconhecem sua voz. Jesus se apresenta como porta e como pastor que entrega a vida, em contraste com o empregado que foge diante do perigo.</p>
+        <p class="ensinamento"><strong>Ensinamento.</strong> A figura descreve a relação de cuidado, reconhecimento e entrega entre Jesus e seu povo.</p>
+        <div class="acoes">
+          <button type="button" class="copiar" aria-label="Copiar ficha de O bom pastor" hidden>Copiar ficha</button>
+          <a href="#o-bom-pastor" aria-label="Link para a ficha de O bom pastor">Link da ficha</a>
+        </div>
+      </article>
+      <article class="ficha" id="a-videira-e-os-ramos">
+        <h3>A videira e os ramos</h3>
+        <p class="referencias"><a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html#JHN.15.1">João 15:1–17</a></p>
+        <p class="historia">O agricultor cuida da videira e poda ramos frutíferos. Cada ramo frutifica ligado à videira. Jesus aplica a imagem à relação entre ele, o Pai e os discípulos.</p>
+        <p class="ensinamento"><strong>Ensinamento.</strong> Permanecer em Jesus se expressa em obediência e amor mútuo e torna possível dar fruto.</p>
+        <div class="acoes">
+          <button type="button" class="copiar" aria-label="Copiar ficha de A videira e os ramos" hidden>Copiar ficha</button>
+          <a href="#a-videira-e-os-ramos" aria-label="Link para a ficha de A videira e os ramos">Link da ficha</a>
+        </div>
+      </article>
+    </div>
+  </section>
+  <section class="grupo" data-tema="antigo" aria-labelledby="titulo-antigo">
+    <h2 id="titulo-antigo">Narrativas figuradas do Antigo Testamento</h2>
+    <div class="fichas">
+      <article class="ficha" id="as-arvores-escolhem-um-rei">
+        <h3>As árvores escolhem um rei</h3>
+        <p class="referencias"><a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html#JDG.9.7">Juízes 9:7–21</a></p>
+        <p class="historia">As árvores oferecem o reinado à oliveira, à figueira e à videira, que recusam. O espinheiro aceita, promete sombra e ameaça incendiar os cedros. Jotão conta a fábula depois que Abimeleque chega ao poder.</p>
+        <p class="ensinamento"><strong>Ensinamento.</strong> A escolha do espinheiro revela o risco de legitimar uma liderança destrutiva. Jotão confronta a deslealdade contra a família de Gideão.</p>
+        <div class="acoes">
+          <button type="button" class="copiar" aria-label="Copiar ficha de As árvores escolhem um rei" hidden>Copiar ficha</button>
+          <a href="#as-arvores-escolhem-um-rei" aria-label="Link para a ficha de As árvores escolhem um rei">Link da ficha</a>
+        </div>
+      </article>
+      <article class="ficha" id="a-cordeirinha-do-pobre">
+        <h3>A cordeirinha do pobre</h3>
+        <p class="referencias"><a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html#2SA.12.1">2 Samuel 12:1–14</a></p>
+        <p class="historia">Um rico com muitos rebanhos toma a única cordeira de um pobre para servir a um visitante. Davi condena o homem. Natã então aplica o relato ao que o rei fez a Urias e Bate-Seba.</p>
+        <p class="ensinamento"><strong>Ensinamento.</strong> A história leva quem exerce poder a reconhecer que os critérios de justiça também se aplicam à própria conduta.</p>
+        <div class="acoes">
+          <button type="button" class="copiar" aria-label="Copiar ficha de A cordeirinha do pobre" hidden>Copiar ficha</button>
+          <a href="#a-cordeirinha-do-pobre" aria-label="Link para a ficha de A cordeirinha do pobre">Link da ficha</a>
+        </div>
+      </article>
+      <article class="ficha" id="o-prisioneiro-que-escapou">
+        <h3>O prisioneiro que escapou</h3>
+        <p class="referencias"><a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html#1KI.20.35">1 Reis 20:35–43</a></p>
+        <p class="historia">Um profeta disfarçado diz a Acabe que deixou fugir um prisioneiro confiado à sua guarda. O rei julga o caso. O profeta se identifica e aplica a sentença à decisão de poupar Ben-Hadade.</p>
+        <p class="ensinamento"><strong>Ensinamento.</strong> O rei é confrontado com a responsabilidade por uma decisão que julgava ter liberdade para tomar.</p>
+        <div class="acoes">
+          <button type="button" class="copiar" aria-label="Copiar ficha de O prisioneiro que escapou" hidden>Copiar ficha</button>
+          <a href="#o-prisioneiro-que-escapou" aria-label="Link para a ficha de O prisioneiro que escapou">Link da ficha</a>
+        </div>
+      </article>
+      <article class="ficha" id="o-cardo-e-o-cedro">
+        <h3>O cardo e o cedro</h3>
+        <p class="referencias"><a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html#2KI.14.8">2 Reis 14:8–14</a> · <a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html#2CH.25.17">2 Crônicas 25:17–24</a></p>
+        <p class="historia">Um cardo propõe casamento ao cedro, mas um animal passa e o pisa. Jeoás usa a fábula ao responder ao desafio militar de Amazias.</p>
+        <p class="ensinamento"><strong>Ensinamento.</strong> Uma vitória pode gerar excesso de confiança. A imagem adverte sobre os efeitos da ambição desmedida.</p>
+        <div class="acoes">
+          <button type="button" class="copiar" aria-label="Copiar ficha de O cardo e o cedro" hidden>Copiar ficha</button>
+          <a href="#o-cardo-e-o-cedro" aria-label="Link para a ficha de O cardo e o cedro">Link da ficha</a>
+        </div>
+      </article>
+      <article class="ficha" id="o-cantico-da-vinha">
+        <h3>O cântico da vinha</h3>
+        <p class="referencias"><a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html#ISA.5.1">Isaías 5:1–7</a></p>
+        <p class="historia">O dono prepara terreno, planta boas videiras e espera uvas de qualidade. Colhe frutos ruins e retira a proteção da vinha. O profeta identifica a vinha com Israel e Judá.</p>
+        <p class="ensinamento"><strong>Ensinamento.</strong> O cântico associa o cuidado recebido à expectativa de justiça e denuncia a violência encontrada em seu lugar.</p>
+        <div class="acoes">
+          <button type="button" class="copiar" aria-label="Copiar ficha de O cântico da vinha" hidden>Copiar ficha</button>
+          <a href="#o-cantico-da-vinha" aria-label="Link para a ficha de O cântico da vinha">Link da ficha</a>
+        </div>
+      </article>
+      <article class="ficha" id="as-aguias-o-cedro-e-a-videira">
+        <h3>As águias, o cedro e a videira</h3>
+        <p class="referencias"><a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html#EZK.17.1">Ezequiel 17:1–24</a></p>
+        <p class="historia">Uma grande águia leva a ponta do cedro e planta uma semente que vira videira. A videira se volta para outra águia. A explicação trata de Babilônia, do rei de Judá e da busca de apoio no Egito. O oráculo final promete que Deus plantará um novo ramo.</p>
+        <p class="ensinamento"><strong>Ensinamento.</strong> A alegoria confronta a quebra de juramentos e põe a restauração sob iniciativa divina.</p>
+        <div class="acoes">
+          <button type="button" class="copiar" aria-label="Copiar ficha de As águias, o cedro e a videira" hidden>Copiar ficha</button>
+          <a href="#as-aguias-o-cedro-e-a-videira" aria-label="Link para a ficha de As águias, o cedro e a videira">Link da ficha</a>
+        </div>
+      </article>
+    </div>
+  </section>
+  <footer>
+    Os recontos se baseiam nas passagens indicadas. As fichas de João e do Antigo Testamento incluem também comparações, fábulas e alegorias. Veja os links para as fontes na <a href="COLETANEA.md">coletânea</a>.
+  </footer>
+</main>
+</body>
+</html>

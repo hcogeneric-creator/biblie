@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="pt-BR">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Leitor da Bíblia · Biblie</title>
+<link rel="stylesheet" href="../estilo.css">
+<body>
+<header class="barra">
+  <a class="marca" href="../index.html">Biblie</a>
+  <nav aria-label="Áreas de estudo">
+    <a href="../Personagens%20B%C3%ADblicos/index.html">Personagens</a>
+    <a href="../Mapa/index.html">Mapa</a>
+    <a href="../PARABOLAS/index.html">Parábolas</a>
+  </nav>
+</header>
+<main class="leitor">
+  <aside class="controles">
+    <fieldset>
+      <legend>Ordem de leitura</legend>
+      <label class="alternativa"><input type="radio" name="modo" id="cronologico" checked> Cronológica</label>
+      <label class="alternativa"><input type="radio" name="modo" id="canonico"> Canônica</label>
+    </fieldset>
+    <div id="filtroCronologico">
+      <label for="epoca">Época</label>
+      <select id="epoca"></select>
+      <label for="bloco">Bloco</label>
+      <select id="bloco"></select>
+      <label for="trecho">Trecho do bloco</label>
+      <select id="trecho"></select>
+    </div>
+    <div id="filtroCanonico" hidden>
+      <label for="livro">Livro</label>
+      <select id="livro"></select>
+      <label for="capitulo">Capítulo</label>
+      <select id="capitulo"></select>
+    </div>
+    <div class="atalhos">
+      <a href="ROTEIRO.md">Roteiro completo</a>
+      <a href="README.md">Critérios e fontes</a>
+    </div>
+  </aside>
+  <article class="pagina">
+    <p id="contexto" class="epoca"></p>
+    <h1 id="titulo" tabindex="-1">Bíblia Cronológica</h1>
+    <p id="subtitulo" class="subtitulo"></p>
+    <p class="atalhos">
+      <a id="resumo" href="#titulo">Resumo do livro</a>
+      <a id="texto" href="#titulo">Texto completo do livro</a>
+      <a id="mapaCapitulo" href="../Mapa/index.html">Lugares no mapa</a>
+    </p>
+    <div id="versiculos" class="versiculos"></div>
+    <div id="conteudoResumo" class="versiculos" hidden></div>
+    <nav id="navegacao" class="passagem" aria-label="Navegar entre trechos">
+      <button id="anterior" type="button">← Anterior</button>
+      <button id="seguinte" type="button">Próximo →</button>
+    </nav>
+    <footer>Bíblia Livre, © Diego Santos, Mario Sérgio e Marco Teles, fevereiro de 2018. <a href="../Fonte/README.md">Fonte e licença CC BY 4.0</a>.</footer>
+  </article>
+  <noscript>Ative o JavaScript para usar o leitor ou abra o <a href="ROTEIRO.md">roteiro em Markdown</a> e os arquivos da pasta Livros.</noscript>
+</main>
+<script src="dados.js"></script>
+<script src="leitor.js"></script>
+</body>
+</html>

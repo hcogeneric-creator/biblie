@@ -1,0 +1,30 @@
+# Personagens bíblicos
+
+Abra o [catálogo em HTML](index.html) para pesquisar as **3.079 fichas**, navegar pelas árvores genealógicas, explorar **125 conexões narrativas** e copiar um prompt de avatar para cada entrada. A busca aceita nomes com ou sem acentos. Quando há homônimos, use a passagem que acompanha o nome para distinguir as fichas. A seção **Passagens indexadas** leva à Bíblia Livre já incluída no repositório.
+
+## Cobertura e critérios
+
+- A base cobre os 66 livros da King James Version, que correspondem ao cânon adotado pelo Biblie. Importamos 3.067 entradas do Theographic e incluímos 12 fichas suplementares. O total abrange figuras humanas, celestiais e literárias, com alguns personagens sem nome. A cobertura de figuras anônimas é seletiva.
+- **230 fichas** têm descrição, referências e direção de arte redigidas para o Biblie. Nas demais, a descrição é montada com as referências e os laços que constam do índice. O texto é em português. A grafia original do índice fica disponível entre as variantes e permanece em destaque quando a identificação em português é incerta.
+- Os ramos mostram ascendência e descendência até três gerações por vez, conforme os dados registrados. Abra a ficha de um parente para seguir a linhagem. Alguns laços representam descendência remota ou harmonizações interpretativas. Pais, cônjuges ou filhos que a fonte deixa em aberto ficam sem registro.
+- As conexões narrativas trazem suas referências e podem incluir encontros, colaboração, sucessão e identificações discutidas. A busca de caminho usa essas conexões em conjunto com a genealogia. A sequência encontrada descreve relações registradas entre pessoas e tem o alcance de um índice de estudo. Ela pode atravessar épocas ou passar por uma identificação possível.
+- Para a genealogia de Jesus, consulte separadamente [Mateus 1](../B%C3%ADblia%20Cronol%C3%B3gica/index.html#MAT.1) e [Lucas 3](../B%C3%ADblia%20Cronol%C3%B3gica/index.html#LUK.3). A ficha de Jesus mostra Maria no ramo familiar e José em conexão com a paternidade legal da narrativa de Mateus.
+
+## Pesquisa visual dos avatares
+
+O prompt de cada ficha usa o nome, uma referência bíblica e uma orientação de época ou lugar. Os 230 perfis editoriais têm uma orientação específica de cena, atividade, roupa ou tratamento artístico. Quando faltam evidências individuais, o prompt fala em recriação e indica que feições, idade e penteado são escolhas artísticas. Nos ramos de contexto aproximado, confira as passagens antes de escolher adereços.
+
+Os objetos históricos informam tecido, caimento, ocupação, arquitetura e símbolos de status. Uma pintura de outra região ou uma representação oficial idealizada serve como analogia com alcance limitado. Os links para as coleções aparecem ao lado de cada prompt, e os objetos identificados podem também aparecer como referência complementar. Os prompts podem ser consultados sem internet. As páginas externas dos museus exigem conexão.
+
+- Para os ciclos patriarcais, o fac-símile do túmulo de Khnumhotep II, em Beni Hasan, preserva uma representação egípcia de visitantes do sudoeste asiático. [The Met, inv. 33.8.17](https://www.metmuseum.org/es/-/media/files/about-the-met/curatorial-departments/egyptian/facsimiles/2016-19_walklikeanegyptian_web.pdf?sc_lang=en).
+- Para a Idade do Ferro, os relevos de Laquis, o Obelisco Negro e o relevo de Sargão II mostram convenções figurativas de corte e habitantes dos reinos vizinhos. [British Museum, Laquis](https://www.britishmuseum.org/sites/default/files/2019-09/Arab_World_Resource_Web.pdf) · [Penn Museum, Obelisco Negro](https://oracc2.museum.upenn.edu/nimrud/livesofobjects/blackobelisk/obeliskdiscovery/) · [Louvre, AO 19873](https://collections.louvre.fr/en/ark:/53355/cl010122698).
+- Para a Babilônia e a Pérsia, o painel de leão e os relevos de Persépolis e Susã documentam cores, materiais e certos trajes de corte. [The Met, Babilônia](https://www.metmuseum.org/art/collection/search/322586) · [The Met, Persépolis](https://www.metmuseum.org/art/collection/search/323723) · [Louvre, Susã](https://collections.louvre.fr/ark:/53355/cl010192261).
+- Para o mundo romano, usamos a exposição de vestígios materiais da Judeia, a tradição escultórica romana e retratos funerários do Egito romano. [Museu de Israel, Judeia romana](https://www.imj.org.il/en/exhibitions/cradle-christianity) · [The Met, retratos oficiais](https://www.metmuseum.org/pt/essays/roman-portrait-sculpture-republican-through-constantinian) · [The Met, retratos funerários](https://www.metmuseum.org/exhibitions/listings/2000/mummy-portraits/photo-gallery).
+
+## Proveniência e atualização
+
+`dados.js` adapta o **Theographic Bible Metadata**, de Robert Rouse e colaboradores, edição `b9a84854369502d10cdc7086e58e2794dbfd6722`. O Biblie converte as referências OSIS, adapta a grafia onde possível, normaliza os vínculos genealógicos e acrescenta perfis, contextos e conexões. Os dados derivados ficam sob [CC BY-SA 4.0](LICENCA-CC-BY-SA.txt). A [bibliografia do Theographic](https://github.com/robertrouse/theographic-bible-metadata/blob/b9a84854369502d10cdc7086e58e2794dbfd6722/docs/data-source-bibliography.md) dá crédito, entre outras, às bases [STEPBible TIPNR](https://github.com/STEPBible/STEPBible-Data/tree/master/Proper%20Nouns), [Marshall Genealogy](https://marshallgenealogy.org/bible/index.htm) e [Complete Bible Genealogy](https://complete-bible-genealogy.com/).
+
+A [base original e suas notas de qualidade](https://github.com/robertrouse/theographic-bible-metadata/tree/b9a84854369502d10cdc7086e58e2794dbfd6722) documentam limitações da extração da KJV e de harmonização. O catálogo usa a redação da edição [Bíblia Livre](../Fonte/README.md) para auxiliar na localização do nome e do versículo em português.
+
+O catálogo já inclui os dados para consulta offline. Para regenerá-los, execute `python scripts/gerar_personagens.py` na raiz do repositório. Esse comando baixa a edição fixada do Theographic. Para reaproveitar uma cópia local dos arquivos originais `books.json`, `people.json` e `verses.json`, acrescente `--cache CAMINHO`.

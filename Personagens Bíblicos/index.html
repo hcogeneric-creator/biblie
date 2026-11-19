@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Personagens bíblicos · Biblie</title>
+  <link rel="stylesheet" href="personagens.css">
+</head>
+<body>
+  <header class="barra">
+    <a class="marca" href="../index.html">Biblie</a>
+    <a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html">Bíblia cronológica</a>
+  </header>
+  <main>
+    <header class="abertura">
+      <h1>Personagens bíblicos</h1>
+      <p>Explore as relações de família, encontre conexões nas narrativas e copie prompts para criar avatares.</p>
+    </header>
+    <noscript>Ative o JavaScript para abrir o catálogo e as árvores genealógicas.</noscript>
+    <div class="layout">
+      <aside aria-label="Catálogo de personagens">
+        <label for="busca">Buscar personagem</label>
+        <input id="busca" type="search" placeholder="Ex. Débora ou João" autocomplete="off">
+        <label for="epoca">Contexto</label>
+        <select id="epoca"><option value="">Todos os contextos</option></select>
+        <p id="quantidade" class="nota" aria-live="polite"></p>
+        <ul id="resultados" aria-label="Resultados"></ul>
+        <button id="mais" type="button" hidden>Mostrar mais</button>
+      </aside>
+      <article id="ficha" aria-labelledby="nome">
+        <header>
+          <p id="contexto" class="contexto"></p>
+          <h2 id="nome" tabindex="-1"></h2>
+          <p id="outros" class="nota"></p>
+          <p id="descricao"></p>
+          <p id="citacao" class="nota"></p>
+          <nav id="atalhos" class="atalhos" aria-label="Seções da ficha">
+            <a href="#arvore">Genealogia</a>
+            <a href="#rede">Conexões</a>
+            <a href="#avatar">Avatar</a>
+            <a href="#passagens">Passagens</a>
+          </nav>
+        </header>
+        <section id="arvore">
+          <h3>Árvore genealógica</h3>
+          <p class="nota">Abra os ramos para ver até três gerações. Selecione um nome para abrir sua ficha.</p>
+          <div class="arvore">
+            <div><h4>Ascendência</h4><div id="ascendentes"></div></div>
+            <div><h4>Descendência</h4><div id="descendentes"></div></div>
+          </div>
+          <div id="familia"></div>
+          <p class="nota">Os vínculos importados podem representar linhagens com lacunas. Confira as passagens, especialmente as genealogias de Jesus em Mateus 1 e Lucas 3.</p>
+        </section>
+        <section id="rede">
+          <h3>Conexões nas narrativas</h3>
+          <div id="relacoes"></div>
+          <form id="trajeto">
+            <label for="alvo">Encontrar uma conexão com outro personagem</label>
+            <div class="campo">
+              <input id="alvo" type="search" list="nomes" required placeholder="Digite e selecione um nome" autocomplete="off">
+              <datalist id="nomes"></datalist>
+              <button type="submit">Traçar caminho</button>
+            </div>
+          </form>
+          <div id="caminho" aria-live="polite"></div>
+        </section>
+        <section id="avatar">
+          <h3>Prompt de avatar</h3>
+          <p id="base-visual"></p>
+          <label class="sr-only" for="prompt">Prompt para o ChatGPT</label>
+          <textarea id="prompt" readonly rows="8"></textarea>
+          <div class="campo">
+            <button type="button" id="copiar">Copiar prompt</button>
+            <small id="copiado" aria-live="polite"></small>
+          </div>
+        </section>
+        <details id="passagens">
+          <summary>Passagens indexadas</summary>
+          <p class="nota">Os links abrem as passagens no leitor local. A indexação adapta o Theographic e inclui associações interpretativas.</p>
+          <ul id="versos" class="versos"></ul>
+        </details>
+      </article>
+    </div>
+  </main>
+  <footer>
+    <a href="README.md">Metodologia, fontes e cobertura</a>
+    <span> · </span>
+    <a href="LICENCA-CC-BY-SA.txt">Licença do catálogo adaptado</a>
+  </footer>
+  <script src="dados.js"></script>
+  <script src="personagens.js"></script>
+</body>
+</html>

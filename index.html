@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="pt-BR">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Biblie · Biblioteca bíblica</title>
+<link rel="stylesheet" href="estilo.css">
+<body>
+<header class="barra">
+  <a class="marca" href="index.html">Biblie</a>
+  <nav aria-label="Áreas de estudo">
+    <a href="#livros">Livros</a>
+    <a href="Fonte/README.md">Fonte</a>
+  </nav>
+</header>
+<main class="biblioteca">
+  <section class="abertura">
+    <p class="epoca">Biblioteca bíblica</p>
+    <h1>Da criação à<br>nova criação</h1>
+    <p>Leia a Bíblia em ordem cronológica e explore os personagens, as parábolas e os lugares dos relatos.</p>
+    <a class="botao" href="B%C3%ADblia%20Cronol%C3%B3gica/index.html">Abrir Bíblia Cronológica <span aria-hidden="true">→</span></a>
+  </section>
+  <nav class="colecoes" aria-label="Coleções">
+    <a href="Personagens%20B%C3%ADblicos/index.html"><strong>Personagens bíblicos</strong><span>Perfis, árvores genealógicas e prompts para avatares.</span></a>
+    <a href="PARABOLAS/index.html"><strong>Parábolas</strong><span>Histórias, referências e ensinamentos.</span></a>
+    <a href="Mapa/index.html"><strong>Mapa bíblico</strong><span>Cidades, povos e episódios sobre o mapa atual.</span></a>
+  </nav>
+  <section id="livros" class="estante">
+    <h2>Livros da Bíblia</h2>
+    <label for="buscaLivros">Buscar por nome</label>
+    <input type="search" id="buscaLivros" placeholder="Ex. Lucas">
+    <p id="semLivros" hidden aria-live="polite">Nenhum livro corresponde à busca.</p>
+    <div class="testamentos">
+      <section><h3>Antigo Testamento</h3><ul id="antigo"></ul></section>
+      <section><h3>Novo Testamento</h3><ul id="novo"></ul></section>
+    </div>
+  </section>
+  <footer>Texto bíblico da <a href="Fonte/README.md">Bíblia Livre</a>. Edição com 66 livros.</footer>
+</main>
+<script src="B%C3%ADblia%20Cronol%C3%B3gica/dados.js"></script>
+<script src="catalogo.js"></script>
+</body>
+</html>

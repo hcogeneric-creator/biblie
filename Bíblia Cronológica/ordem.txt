@@ -1,0 +1,59 @@
+# Época | Bloco de leitura | Capítulos por código da edição VPL, na ordem em que serão lidos
+Origens e patriarcas|Criação, humanidade, dilúvio e Babel|GEN 1-11
+Origens e patriarcas|Abraão, Sara e a aliança|GEN 12-25
+Origens e patriarcas|Isaque, Jacó e Esaú|GEN 26-36
+Origens e patriarcas|José e a família de Jacó no Egito|GEN 37-50
+Origens e patriarcas|Jó e o sofrimento (data indeterminada, aproximação temática)|JOB 1-42
+Êxodo e deserto|Escravidão, Moisés, Páscoa e saída do Egito|EXO 1-18
+Êxodo e deserto|Sinai, aliança e tabernáculo|EXO 19-40
+Êxodo e deserto|Sacrifícios, sacerdócio e santidade|LEV 1-27
+Êxodo e deserto|Do Sinai às fronteiras de Moabe|NUM 1-36
+Êxodo e deserto|Discursos finais de Moisés; oração atribuída a Moisés|DEU 1-34; PSA 90
+Terra e juízes|Entrada em Canaã, campanhas e partilha|JOS 1-24
+Terra e juízes|Débora, Gideão, Jefté, Sansão e a crise tribal|JDG 1-21
+Terra e juízes|Rute e Noemi no tempo dos juízes|RUT 1-4
+Monarquia unida|Samuel, Saul e a formação da monarquia|1SA 1-15
+Monarquia unida|Davi na corte e em fuga; Salmos com referências a episódios|1SA 16-31; PSA 34; PSA 52; PSA 54; PSA 56-57; PSA 59; PSA 63; PSA 142
+Monarquia unida|Davi, Jerusalém e a arca; genealogias e paralelos|2SA 1-10; 1CH 1-19
+Monarquia unida|Bate-Seba, Natã, Absalão e o fim do reinado de Davi|2SA 11-24; PSA 3; PSA 18; PSA 51; PSA 60; 1CH 20-29
+Monarquia unida|Salmos com atribuições ou associações davídicas, seleção por assunto|PSA 4-17; PSA 19-32; PSA 35-41; PSA 53; PSA 55; PSA 58; PSA 61-62; PSA 64-70; PSA 86; PSA 101; PSA 103; PSA 108-110; PSA 122; PSA 124; PSA 131; PSA 133; PSA 138-141; PSA 143-145
+Monarquia unida|Salomão e o primeiro templo; relatos paralelos|1KI 1-11; 2CH 1-9; PSA 72; PSA 127
+Monarquia unida|Sabedoria e poesia associadas a Salomão na tradição|PRO 1-31; ECC 1-12; SOL 1-8
+Reinos divididos|Roboão, Jeroboão e o cisma entre Israel e Judá|1KI 12-16; 2CH 10-16
+Reinos divididos|Acabe, Elias e Josafá|1KI 17-22; 2CH 17-20
+Reinos divididos|Eliseu, dinastia de Jeú e conflitos nos dois reinos|2KI 1-13; 2CH 21-24
+Reinos divididos|Jeroboão II; Jonas, Amós e Oseias|2KI 14-15; 2CH 25-27; JON 1-4; AMO 1-9; HOS 1-14
+Reinos divididos|Acaz, a crise assíria e a queda de Samaria (c. 722–720 a.C.)|2KI 16-17; 2CH 28; ISA 1-12; MIC 1-7
+Judá e a Babilônia|Ezequias e a ameaça assíria; campanha de Senaqueribe (701 a.C.)|2KI 18-20; 2CH 29-32; ISA 13-39; PSA 46; PSA 48
+Judá e a Babilônia|Manassés, Amom, Josias e reformas; oráculos de Sofonias|2KI 21-23; 2CH 33-35; ZEP 1-3; NAH 1-3; HAB 1-3
+Judá e a Babilônia|Jeremias antes e durante a crise de Judá|JER 1-20; JER 25-26; JER 35-36; JER 45-49
+Judá e a Babilônia|Primeira tomada de Jerusalém (597 a.C.) e início da missão de Ezequiel|2KI 24; JER 21-24; JER 27-29; JER 37-38; EZE 1-24
+Exílio na Babilônia|Queda de Jerusalém (587/586 a.C.), lamento e memória do exílio|2KI 25; 2CH 36; JER 39-44; JER 52; LAM 1-5; OBA 1; PSA 74; PSA 79; PSA 137
+Exílio na Babilônia|Judá, povos vizinhos e promessas de restauração|JER 30-34; JER 50-51; EZE 25-48
+Exílio na Babilônia|Daniel na corte e suas visões; época narrada e época de composição distintas|DAN 1-12
+Retorno e período persa|Esperança do retorno; a conquista persa da Babilônia (539 a.C.)|ISA 40-55; EZR 1-4; PSA 126
+Retorno e período persa|Ageu, Zacarias e reconstrução do templo|HAG 1-2; ZEC 1-8; EZR 5-6; ISA 56-66
+Retorno e período persa|Ester na corte persa; Esdras e Neemias em Jerusalém|EST 1-10; EZR 7-10; NEH 1-13
+Retorno e período persa|Joel, últimas visões de Zacarias e Malaquias; posição editorial aproximada|JOE 1-3; ZEC 9-14; MAL 1-4
+Poesia litúrgica|Oração, lamento e louvor de Israel; datas variadas ou incertas|PSA 1-2; PSA 33; PSA 42-45; PSA 47; PSA 49-50; PSA 71; PSA 73; PSA 75-78; PSA 80-85; PSA 87-89; PSA 91-100; PSA 102; PSA 104-107; PSA 111-121; PSA 123; PSA 125; PSA 128-130; PSA 132; PSA 134-136; PSA 146-150
+Jesus nos Evangelhos|Prólogo, genealogias, nascimento e infância|JOH 1:1-18; LUK 1-2; MAT 1-2
+Jesus nos Evangelhos|João Batista, batismo, tentação e primeiros discípulos|MAT 3-4; MAR 1; LUK 3-4; JOH 1:19-51; JOH 2-4
+Jesus nos Evangelhos|Ensino, curas e chamado na Galileia|MAT 5-12; MAR 2-3; LUK 5-7
+Jesus nos Evangelhos|Parábolas, sinais, missão e identidade de Jesus|MAT 13-17; MAR 4-9; LUK 8-9; JOH 5-6
+Jesus nos Evangelhos|Caminho para Jerusalém e debates na Judeia|MAT 18-20; MAR 10; LUK 10-18; JOH 7-11
+Jesus nos Evangelhos|Entrada em Jerusalém e ensino final|LUK 19-21; MAT 21-25; MAR 11-13; JOH 12
+Jesus nos Evangelhos|Preparativos e última ceia; discursos de despedida|MAT 26:1-35; MAR 14:1-31; LUK 22:1-38; JOH 13-17
+Jesus nos Evangelhos|Getsêmani, prisão, negação e interrogatórios|MAT 26:36-75; MAR 14:32-72; LUK 22:39-71; JOH 18:1-27
+Jesus nos Evangelhos|Diante de Pilatos, crucificação e sepultamento (c. 30–33 d.C.)|MAT 27; MAR 15; LUK 23; JOH 18:28-40; JOH 19
+Jesus nos Evangelhos|Ressurreição e aparições nos quatro relatos|MAT 28; MAR 16; LUK 24; JOH 20-21
+Igreja e cartas|Pentecostes, Jerusalém, Estêvão e dispersão|ACT 1-8
+Igreja e cartas|Conversão de Saulo e acolhimento dos gentios|ACT 9-12; JAM 1-5
+Igreja e cartas|Primeira viagem missionária e concílio de Jerusalém|ACT 13-15; GAL 1-6
+Igreja e cartas|Segunda viagem, Filipos, Tessalônica, Atenas e Corinto|ACT 16-17; ACT 18:1-17; 1TH 1-5; 2TH 1-3
+Igreja e cartas|Éfeso e a primeira carta aos Coríntios|ACT 18:18-28; ACT 19; 1CO 1-16
+Igreja e cartas|Macedônia, Grécia e cartas a Corinto e Roma|ACT 20:1-6; 2CO 1-13; ROM 1-16; ACT 20:7-38
+Igreja e cartas|Prisão em Jerusalém e julgamentos em Cesareia|ACT 21-26
+Igreja e cartas|Viagem a Roma e cartas do cativeiro (local discutido)|ACT 27-28; EPH 1-6; PHI 1-4; COL 1-4; PHM 1
+Igreja e cartas|Cartas pastorais e gerais (sequência aproximada)|1TI 1-6; TIT 1-3; 2TI 1-4; HEB 1-13; 1PE 1-5; 2PE 1-3; JUD 1
+Igreja e cartas|Escritos joaninos; ordem de composição incerta|1JO 1-5; 2JO 1; 3JO 1
+Visões e esperança|João em Patmos, sete igrejas e visão da nova criação|REV 1-22

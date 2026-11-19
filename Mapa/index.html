@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="Atlas bíblico interativo com episódios, referências e comparação com o mapa atual.">
+  <title>Atlas bíblico · Biblie</title>
+  <link rel="stylesheet" href="leaflet/leaflet.css">
+  <link rel="stylesheet" href="atlas.css">
+  <script defer src="leaflet/leaflet.js"></script>
+  <script defer src="base-moderna.js"></script>
+  <script defer src="dados-biblicos.js"></script>
+  <script defer src="atlas.js"></script>
+</head>
+<body>
+  <header class="shell masthead">
+    <a class="home" href="../index.html">← Biblie</a>
+    <a class="guide" href="#fontes">Dados e fontes</a>
+  </header>
+  <main class="shell">
+    <header class="intro">
+      <div>
+        <h1>Atlas bíblico</h1>
+        <p>Explore os lugares da Bíblia e compare os nomes antigos com o mapa atual.</p>
+      </div>
+      <dl class="overview">
+        <div><dt>Lugares indexados</dt><dd id="place-total">—</dd></div>
+        <div><dt>Episódios</dt><dd id="story-total">—</dd></div>
+      </dl>
+    </header>
+    <section class="atlas" aria-label="Consulta geográfica">
+      <aside class="controls" aria-label="Filtros do atlas">
+        <fieldset>
+          <legend>Explorar</legend>
+          <div class="field">
+            <label for="episode">Episódio bíblico</label>
+            <select id="episode"><option value="">Todos os episódios</option></select>
+          </div>
+          <div class="parallel">
+            <div class="field">
+              <label for="book">Livro</label>
+              <select id="book"><option value="">Todos os livros</option></select>
+            </div>
+            <div class="field">
+              <label for="kind">Tipo de lugar</label>
+              <select id="kind">
+                <option value="">Todos os tipos</option>
+                <option value="city">Cidades e povoados</option>
+                <option value="region">Regiões e povos</option>
+                <option value="other">Relevo, águas e outros</option>
+              </select>
+            </div>
+          </div>
+          <div class="field" id="chapter-field" hidden>
+            <label for="chapter">Capítulo do livro</label>
+            <select id="chapter"><option value="">Todos os capítulos</option></select>
+          </div>
+          <div class="field">
+            <label for="search">Buscar por nome antigo ou atual</label>
+            <input id="search" type="search" placeholder="Ex.: Cafarnaum, Ur, Filístia" autocomplete="off">
+          </div>
+          <label class="check"><input type="checkbox" id="all-places"> Mostrar todo o índice geográfico</label>
+        </fieldset>
+        <section class="story" id="story" aria-labelledby="story-title" hidden>
+          <h2 id="story-title"></h2>
+          <p id="story-note"></p>
+          <div id="story-refs" class="refs"></div>
+        </section>
+        <section class="results" aria-labelledby="results-heading">
+          <div class="results-bar">
+            <h2 id="results-heading">Lugares</h2>
+            <span id="result-count" role="status" aria-live="polite"></span>
+          </div>
+          <ul id="result-list"></ul>
+          <button id="more-results" type="button" hidden>Mostrar mais lugares</button>
+        </section>
+      </aside>
+      <section class="map-panel" aria-label="Mapa e informações do local">
+        <div class="map-toolbar">
+          <div class="layer">
+            <label class="check"><input type="checkbox" id="modern" checked> Mapa atual</label>
+            <label for="opacity" class="visually-hidden">Opacidade do mapa atual</label>
+            <input type="range" id="opacity" min="0" max="100" value="72">
+            <output id="opacity-value" for="opacity">72%</output>
+          </div>
+          <button id="reframe" type="button">Enquadrar lugares</button>
+        </div>
+        <div id="map" aria-label="Mapa navegável. Use as teclas de seta para mover e mais ou menos para alterar o zoom."></div>
+        <div class="map-legend" aria-label="Legenda">
+          <span><i class="dot strong"></i> Localização bem identificada</span>
+          <span><i class="dot approximate"></i> Aproximada ou regional</span>
+          <span><i class="dot disputed"></i> Disputada</span>
+          <span><i class="dot region"></i> Região ou povo</span>
+        </div>
+        <section class="details" id="details" aria-labelledby="details-title">
+          <h2 id="details-title">Informações do lugar</h2>
+          <p>Selecione um ponto no mapa ou na lista para ver a identificação moderna, as referências e outras hipóteses.</p>
+        </section>
+      </section>
+    </section>
+    <footer id="fontes">
+      Dados geográficos de <a href="https://www.openbible.info/geo/">OpenBible.info</a> (CC BY 4.0) e base cartográfica de <a href="https://www.naturalearthdata.com/">Natural Earth</a>. Os limites atuais seguem a convenção cartográfica da fonte. <a href="README.md">Metodologia e atribuições</a>.
+    </footer>
+  </main>
+  <noscript>Ative o JavaScript no navegador para consultar o mapa local.</noscript>
+</body>
+</html>
