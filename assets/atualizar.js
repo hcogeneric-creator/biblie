@@ -1,7 +1,8 @@
 (() => {
   if (!/^https?:$/.test(location.protocol)) return;
   const pagina = document.querySelector('meta[name="biblie-versao"]');
-  const versaoURL = new URL('../versao.json', document.currentScript.src);
+  const raiz = new URL('../', document.currentScript.src);
+  const versaoURL = new URL('versao.json', raiz);
   let emCurso = false;
   let ultimaConsulta = 0;
 
@@ -33,4 +34,12 @@
     conferirVersao();
   });
   document.addEventListener('visibilitychange', conferirVersao);
+  document.addEventListener('click', (evento) => {
+    const link = evento.target.closest?.('a[href]');
+    if (!link || link.getAttribute('href').startsWith('#')) return;
+    const destino = new URL(link.href, location.href);
+    if (!destino.href.startsWith(raiz.href) || !destino.pathname.endsWith('/index.html')) return;
+    destino.searchParams.set('v', pagina.content);
+    link.href = destino.href;
+  });
 })();
