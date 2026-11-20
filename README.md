@@ -2,7 +2,7 @@
 
 Abra o [portal Biblie](index.html) no navegador para acessar a biblioteca local. Os livros, as parábolas e o catálogo de personagens podem ser consultados sem instalar um servidor.
 
-Nas parábolas, use **Apresentar em tela cheia** para ouvir a história em três quadros. A legenda acompanha cada palavra da narração. **Play** e **Pause** controlam a reprodução, as setas do teclado mudam de quadro e **Fechar** volta à ficha. A transcrição também está disponível para leitura.
+Nas parábolas, use **Apresentar em tela cheia** para ouvir a história em três quadros. A voz Microsoft Daniel começa em 1,1×. A legenda acompanha cada palavra da narração. **Play** e **Pause** controlam a reprodução, as setas do teclado mudam de quadro e **Fechar** volta à ficha. A transcrição também está disponível para leitura.
 
 Em **Personagens ilustrados**, selecione um card para abrir a ficha. Na genealogia, abra **Ascendência** ou **Descendência** e expanda os ramos disponíveis para explorar até três gerações por ficha.
 
@@ -30,11 +30,10 @@ A [tabela de proporções](Livros/VERIFICACAO.md) compara a contagem de palavras
 python scripts/gerar_biblia.py --exigir-resumos
 ```
 
-Os roteiros de narração estão em `PARABOLAS/narracoes.json`. Para gerar uma nova edição com o Chatterbox PT-BR, use o ambiente Python do Chatterbox com os pesos já baixados e um WAV curto da voz de referência. Para alinhar as palavras e montar os MP3, use um ambiente com faster-whisper, o modelo Whisper já baixado, NumPy, SoundFile e FFmpeg.
+Os roteiros de narração estão em `PARABOLAS/narracoes.json`. Para gerar novas faixas, use PowerShell 7 no Windows, a voz Microsoft Daniel em pt-BR e FFmpeg. O sintetizador fornece as marcas de tempo na mesma execução que grava o áudio. O player aplica a velocidade de 1,1× durante a reprodução.
 
-```sh
-python scripts/sintetizar_parabolas.py --modelo pasta-do-modelo --referencia voz.wav --saida wavs
-python scripts/montar_narracoes.py verificar --entrada wavs --marcas marcas --whisper medium
-python scripts/montar_narracoes.py montar --entrada wavs --marcas marcas
-python scripts/versionar_site.py
+```powershell
+./scripts/gerar_narracoes_daniel.ps1 -Saida caminho-para-pasta-de-preparo
 ```
+
+Copie `audio/` e `dados-narracoes.js` da pasta de preparo para `PARABOLAS/` e rode `python scripts/versionar_site.py`.

@@ -1,5 +1,6 @@
 (() => {
   const base = new URL('./', document.currentScript.src);
+  const velocidade = 1.1;
 
   function indiceEm(instantes, tempo) {
     let indice = instantes.length - 1;
@@ -37,6 +38,7 @@
     const audio = document.createElement('audio');
     audio.hidden = true;
     audio.preload = 'none';
+    audio.defaultPlaybackRate = velocidade;
     dialogo.append(audio);
     let quadros;
     let inicioQuadros;
@@ -134,6 +136,7 @@
         legenda.hidden = false;
         dialogo.classList.add('biblie-apresentacao-com-audio');
         audio.src = new URL(roteiro.audio, base);
+        audio.playbackRate = velocidade;
         sincronizar(0);
         return true;
       },
