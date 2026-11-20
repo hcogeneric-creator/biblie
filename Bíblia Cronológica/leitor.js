@@ -62,6 +62,7 @@
     const codigoUsfm = codigosUsfm[codigo] || codigo;
     ui.mapaCapitulo.href = `../Mapa/index.html?livro=${codigoUsfm}${mostrandoResumo ? "" : `&capitulo=${capitulo}`}`;
     ui.versiculos.hidden = mostrandoResumo;
+    ui.ajudaSelecaoVersiculos.hidden = mostrandoResumo;
     ui.conteudoResumo.hidden = !mostrandoResumo;
     ui.navegacao.hidden = mostrandoResumo;
     const fragmento = document.createDocumentFragment();
@@ -98,12 +99,24 @@
       }
       ui.conteudoResumo.replaceChildren(fragmento);
     } else {
+      ui.versiculos.dataset.livro = nomeLivro;
+      ui.versiculos.dataset.capitulo = capitulo;
       for (const [numero, versiculo] of capitulos[capitulo]) {
         if (inicio && (numero < inicio || numero > fim)) continue;
         const p = document.createElement("p");
+        p.dataset.versiculo = numero;
+        const selecionarVersiculo = document.createElement("button");
+        selecionarVersiculo.type = "button";
+        selecionarVersiculo.className = "versiculo-marcar";
+        selecionarVersiculo.setAttribute("aria-label", "Versículo " + numero);
+        selecionarVersiculo.setAttribute("aria-pressed", "false");
         const marca = document.createElement("sup");
         marca.textContent = numero;
-        p.append(marca, versiculo);
+        selecionarVersiculo.append(marca);
+        const textoVersiculo = document.createElement("span");
+        textoVersiculo.dataset.textoVersiculo = "";
+        textoVersiculo.textContent = versiculo;
+        p.append(selecionarVersiculo, textoVersiculo);
         if (selecaoVersiculos && numero >= selecaoVersiculos[0] && numero <= selecaoVersiculos[1]) {
           p.className = "versiculo-destacado";
           if (numero === selecaoVersiculos[0]) p.tabIndex = -1;
@@ -112,6 +125,7 @@
       }
       ui.versiculos.replaceChildren(fragmento);
     }
+    ui.versiculos.dispatchEvent(new Event("biblie:passagem"));
     ui.anterior.disabled = posicao === 0;
     ui.seguinte.disabled = posicao === (cronologica ? cronologia : canonica).length - 1;
     if (selecaoVersiculos) {

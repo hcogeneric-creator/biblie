@@ -1,0 +1,129 @@
+.ajuda-selecao-versiculos {
+  margin: 1.1rem 0 -.9rem;
+  color: var(--suave);
+  font: .85rem/1.4 var(--biblie-ui);
+}
+
+#versiculos [data-versiculo] {
+  display: grid;
+  grid-template-columns: 2.75rem minmax(0, 1fr);
+  align-items: start;
+  gap: .45rem;
+  scroll-margin-bottom: 10rem;
+}
+
+#versiculos [data-texto-versiculo] { padding-block: .24rem; }
+
+.versiculo-marcar {
+  display: grid;
+  place-items: center;
+  min-height: 2.75rem;
+  padding: 0;
+  border: 1px solid transparent;
+  border-radius: .55rem;
+  background: #e9e8da;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.versiculo-marcar sup {
+  margin: 0;
+  color: #344b3a;
+  font: 700 .83rem/1 var(--biblie-ui);
+}
+
+.versiculo-marcar:hover { background: #dce4d4; }
+.versiculo-marcar[aria-pressed="true"] { background: #344b3a; }
+.versiculo-marcar[aria-pressed="true"] sup { color: #fffdf7; }
+#versiculos .versiculo-selecionado { background: #e6ebdd; border-radius: .5rem; }
+#versiculos .versiculo-selecionado [data-texto-versiculo] { padding-inline-end: .35rem; }
+
+.biblie-com-selecao .leitor {
+  padding-bottom: calc(10rem + env(safe-area-inset-bottom, 0px));
+}
+
+.acoes-versiculos {
+  position: fixed;
+  z-index: 610;
+  bottom: calc(.65rem + env(safe-area-inset-bottom, 0px));
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(32rem, calc(100% - 1.25rem));
+  padding: .65rem .75rem;
+  border: 1px solid #d5cfbb;
+  border-radius: .85rem;
+  background: var(--biblie-folha);
+  box-shadow: 0 4px 30px #20241e37;
+}
+
+.selecao-resumo, .dialogo-passagem-cabecalho, .paginas-cartao {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .6rem;
+}
+
+.selecao-resumo { color: #253a2c; }
+.selecao-botoes { display: grid; grid-auto-columns: minmax(0, 1fr); grid-auto-flow: column; gap: .5rem; }
+.selecao-botoes a, .selecao-botoes button, .dialogo-passagem button, .selecao-resumo button {
+  display: inline-grid;
+  place-items: center;
+  min-height: 2.75rem;
+  padding: .5rem .6rem;
+  border-radius: .45rem;
+  text-align: center;
+  text-decoration: none;
+  font: 650 .88rem/1.2 var(--biblie-ui);
+}
+.passagem-secundaria {
+  border: 1px solid #c7cfbe;
+  background: #f7f8ef;
+  color: #253a2c;
+}
+.passagem-secundaria:hover { background: #e7ecdf; color: #253a2c; }
+.selecao-resumo .passagem-secundaria { border-color: transparent; background: transparent; }
+#statusCopiaVersiculos, #statusCartao {
+  color: #465848;
+  font-size: .85rem;
+  margin: .5rem 0 0;
+}
+#statusCopiaVersiculos:empty, #statusCartao:empty { margin: 0; }
+
+.dialogo-passagem {
+  position: fixed;
+  width: min(30rem, calc(100% - 1rem));
+  max-width: none;
+  max-height: calc(100dvh - 1.5rem);
+  margin: auto;
+  padding: 1rem;
+  border: 1px solid #d5cfbb;
+  border-radius: .9rem;
+  background: var(--biblie-folha);
+  color: var(--biblie-tinta);
+}
+.dialogo-passagem::backdrop { background: #18251f9c; }
+.dialogo-passagem h2 { margin: 0; font-size: clamp(1.15rem, 4.5vw, 1.6rem); }
+.dialogo-passagem img {
+  display: block;
+  width: min(100%, 20rem, 45dvh);
+  height: auto;
+  margin: .7rem auto;
+  border-radius: .3rem;
+  box-shadow: 0 1px 9px #1f2e2433;
+}
+.dialogo-passagem textarea {
+  width: 100%;
+  margin: .6rem 0 0;
+  padding: .6rem;
+  border: 1px solid #c7cfbe;
+  border-radius: .4rem;
+  background: #fffdf7;
+  color: inherit;
+  font: 1rem/1.5 var(--biblie-ui);
+  resize: vertical;
+}
+.paginas-cartao { margin: .45rem 0; font-size: .88rem; }
+
+@media (max-width: 740px) {
+  .dialogo-passagem { inset: auto 0 0; padding-bottom: calc(1rem + env(safe-area-inset-bottom, 0px)); }
+}

@@ -39,6 +39,26 @@
   font-family: var(--biblie-ui);
 }
 body { font-family: var(--biblie-ui); }
+.biblie-voltar-topo {
+  position: fixed;
+  z-index: 600;
+  inset-inline-end: calc(1rem + env(safe-area-inset-right, 0px));
+  bottom: calc(1rem + env(safe-area-inset-bottom, 0px));
+  display: grid;
+  place-items: center;
+  width: 3.25rem;
+  height: 3.25rem;
+  padding: 0;
+  border: 1px solid #e1d8ac;
+  border-radius: 50%;
+  color: #fffdf7;
+  background: #253a2c;
+  box-shadow: 0 4px 16px #1f2e2450;
+  font: 600 1.55rem/1 var(--biblie-ui);
+  cursor: pointer;
+}
+.biblie-voltar-topo:hover { color: #fffdf7; background: #3c5541; }
+.biblie-voltar-topo[hidden], .biblie-com-selecao .biblie-voltar-topo { display: none; }
 h1, h2, h3, h4, .overview dd { font-family: var(--biblie-display); }
 h1, h2 { letter-spacing: -.042em; }
 a { text-underline-offset: .22em; }
