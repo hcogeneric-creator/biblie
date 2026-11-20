@@ -17,6 +17,7 @@ Antes de publicar no GitHub Pages, execute `python scripts/versionar_site.py` e 
 | [Mulheres da Bíblia](Mulheres%20da%20B%C3%ADblia/index.html) | Seleção do Antigo e do Novo Testamento com passagens da Bíblia Livre, contexto e links para o leitor. |
 | [Parábolas](PARABOLAS/index.html) | Histórias em linguagem própria, ensinamentos e referências ao texto bíblico. |
 | [Mapa](Mapa/index.html) | Cidades e povos citados na Bíblia, com filtros por episódio, livro e capítulo e uma camada de geografia atual. |
+| [Glossário](Glossario/index.html) | Tradução, significado e contexto de termos bíblicos, com busca e referências. |
 | [Ilustrações](Ilustra%C3%A7%C3%B5es/README.md) | Quadros das parábolas, dos resumos e do atlas, com os prompts de geração e o plano de produção. |
 | [Fonte bíblica e licença](Fonte/README.md) | Arquivo baixado, proveniência, licença e verificação de integridade. |
 

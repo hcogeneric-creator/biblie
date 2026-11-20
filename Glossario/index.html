@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Traduções, significados e contexto para entender os termos da Bíblia, com referências para ler no Biblie.">
+  <meta name="biblie-versao" content="cd57b6cfb496">
+  <title>Glossário bíblico · Biblie</title>
+  <link rel="stylesheet" href="../estilo.css?v=5f6b9ff5a67d">
+  <link rel="stylesheet" href="../tema.css?v=47e305fcf0cd">
+  <link rel="stylesheet" href="glossario.css?v=4e50c513d4eb">
+  <script src="../assets/atualizar.js?v=b09e21be9422" defer></script>
+  <script src="../assets/voltar-topo.js?v=591b4aa8ad25" defer></script>
+  <script src="verbetes.js?v=425a5de98755" defer></script>
+  <script src="glossario.js?v=7bdc9fb5688f" defer></script>
+</head>
+<body>
+  <header class="barra">
+    <a class="marca" href="../index.html">Biblie<span aria-hidden="true">.</span></a>
+    <nav aria-label="Biblioteca">
+      <a href="../B%C3%ADblia%20Cronol%C3%B3gica/index.html">Leitor</a>
+      <a href="../Mapa/index.html">Atlas</a>
+      <a href="index.html" aria-current="page">Glossário</a>
+    </nav>
+  </header>
+  <main class="glossario">
+    <header class="glossario-abertura">
+      <h1>Glossário bíblico</h1>
+      <p>Entenda as palavras, os títulos e os costumes da Bíblia, com exemplos para ler no texto.</p>
+    </header>
+    <details class="glossario-idiomas">
+      <summary>Em que línguas a Bíblia foi escrita?</summary>
+      <ul>
+        <li><strong>Hebraico bíblico</strong> — é a língua da maior parte do Antigo Testamento.</li>
+        <li><strong>Aramaico</strong> — aparece em alguns trechos, especialmente em Daniel e Esdras, e em palavras preservadas no Novo Testamento.</li>
+        <li><strong>Grego koiné</strong> — é a língua do Novo Testamento. O nome <i>koiné</i> se refere ao grego comum daquele período.</li>
+      </ul>
+      <p>Os autógrafos eram os manuscritos originais. As línguas são conhecidas pelas cópias antigas e por outras testemunhas da transmissão do texto.</p>
+      <p><a href="https://assets.cambridge.org/97805218/59387/excerpt/9780521859387_excerpt.pdf">Hebraico e aramaico bíblicos</a> · <a href="https://www.die-bibel.de/en/publications-nestle-aland-na28">Edição crítica do Novo Testamento grego</a></p>
+    </details>
+    <div id="consultaGlossario" hidden>
+      <form class="glossario-filtros" role="search" aria-label="Pesquisar no glossário">
+        <label>Buscar termo
+          <input id="buscarTermo" type="search" placeholder="Ex. Adonai, Shabbat ou eunuco" autocomplete="off">
+        </label>
+        <label>Idioma bíblico
+          <select id="idiomaTermo">
+            <option value="">Todos os idiomas</option>
+            <option value="hebraico">Hebraico</option>
+            <option value="aramaico">Aramaico</option>
+            <option value="grego">Grego</option>
+          </select>
+        </label>
+      </form>
+      <nav id="letrasGlossario" class="glossario-letras" aria-label="Filtrar por letra"></nav>
+      <p id="totalGlossario" class="glossario-total" role="status"></p>
+      <div id="listaGlossario" class="glossario-lista"></div>
+      <div class="glossario-mais"><button id="maisGlossario" type="button" hidden>Mostrar mais verbetes</button></div>
+    </div>
+    <noscript><p>Ative o JavaScript para pesquisar e consultar os verbetes.</p></noscript>
+    <footer>
+      <p>As traduções e as grafias podem variar conforme a edição. As passagens abrem na <a href="../Fonte/README.md">Bíblia Livre</a>.</p>
+      <p>Fontes de consulta: <a href="https://www.sefaria.org/texts/Tanakh">Tanakh em Sefaria</a>, <a href="https://www.die-bibel.de/en/bible/NA28/MRK.5">Novo Testamento grego NA28</a>, <a href="https://bible.usccb.org/bible">Bíblia anotada NABRE</a> e <a href="https://github.com/STEPBible/STEPBible-Data">léxicos do STEPBible</a>.</p>
+    </footer>
+  </main>
+</body>
+</html>

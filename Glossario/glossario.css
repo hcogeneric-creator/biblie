@@ -1,0 +1,84 @@
+.glossario {
+  width: min(100% - 2rem, 68rem);
+  margin-inline: auto;
+}
+
+.glossario-abertura {
+  margin: clamp(1rem, 4vw, 3rem) 0 1.5rem;
+  padding: clamp(1.35rem, 5vw, 4rem);
+  border-radius: .9rem;
+  background: #253a2c;
+  color: #fffaf0;
+}
+
+.glossario-abertura h1 {
+  margin: 0;
+  font-size: clamp(2.6rem, 7vw, 5.7rem);
+  line-height: 1.01;
+}
+
+.glossario-abertura p {
+  max-width: 37rem;
+  margin: .8rem 0 0;
+  color: #eee9dc;
+}
+.glossario-idiomas {
+  margin-bottom: 1.2rem;
+  padding: .65rem 1rem;
+  border: 1px solid var(--biblie-borda);
+  border-radius: .65rem;
+  background: var(--biblie-folha);
+}
+.glossario-idiomas summary { cursor: pointer; padding-block: .25rem; font-weight: 700; }
+.glossario-idiomas ul { padding-inline-start: 1.3rem; }
+.glossario-mais { text-align: center; margin-bottom: 1.5rem; }
+
+.glossario-filtros {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(10rem, 15rem);
+  gap: .75rem;
+  margin: 0 0 .9rem;
+}
+
+.glossario-filtros input, .glossario-filtros select {
+  max-width: none;
+  min-height: 2.75rem;
+  margin-top: .25rem;
+  font-size: 1rem;
+}
+
+.glossario-letras { display: flex; flex-wrap: wrap; gap: .35rem; }
+.glossario-letras button {
+  min-width: 2.75rem;
+  min-height: 2.75rem;
+  padding: .35rem .55rem;
+  border-color: #c6c8b9;
+  background: #fffdf7;
+  color: #253a2c;
+}
+.glossario-letras button[aria-pressed="true"] { background: #344b3a; color: #fffdf7; }
+.glossario-total { color: #53584c; font-size: .88rem; margin-block: .9rem .6rem; }
+.glossario-lista { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .8rem; margin-bottom: 1.7rem; }
+.glossario-verbete {
+  display: flex;
+  flex-direction: column;
+  padding: 1.1rem;
+  border: 1px solid var(--biblie-borda);
+  border-radius: .65rem;
+  background: var(--biblie-folha);
+  scroll-margin-top: 1rem;
+}
+.glossario-verbete:target { box-shadow: 0 0 0 2px var(--biblie-foco); }
+.glossario-verbete h2 { margin: 0; font-size: 1.62rem; line-height: 1.2; overflow-wrap: anywhere; }
+.glossario-origem { display: flex; flex-wrap: wrap; align-items: baseline; gap: .2rem .6rem; margin: .3rem 0 .65rem; color: #565d50; font-size: .85rem; }
+.glossario-origem bdi { color: #344b3a; font: 1.15rem/1.4 Georgia, serif; }
+.glossario-definicao { margin: 0 0 .35rem; color: #263c2e; font-weight: 700; }
+.glossario-contexto { margin: 0 0 .9rem; line-height: 1.5; }
+.glossario-links { display: flex; flex-wrap: wrap; gap: .25rem 1rem; margin-top: auto; font-size: .88rem; }
+.glossario-links a { display: inline-flex; align-items: center; min-height: 2.75rem; }
+
+@media (max-width: 660px) {
+  .glossario-filtros, .glossario-lista { grid-template-columns: 1fr; }
+  .glossario-letras { flex-wrap: nowrap; overflow-x: auto; padding: .2rem .25rem .5rem; }
+  .glossario-letras button { flex: none; }
+}
